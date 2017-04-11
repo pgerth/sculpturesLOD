@@ -87,3 +87,8 @@ network.host: 127.0.0.1
 #
 #action.destructive_requires_name: true
 reindex.remote.whitelist: localhost:*
+
+xpack.security.enabled: false
+
+http.cors.enabled: true
+http.cors.allow-origin: "*"
