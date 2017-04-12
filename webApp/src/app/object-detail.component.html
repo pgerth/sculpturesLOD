@@ -1,11 +1,11 @@
-<h3>Object Detail</h3>
+<h3>{{object?._source['@id']}}</h3>
 
 <div class="container">
     <div class="row">
         <div class="col-sm-8">
-          <dl *ngFor="let key of object?._source | keys" class="dl-horizontal">
-            <dt><a href="http://purl.org/dc/terms#identifier">{{key}}</a></dt>
-            <dd><span>{{object?._source[key]}}</span></dd>
+          <dl *ngFor="let prop of properties" class="dl-horizontal">
+            <dt><a href="http://purl.org/dc/terms#identifier">{{prop}}</a></dt>
+            <dd><span>{{object?._source[prop]}}</span></dd>
           </dl>
         </div>
         <div class="col-sm-4">map</div>
