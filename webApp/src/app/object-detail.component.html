@@ -1,4 +1,18 @@
 <h3>Object Detail</h3>
 
-{{object?._source['dc:identifier']}}
-{{object?._source['dc:title']}}
+<dt><a href="http://www.w3.org/2004/02/skos/core#closeMatch">skos:closeMatch</a></dt>
+<dd><span><a href="http://collection.britishmuseum.org/id/place/x47008" rel="skos:closeMatch" title="http://collection.britishmuseum.org/id/place/x47008">http://collection.britishmuseum.org/id/place/x47008</a></span></dd>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-8">
+          <dl class="dl-horizontal">
+            <dt><a href="http://purl.org/dc/terms#identifier">dc:identifier</a></dt>
+            <dd><span>{{object?._source['dc:identifier']}}</span></dd>
+            <dt><a href="http://purl.org/dc/terms#title">dc:title</a></dt>
+            <dd><span>{{object?._source['dc:title']}}</span></dd>
+          </dl>
+        </div>
+        <div class="col-sm-4">map</div>
+    </div>
+</div>
