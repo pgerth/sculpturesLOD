@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MapComponent } from './map.component';
 import { ObjectComponent } from './object.component';
+import { ObjectDetailComponent } from './object-detail.component';
 import { ObjectService } from './shared/object.service';
 
 @NgModule({
@@ -19,7 +20,8 @@ import { ObjectService } from './shared/object.service';
   declarations: [
     AppComponent,
     MapComponent,
-    ObjectComponent
+    ObjectComponent,
+    ObjectDetailComponent
   ],
   providers: [ObjectService],
   bootstrap: [AppComponent]

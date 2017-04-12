@@ -10,8 +10,14 @@ export class ObjectService {
     private http: Http
   ) { }
 
-  getObject() {
+  getObjects() {
     return this.http.get('http://localhost:9200/object/arachne/_search?pretty=true&filter_path=hits.hits._source')
       .map((res: Response) => res.json().hits.hits);
+  }
+
+  getObject(id: number) {
+    const url = `http://localhost:9200/object/arachne/${id}`;
+    return this.http.get(url)
+      .map((res: Response) => res.json());
   }
 }

@@ -14,7 +14,7 @@ export class ObjectComponent {
 
   loadData() {
     this.objectService
-      .getObject()
+      .getObjects()
       .subscribe((objects: Object[]) => this.objects = objects);
   }
 }
