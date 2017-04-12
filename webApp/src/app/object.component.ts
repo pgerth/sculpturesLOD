@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 import { ObjectService } from './shared/object.service';
 
 @Component({
-  selector: 'app-root',
-  template:'<router-outlet></router-outlet>'
+  selector: 'object',
+  templateUrl: './object.component.html',
 })
-export class AppComponent {
+export class ObjectComponent {
   public objects: Object[];
 
   constructor(private objectService: ObjectService) {
@@ -17,5 +17,4 @@ export class AppComponent {
       .getObject()
       .subscribe((objects: Object[]) => this.objects = objects);
   }
-
 }
