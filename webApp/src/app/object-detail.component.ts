@@ -2,11 +2,12 @@ import { Component } from '@angular/core';
 import { ActivatedRoute, Params }   from '@angular/router';
 import 'rxjs/add/operator/switchMap';
 
+import { KeysPipe } from './keys.pipe';
 import { ObjectService } from './shared/object.service';
 
 @Component({
   selector: 'object-detail',
-  templateUrl: './object-detail.component.html',
+  templateUrl: './object-detail.component.html'
 })
 export class ObjectDetailComponent {
   public object: Object[];

@@ -9,6 +9,7 @@ import { MapComponent } from './map.component';
 import { ObjectComponent } from './object.component';
 import { ObjectDetailComponent } from './object-detail.component';
 import { ObjectService } from './shared/object.service';
+import { KeysPipe } from './keys.pipe';
 
 @NgModule({
   imports: [
@@ -21,7 +22,8 @@ import { ObjectService } from './shared/object.service';
     AppComponent,
     MapComponent,
     ObjectComponent,
-    ObjectDetailComponent
+    ObjectDetailComponent,
+    KeysPipe
   ],
   providers: [ObjectService],
   bootstrap: [AppComponent]
