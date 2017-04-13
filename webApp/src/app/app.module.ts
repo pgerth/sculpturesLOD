@@ -12,6 +12,7 @@ import { MapComponent } from './component/map.component';
 import { ObjectComponent } from './component/object.component';
 import { ObjectDetailComponent } from './component/object-detail.component';
 import { ObjectService } from './service/object.service';
+import { MapService } from './service/map.service';
 import { KeysPipe } from './pipe/keys.pipe';
 
 @NgModule({
@@ -28,7 +29,7 @@ import { KeysPipe } from './pipe/keys.pipe';
     ObjectDetailComponent,
     KeysPipe
   ],
-  providers: [ObjectService],
+  providers: [MapService, ObjectService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

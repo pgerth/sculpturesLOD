@@ -4,6 +4,7 @@ import 'rxjs/add/operator/switchMap';
 
 import { KeysPipe } from '../pipe/keys.pipe';
 import { ObjectService } from '../service/object.service';
+import { MapService } from '../service/map.service';
 
 @Component({
   selector: 'object-detail',
@@ -16,8 +17,9 @@ export class ObjectDetailComponent {
 
 
   constructor(
+    private route: ActivatedRoute,
     private objectService: ObjectService,
-    private route: ActivatedRoute
+    private mapService: MapService,
   ) {}
 
   ngOnInit(): void {
@@ -25,7 +27,8 @@ export class ObjectDetailComponent {
       .switchMap((params: Params) => this.objectService.getObject(+params['id']))
       .subscribe((object: Object[]) => this.object = object);
 
-    let detailMap = L.map('detailMap').setView([51.505, -0.09], 13);
+    let detailMap = L.map('detailMap', {layers: [this.mapService.baseMaps.OpenStreetMap]});
+    detailMap.setView([51.505, -0.09], 13);
   }
 
 }
