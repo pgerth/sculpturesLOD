@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Params }   from '@angular/router';
 import 'rxjs/add/operator/switchMap';
 
@@ -7,7 +7,8 @@ import { ObjectService } from './shared/object.service';
 
 @Component({
   selector: 'object-detail',
-  templateUrl: './object-detail.component.html'
+  templateUrl: './object-detail.component.html',
+  styles: ['../node_modules/leaflet/dist/leaflet.css'],
 })
 export class ObjectDetailComponent {
   public object: Object[];
@@ -23,5 +24,8 @@ export class ObjectDetailComponent {
     this.route.params
       .switchMap((params: Params) => this.objectService.getObject(+params['id']))
       .subscribe((object: Object[]) => this.object = object);
+
+    let detailMap = L.map('detailMap').setView([51.505, -0.09], 13);
   }
+
 }
