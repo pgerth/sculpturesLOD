@@ -11,7 +11,7 @@ import { ObjectService } from './shared/object.service';
 })
 export class ObjectDetailComponent {
   public object: Object[];
-  public properties: string[] = [ "dc:title", "dc:identifier", "dc:medium", "dc:spatial", "facet_geschlecht", "facet_lebensalter", "facet_erhaltung", "dc:bibliographicCitation" ];
+  public properties: string[] = [ "dc:title", "dc:identifier", "dc:medium", "dc:temporal", "facet_geschlecht", "facet_lebensalter", "facet_erhaltung", "facet_funktion", "dc:bibliographicCitation" ];
 
 
   constructor(
