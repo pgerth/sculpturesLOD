@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ObjectService } from './shared/object.service';
+import { ObjectService } from '../service/object.service';
 
 @Component({
   selector: 'object',

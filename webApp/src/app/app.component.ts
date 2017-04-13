@@ -1,7 +1,7 @@
 /// <reference path="../../node_modules/@types/leaflet/index.d.ts"/>
 
 import { Component } from '@angular/core';
-import { ObjectService } from './shared/object.service';
+import { ObjectService } from './service/object.service';
 
 @Component({
   selector: 'app-root',

@@ -6,13 +6,13 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule } from './module/app-routing.module';
 import { AppComponent } from './app.component';
-import { MapComponent } from './map.component';
-import { ObjectComponent } from './object.component';
-import { ObjectDetailComponent } from './object-detail.component';
-import { ObjectService } from './shared/object.service';
-import { KeysPipe } from './keys.pipe';
+import { MapComponent } from './component/map.component';
+import { ObjectComponent } from './component/object.component';
+import { ObjectDetailComponent } from './component/object-detail.component';
+import { ObjectService } from './service/object.service';
+import { KeysPipe } from './pipe/keys.pipe';
 
 @NgModule({
   imports: [
