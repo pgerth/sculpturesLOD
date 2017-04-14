@@ -1,6 +1,5 @@
 import {Injectable} from "@angular/core";
 import {Http} from "@angular/http";
-import {Location} from "../core/location.class";
 import {Map} from "leaflet";
 
 @Injectable()

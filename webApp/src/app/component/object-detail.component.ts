@@ -23,12 +23,16 @@ export class ObjectDetailComponent {
   ) {}
 
   ngOnInit(): void {
+    let map = L.map('detailMap', {layers: [this.mapService.baseMaps.OpenStreetMap]});
+    map.setView([40,20], 4);
+
     this.route.params
       .switchMap((params: Params) => this.objectService.getObject(+params['id']))
-      .subscribe((object: Object[]) => this.object = object);
+      .subscribe(result => {
+        this.object = result,
+        map.setView([result._source.location.lat, result._source.location.lon], 7)
+      });
 
-    let detailMap = L.map('detailMap', {layers: [this.mapService.baseMaps.OpenStreetMap]});
-    detailMap.setView([51.505, -0.09], 13);
   }
 
 }
