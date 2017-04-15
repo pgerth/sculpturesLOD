@@ -12,7 +12,7 @@
   </thead>
   <tbody>
     <tr *ngFor="let object of objects">
-      <td>{{object['_source']['dc:identifier']}}</td>
+      <td><a [routerLink]="['/object', object['_source']['dc:identifier']]">{{object['_source']['dc:identifier']}}</a></td>
       <td>{{object['_source']['dc:title']}}</td>
       <td>{{object['_source']['dc:temporal']}}</td>
       <td>{{object['_source']['dc:medium']}}</td>

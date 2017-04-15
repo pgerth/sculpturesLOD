@@ -30,7 +30,7 @@
             </span></dd>
           </dl>
           <ng-container *ngFor="let obj of object?._source['dc:spatial']">
-            <h4>
+            <h4 id="{{obj['relation']}}">
               <a href="#{{obj['relation']}}">#{{obj['relation']}}</a>
               <small> (<a href="http://purl.org/dc/terms/dc:spatial">dc:spatial</a>)</small>
             </h4>
@@ -47,7 +47,7 @@
           </ng-container>
         </div>
         <div class="col-sm-4">
-          <div style="height: 300px" id="detailMap">
+          <div style="height: 300px" id="map">
           </div>
         </div>
     </div>

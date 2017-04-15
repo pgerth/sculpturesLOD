@@ -8,7 +8,9 @@ import { ObjectService } from '../service/object.service';
 export class ObjectComponent {
   public objects: Object[];
 
-  constructor(private objectService: ObjectService) {
+  constructor(
+    private objectService: ObjectService
+  ) {
     this.loadData();
   }
 
