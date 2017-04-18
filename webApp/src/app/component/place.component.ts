@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { ResourcesService } from '../service/resources.service';
 
 @Component({
-  selector: 'object',
-  templateUrl: './object.component.html',
+  selector: 'place',
+  templateUrl: './place.component.html',
 })
-export class ObjectComponent {
-  public objects: Object[];
+export class PlaceComponent {
+  public places: Object[];
 
   constructor(
     private resourcesService: ResourcesService
@@ -16,7 +16,7 @@ export class ObjectComponent {
 
   loadData() {
     this.resourcesService
-      .getObjects()
-      .subscribe((objects: Object[]) => this.objects = objects);
+      .getPlaces()
+      .subscribe((places: Object[]) => this.places = places);
   }
 }

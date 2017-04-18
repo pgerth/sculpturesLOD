@@ -3,7 +3,7 @@ import { ActivatedRoute, Params }   from '@angular/router';
 import 'rxjs/add/operator/switchMap';
 
 import { KeysPipe } from '../pipe/keys.pipe';
-import { ObjectService } from '../service/object.service';
+import { ResourcesService } from '../service/resources.service';
 import { MapService } from '../service/map.service';
 
 @Component({
@@ -17,7 +17,7 @@ export class ObjectDetailComponent {
 
   constructor(
     private route: ActivatedRoute,
-    private objectService: ObjectService,
+    private resourcesService: ResourcesService,
     private mapService: MapService,
   ) {}
 
@@ -32,10 +32,10 @@ export class ObjectDetailComponent {
 
     //
     this.route.params
-      .switchMap((params: Params) => this.objectService.getObject(+params['id']))
+      .switchMap((params: Params) => this.resourcesService.getObject(+params['id']))
       .subscribe(result => {
         this.object = result;
-        if (typeof result._source.location.lat != "undefined") { 
+        if (typeof result._source.location.lat != "undefined") {
           // center map view on find location
           map.setView([result._source.location.lat, result._source.location.lon], 7);
           // add point marker for find location

@@ -5,14 +5,13 @@ import 'rxjs/add/operator/map'; // add map function to observable
 import 'rxjs/add/operator/toPromise';
 
 @Injectable()
-export class ObjectService {
+export class ResourcesService {
 
   constructor(
     private http: Http,
-
   ) { }
 
-
+  // function, that returns all objects of the data store
   getObjects() {
     return this.http.get('http://localhost:9200/object/arachne/_search?pretty=true&filter_path=hits.hits._source')
       .map((res: Response) => res.json().hits.hits);
@@ -22,6 +21,11 @@ export class ObjectService {
     const url = `http://localhost:9200/object/arachne/${id}`;
     return this.http.get(url)
       .map((res: Response) => res.json());
+  }
+  // function that returns all places of the data store
+  getPlaces() {
+    return this.http.get('http://localhost:9200/place/_search?pretty=true&filter_path=hits.hits._source')
+      .map((res: Response) => res.json().hits.hits);
   }
 
 }

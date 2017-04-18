@@ -1,0 +1,28 @@
+<h3>Places</h3>
+{{places | json}}
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>dc:title</th>
+                <th>dc:description</th>
+                <th>link</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let place of places">
+                <td>{{place['_source']['dc:title']}}</td>
+                <td>{{place['_source']['dc:description']}}</td>
+                <td><a href="{{place['_source']['@id']}}">{{place['_source']['type']}}</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-sm-6">
+          <div style="height: 300px" id="map">
+          </div>
+        </div>
+    </div>
+</div>

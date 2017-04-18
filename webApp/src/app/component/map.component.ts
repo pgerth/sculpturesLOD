@@ -2,7 +2,7 @@
 
 import { Component, OnInit } from '@angular/core';
 import { MapService } from '../service/map.service';
-import { ObjectService } from '../service/object.service';
+import { ResourcesService } from '../service/resources.service';
 
 @Component({
   selector: 'map',
@@ -12,7 +12,7 @@ import { ObjectService } from '../service/object.service';
 export class MapComponent {
 
   constructor(
-    private objectService: ObjectService,
+    private resourcesService: ResourcesService,
     private mapService: MapService,
   ) {}
 

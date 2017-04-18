@@ -11,7 +11,8 @@ import { AppComponent } from './app.component';
 import { MapComponent } from './component/map.component';
 import { ObjectComponent } from './component/object.component';
 import { ObjectDetailComponent } from './component/object-detail.component';
-import { ObjectService } from './service/object.service';
+import { PlaceComponent } from './component/place.component';
+import { ResourcesService } from './service/resources.service';
 import { MapService } from './service/map.service';
 import { KeysPipe } from './pipe/keys.pipe';
 
@@ -25,11 +26,12 @@ import { KeysPipe } from './pipe/keys.pipe';
   declarations: [
     AppComponent,
     MapComponent,
+    PlaceComponent,
     ObjectComponent,
     ObjectDetailComponent,
     KeysPipe
   ],
-  providers: [MapService, ObjectService],
+  providers: [MapService, ResourcesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
