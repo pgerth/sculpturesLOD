@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ResourcesService } from '../service/resources.service';
 
 @Component({
@@ -10,7 +10,9 @@ export class ObjectComponent {
 
   constructor(
     private resourcesService: ResourcesService
-  ) {
+  ) {}
+
+  ngOnInit(): void {
     this.loadData();
   }
 
