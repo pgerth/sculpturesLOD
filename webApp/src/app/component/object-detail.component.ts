@@ -13,6 +13,7 @@ import { MapService } from '../service/map.service';
 })
 export class ObjectDetailComponent {
   public object: Object[];
+  public quarry: Object[];
   public properties: string[] = [ "dc:title", "dc:identifier", "dc:medium", "dc:temporal", "facet_geschlecht", "facet_lebensalter", "facet_erhaltung", "facet_funktion", "dc:bibliographicCitation" ];
 
   constructor(
@@ -36,10 +37,18 @@ export class ObjectDetailComponent {
       .subscribe(result => {
         this.object = result;
         if (typeof result._source.location.lat != "undefined") {
+          let lat = result._source.location.lat
+          let lon = result._source.location.lon
           // center map view on find location
-          map.setView([result._source.location.lat, result._source.location.lon], 7);
+          map.setView([lat, lon], 6);
           // add point marker for find location
-          L.marker([result._source.location.lat, result._source.location.lon]).addTo(map);
+          L.marker([lat, lon]).addTo(map);
+          console.log(lat);
+          this.resourcesService.getQuarries(lat, lon)
+            .subscribe(res => {
+                this.quarry = res;
+                L.marker([res.hits[0]._source.location.lat, res.hits[0]._source.location.lon]).addTo(map);
+              })
         }
       });
   }

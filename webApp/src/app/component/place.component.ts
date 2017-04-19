@@ -32,16 +32,7 @@ export class PlaceComponent {
               place._source['dc:description'] + "<br>" +
               "<a href=" + place._source['@id'] + ">OXREP Database</a>"
             );
-          console.log(place);
         }
       });
-
-  }
-
-  loadData() {
-    this.resourcesService
-      .getPlaces()
-      .subscribe((places: Object[]) => this.places = places);
-
   }
 }
