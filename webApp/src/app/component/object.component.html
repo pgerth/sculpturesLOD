@@ -1,22 +1,23 @@
-<h3>Object</h3>
-
-<table class="table table-striped">
-  <thead>
-    <tr>
-      <th>ID</th>
-      <th>Title</th>
-      <th>Datierung</th>
-      <th>Material</th>
-      <th>Link</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr *ngFor="let object of objects">
-      <td><a [routerLink]="['/object', object['_source']['dc:identifier']]">{{object['_source']['dc:identifier']}}</a></td>
-      <td>{{object['_source']['dc:title']}}</td>
-      <td>{{object['_source']['dc:temporal']}}</td>
-      <td>{{object['_source']['dc:medium']}}</td>
-      <td><a href="{{object['_source']['@id']}}">{{object['_source']['type']}}</a></td>
-    </tr>
-  </tbody>
-</table>
+<div class="container">
+  <h3>Object</h3>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Datierung</th>
+        <th>Material</th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let object of objects">
+        <td><a [routerLink]="['/object', object['_source']['dc:identifier']]">{{object['_source']['dc:identifier']}}</a></td>
+        <td>{{object['_source']['dc:title']}}</td>
+        <td>{{object['_source']['dc:temporal']}}</td>
+        <td>{{object['_source']['dc:medium']}}</td>
+        <td><a href="{{object['_source']['@id']}}">{{object['_source']['type']}}</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -17,11 +17,17 @@ export class MapComponent {
   ) {}
 
   ngOnInit(): void {
+    // initialize map & mapping parameters
     let map = new L.Map('map', {
-      center: new L.LatLng(40, 20),
-      zoom: 4,
-      layers: [this.mapService.baseMaps.OpenStreetMap],
+      center: new L.LatLng(40, 15),
+      zoom: 5,
+      layers: [this.mapService.baseMaps.RomanEmpire],
     });
+
+    // adds map control: layertree, scale
+    let baseMaps = this.mapService.baseMaps;
+    L.control.layers(baseMaps).addTo(map);
+    L.control.scale().addTo(map);
 
   }
 }

@@ -26,12 +26,15 @@ export class ObjectDetailComponent {
     // initialize map & mapping parameters
     let map = L.map('map', {
       center: [40,20],
-      zoom: 4
+      zoom: 4,
+      layers: [this.mapService.baseMaps.RomanEmpire]
     });
+    // adds map control: layertree, scale
+    let baseMaps = this.mapService.baseMaps;
+    L.control.layers(baseMaps).addTo(map);
     L.control.scale().addTo(map);
-    L.tileLayer("http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png").addTo(map);
 
-    //
+    // gets object data
     this.route.params
       .switchMap((params: Params) => this.resourcesService.getObject(+params['id']))
       .subscribe(result => {
@@ -40,14 +43,14 @@ export class ObjectDetailComponent {
           let lat = result._source.location.lat
           let lon = result._source.location.lon
           // center map view on find location
-          map.setView([lat, lon], 6);
+          map.setView([lat, lon], 5);
           // add point marker for find location
           L.marker([lat, lon]).addTo(map);
-          console.log(lat);
+          // searches for nearby quarries
           this.resourcesService.getQuarries(lat, lon)
             .subscribe(res => {
                 this.quarry = res;
-                L.marker([res.hits[0]._source.location.lat, res.hits[0]._source.location.lon]).addTo(map);
+                L.circleMarker([res.hits[0]._source.location.lat, res.hits[0]._source.location.lon], this.mapService.quarryStyle).addTo(map);
               })
         }
       });
