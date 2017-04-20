@@ -1,4 +1,11 @@
-Site;Latitude;Longitude;Location
-"Aba Vela";43.938661;15.164293;"In the Zadar islands"
-"Abdera";40.949722;24.983056;"Just north of Abdera"
-"Abkuk";37.279444;27.582500;"Between villages of Abkuk"
+Site	Latitude	Longitude	Location	Country	Province	Material	AAT	Bibliography
+Aba Vela	43.938661	15.164293	In the Zadar islands	Croatia	Dalmatia	Limestone, used locally		Škegro 2006: 161-162
+Abdera	40.949722	24.983056	Just north of Abdera	Greece	Macedonia	White marble, used locally	http://vocab.getty.edu/aat/300011571	TIR Philippi 35
+Abkuk	37.279444	27.582500	Between villages of Abkuk (ancient Basilicus) and Asin (ancient Iasos),	Turkey	Asia	Red-pink and white marble (cipollino rosso), used locally and exported regionally and inter-regionally	http://vocab.getty.edu/aat/300011571	Mielsch 1985: 46; Gnoli 1988: 243- 245; Monna and Pensabene 1977: 109-113; Andreoli et al. 2002
+Abu Ras	30.968888	29.651111	On the coast just north of the western end of Lake Mareotis, west of Alexandria	Egypt	Aegyptus	Limestone, used locally		J. Röder 1967; Klemm and Klemm 2008: 36-39
+Acque Albule	41.954722	12.745833	Near ancient Tibur	Italy	Italia I	Travertine, used locally		Mari 1991; Veloccia Rinaldi 1991
+Adloun	33.403278	35.273498	16 km north of Tyre	Lebanon	Syria	Gypsum, limestone and sandstone, used locally in the Roman period		Badawi 2002
+Aegina	37.753611	23.426389	North of Aegina	Greece	Achaia	Limestone, used locally		Barrington Atlas 59 (A3)
+Aetos	38.011532	24.446553	South-eastern Euboea	Greece	Achaia	Green-grey and white streaked marble (cipollino); used locally from the Classical period but only exported widely in the Roman Imperial		Mielsch 1985: 58; Gnoli 1988: 181- 183; Lambraki 1980: 31-62; Hankey 1965; Pensabene 1998b; Sutherland and Sutherland 2002; Tsoflias 1982; Chidiroglou 2009
+Agios Minas	37.082500	25.200278	Central Paros	Greece	Achaia	White marble (Paros-3), used locally and exported regionally and inter- regionally	http://vocab.getty.edu/aat/300011571	Lepsius 1890; Herz 2000; Schilardi 2000
+Agios Nikolaos	35.188056	25.717222	Eastern Crete	Greece	Creta et Cyrene	White-grey marble, used locally		Harrison 1990
