@@ -28,8 +28,6 @@ export class ResourcesService {
       .map((res: Response) => res.json().hits.hits);
   }
 
-  // http://localhost:9200/place/_search?source={%22query%22:%20{%22bool%22%20:%20{%22must%22%20:%20{%22match_all%22%20:%20{}},%22filter%22%20:%20{%22geo_distance%22%20:%20{%22distance%22%20:%20%22500km%22,%22location%22%20:%20{%22lon%22%20:%2015,%22lat%22%20:%2043}}}}}}
-  // http://localhost:9200/place/_search?source={"query": {"bool" : {"must" : {"match_all" : {}},"filter" : {"geo_distance" : {"distance" : "500km","location" : {"lon" : 15,"lat" : 43}}}}}}
   // http://localhost:9200/place/_search?source={"query":{"bool":{"must":{"match_all":{}},"filter":{"geo_distance":{"distance":"500km","location":{"lon":15,"lat":43}}}}}}
 
   getQuarries(lat: number, lon: number) {
