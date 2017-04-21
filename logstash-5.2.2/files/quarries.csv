@@ -1,11 +1,793 @@
-Site	Latitude	Longitude	Location	Country	Province	Material	AAT	Bibliography
-Aba Vela	43.938661	15.164293	In the Zadar islands	Croatia	Dalmatia	Limestone, used locally		Škegro 2006: 161-162
-Abdera	40.949722	24.983056	Just north of Abdera	Greece	Macedonia	White marble, used locally	http://vocab.getty.edu/aat/300011571	TIR Philippi 35
-Abkuk	37.279444	27.582500	Between villages of Abkuk (ancient Basilicus) and Asin (ancient Iasos),	Turkey	Asia	Red-pink and white marble (cipollino rosso), used locally and exported regionally and inter-regionally	http://vocab.getty.edu/aat/300011571	Mielsch 1985: 46; Gnoli 1988: 243- 245; Monna and Pensabene 1977: 109-113; Andreoli et al. 2002
-Abu Ras	30.968888	29.651111	On the coast just north of the western end of Lake Mareotis, west of Alexandria	Egypt	Aegyptus	Limestone, used locally		J. Röder 1967; Klemm and Klemm 2008: 36-39
-Acque Albule	41.954722	12.745833	Near ancient Tibur	Italy	Italia I	Travertine, used locally		Mari 1991; Veloccia Rinaldi 1991
-Adloun	33.403278	35.273498	16 km north of Tyre	Lebanon	Syria	Gypsum, limestone and sandstone, used locally in the Roman period		Badawi 2002
-Aegina	37.753611	23.426389	North of Aegina	Greece	Achaia	Limestone, used locally		Barrington Atlas 59 (A3)
-Aetos	38.011532	24.446553	South-eastern Euboea	Greece	Achaia	Green-grey and white streaked marble (cipollino); used locally from the Classical period but only exported widely in the Roman Imperial		Mielsch 1985: 58; Gnoli 1988: 181- 183; Lambraki 1980: 31-62; Hankey 1965; Pensabene 1998b; Sutherland and Sutherland 2002; Tsoflias 1982; Chidiroglou 2009
-Agios Minas	37.082500	25.200278	Central Paros	Greece	Achaia	White marble (Paros-3), used locally and exported regionally and inter- regionally	http://vocab.getty.edu/aat/300011571	Lepsius 1890; Herz 2000; Schilardi 2000
-Agios Nikolaos	35.188056	25.717222	Eastern Crete	Greece	Creta et Cyrene	White-grey marble, used locally		Harrison 1990
+Site	Latitude	Longitude	Location	Country	Province	Material	Bibliography
+Aba Vela	43.938661	15.164293	In the Zadar islands	Croatia	Dalmatia	Limestone, used locally	Škegro 2006: 161-162
+Abdera	40.949722	24.983056	Just north of Abdera	Greece	Macedonia	White marble, used locally	TIR Philippi 35
+Abkuk	37.279444	27.582500	Between villages of Abkuk (ancient Basilicus) and Asin (ancient Iasos),	Turkey	Asia	Red-pink and white marble (cipollino rosso), used locally and exported regionally and inter-regionally	Mielsch 1985: 46; Gnoli 1988: 243-245; Monna and Pensabene 1977:109-113; Andreoli et al. 2002
+Abu Ras	30.968888	29.651111	On the coast just north of the western end of Lake Mareotis, west of Alexandria	Egypt	Aegyptus	Limestone, used locally	J. Röder 1967; Klemm and Klemm2008: 36-39
+Acque Albule	41.954722	12.745833	Near ancient Tibur	Italy	Italia I	Travertine, used locally	Mari 1991; Veloccia Rinaldi 1991
+Adloun	33.403278	35.273498	16 km north of Tyre	Lebanon	Syria	Gypsum, limestone and sandstone, used locally in the Roman period	Badawi 2002
+Aegina	37.753611	23.426389	North of Aegina	Greece	Achaia	Limestone, used locally	Barrington Atlas 59 (A3)
+Aetos	38.011532	24.446553	South-eastern Euboea	Greece	Achaia	Green-grey and white streaked marble (cipollino); used locally from the Classical period but only exported widely in the Roman Imperial	Mielsch 1985: 58; Gnoli 1988: 181-183; Lambraki 1980: 31-62; Hankey1965; Pensabene 1998b; Sutherland and Sutherland 2002; Tsoflias 1982; Chidiroglou 2009
+Agios Minas	37.082500	25.200278	Central Paros	Greece	Achaia	White marble (Paros-3), used locally and exported regionally and inter- regionally	Lepsius 1890; Herz 2000; Schilardi2000
+Agios Nikolaos	35.188056	25.717222	Eastern Crete	Greece	Creta etCyrene	White-grey marble, used locally	Harrison 1990
+Agios Pneuma	40.952222	23.794444	Near Amphipolis	Greece	Macedonia	Marble, used locally	TIR Philippi 18
+Agrileza	37.738056	24.053611	Near Thorikos, Attica	Greece	Achaia	Marble, used locally	Higgins and Higgins 1996
+Ahmetli Köyu	38.058740	27.395540	13 km north of Ephesos	Turkey	Asia	White marble, used locally	Prochaska and Grillo 2009; Yavuz, Bruno and Attanasio 2011
+Aime	45.557103	6.653404	South-east of LakeGeneva	France	Alpes Graiae et Poeninae	White marble, used locally, perhaps regionally	Braemer 1992
+Ain Demna	37.234444	9.993889	East of Bizerte	Tunisia	AfricaProconsularis	Sandstone, used locally	Slim et al. 2004: 197
+Ain el Merja	37.257368	10.040147	Near Cap Zebib	Tunisia	AfricaProconsularis	Sandstone, used locally	Slim et al. 2004: 201
+Ain el-Ksir	36.492500	8.576667	3 km from Chemtou	Tunisia	AfricaProconsularis	Black marble (nero antico), used locally, perhaps regionally	Lazzarini and Sangati 2004: 76-77; Lazzarini, Agus and Cara 2006
+Ain-Schkor	34.073056	-5.553611	Near Volubilis	Morocco	MauretaniaTingitana	Sandstone, used locally	Feray and Paskoff 1966; Dworakowska 1983: 13-14
+Ain-Smara	36.357222	6.618611	Close to Constantine	Algeria	Numidia	Several varieties of alabaster (alabastri di Constantina), used locally and exported regionally	Toubal 1995: 57-61
+Akhisar	38.918889	27.837500	Ancient Thyatira	Turkey	Asia	A variety of banded alabaster similar to Egyptian onyx, used in Archaic period and later, and exported in Roman period; and a fine-grained grey-white marble, used locally in the Roman period	Colak and Lazzarini 2002
+Akrini	40.433256	21.903597	South-west of Aigeai, near Kozani	Greece	Macedonia	Multi-coloured marble breccia (breccia policroma della Vittoria), used locally and exported inter-regionally	Lazzarini 2007: 245-252
+Akte	37.932778	23.637222	In the Piraeus, Attica	Greece	Achaia	Soft white limestone, used locally	Mauzy 2006: 46
+Albox	37.389722	-2.147500	North-east of Macael	Spain	Tarraconensis	Travertine, used locally	Canto 1977-1978
+Alconera	38.396389	-6.476389	Near Badajoz	Spain	Baetica	Three varieties of marble, one black (negra pinta), one grey (gris pinta), and one similar to pavonazzetto (serrancolin), as well as a pink limestone (rosa ajamonado), all used locally and exported regionally	Canto 1977-78: 178; Grünhagen 1978:304
+Aldborough	54.091526	-1.380744	Near Boroughbridge, west of York	Britain	Britannia	Limestone, used locally	Pearson 2006
+Alhaurn de laTorre	36.663611	-4.561667	Near Alhaurín de laTorre, Malaga province	Spain	Baetica	Marble, used locally in the Roman Imperial period and probably expored regionally	Cisneros Cunchillos 1988
+Alhaurn elGrande	36.642222	-4.689444	Near Alhaurín el Grande, Malaga province	Spain	Baetica	Marble, used locally in the Roman Imperial period and probably expored regionally	Cisneros Cunchillos 1989
+Alika	36.461111	22.439167	On the Mani Peninsula, near Kyparissos	Greece	Achaia	Dark-grey or black limestone, used locally in the Roman Imperial and probably exported regionally	Bruno and Pallante 2002
+Aliki	40.603056	24.741667	On the southern coast ofThasos	Greece	Macedonia	White marble (marmor thasium or Thasos-1) with large reflective crystals, widely exported throughout antiquity	Gnoli 1988: 262-263;  Mielsch 1985:61; Dworakowska 1975; Dworakowska 1983; Herz 1988; Kozelj et al. 1981; Kozelj et al. 1982; Kozelj et al. 1985; Herrmann 1990
+Almadén de laPlata	37.873333	-6.079722	55 km north-west ofSeville	Spain	Baetica	Various types of marble - white, blue- grey and pink - used regionally throughout the Roman period	Canto 1977-1978; Rodríguez et al.2012 ó
+Almándoz	43.091061	1.605453	31 km north of Pamplona	Spain	Tarraconensis	Grey-blue marble, used locally in theRoman period	Martínez-Torres et al. 2012
+Alsóörs	46.992982	17.972974	On the northern shore ofLake Balaton	Hungary	PannoniaSuperior	Red sandstone, used locally in theRoman Imperial period	Palágyi and Raucsik 2009
+Altenhof	49.765248	6.619683	Just west of Trier	Germany	Belgica	Granite, used locally in the RomanImperial period	Bedon 1984: 50
+Altintas	39.057500	30.110000	In the Upper Tembris valley, 50 km north-west of Iscehisar, Phrygia	Turkey	Asia	White-grey marble, used locally in theRoman Imperial period	Buckler et al. 1928: 22-23; Lazzarini et al. 1985: 50; Waelkens, de Paepe and Moens 1986
+Ambrault	46.798333	1.941111	South-west of Bourges	France	Aquitania	Limestone; used locally in the RomanImperial period	Bedon 1984: 61; Coulon and Tardy1997
+Ammaedara	35.496154	8.367557	Between Ammaedara and Theveste	Algeria	Numidia	Limestone; used locally in the RomanImperial period	Gsell 1911: 29.132
+Ancaster	52.982885	-0.536092	Southern Lincolnshire	Britain	Britannia	Limestone; used locally in the Roman Imperial period and exported regionally	Blagg 1990
+Angertal	47.283668	13.017347	In the upper Enns valley	Austria	Noricum	White marble; used locally in theRoman Imperial period	Djurić 1997
+Annonay	45.240702	4.663266	South of Lyon, north- west of Valence	France	Narbonensis	Granite; used locally in the RomanImperial period	Bedon 1984: 33
+Antic Camí deSant Salvador	42.104302	1.028558	Near Isona	Spain	Tarraconensis	Limestone, used locally in the Roman period	Gutiérrez 2009: 82–4
+Antioch	36.207500	36.011111	Modern Antakya, Hatay province	Turkey	Syria	Limestone; used locally in the RomanImperial period and earlier	Dworakowska 1983: 13
+Antoger	45.719470	5.915088	Aix-les-Bains, south ofSeyssel	France	Narbonensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 59
+Antully	46.902927	4.410612	South of Autun	France	Lugdunensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 35, 119
+Aphrodisias (CityQuarries)	37.725556	28.741667	2 km north-east ofAphrodisias, Karia	Turkey	Asia	White marble, used locally throughout the Roman period	Monna and Pensabene 1977: 89-101; Gnoli 1988: 264; Dwarakowska 1983; Rockwell 1996; Ponti 1996; Lazzarini et al. 2002b
+Apiranthos	37.083889	25.533333	Central Naxos	Greece	Achaia	White marble, used locally and exported regionally, sometimes inter- regionally, throughout antiquity	Attanasio 2003: 184
+Apollonas	37.181866	25.550643	North-eastern point ofNaxos	Greece	Achaia	White marble, used locally and exported regionally, sometimes inter- regionally, throughout antiquity	Dwarakowska 1971
+Apollonia	32.901667	21.968889	Just north of Cyrene	Libya	Creta etCyrene	Limestone; used locally in the RomanImperial period	Personal observation
+Arab el-Atiat	27.318888	31.051388	20 km north-west ofAssiut	Egypt	Aegyptus	Yellow-grey limestone; used locally in the Ptolemaic and Roman period	Klemm and Klemm 2008: 109-110
+Arcueil	48.807035	2.335816	South of Paris	France	Lugdunensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 54, 73
+Ardiège	43.069722	0.642500	South of St-Gaudens	France	Aquitania	Limestone; used locally in the RomanImperial period	Bedon 1984: 64, 149
+Arguénos	42.970833	0.723889	South of Aspet	France	Aquitania	Marble; used locally in the RomanImperial period and possibly regionally	Bedon 1984: 65-66
+Argut-Dessus	42.889444	0.719167	South-east of Saint-Béat	France	Aquitania	Marble; used locally in the RomanImperial period and possibly regionally	Bedon 1984: pl. 10
+Arou Djaoud	36.557522	2.053343	Near Cherchel	Algeria	MauretaniaCaesariensis	Granite; used locally in the RomanImperial period	Leveau 1984: 303
+Arroyo dePedroches	37.907325	-4.757565	East of Corduba	Spain	Baetica	Limestone, used locally in the Roman period	Gutiérrez Deza 2012
+Arroyo delPuerco	37.675728	-5.656936	Various sites to the south of Munigua	Spain	Baetica	Limestone, used locally in the Roman period	Schattner and Ovejero 2008
+Artés	41.798593	1.954452	North of Manresa, Barcelona province	Spain	Tarraconensis	Sandstone; used locally in the RomanImperial period	Cisneros Cunchillos 1988; Gutiérrez2009: 253
+Asagi Cuma	39.250833	27.091667	Near Kozak, 30 km fromPergamon in Mysia	Turkey	Asia	Granite (granito misio); used locally from Hellenistic period	Lazzarini and Sangati 2004: 76; Lazzarini 1992: 66
+Asin	37.279444	27.582500	Ancient Iasos in Karia	Turkey	Asia	Red marble (rosso brecciato or iassense brecciato) with shades of grey and black, blue-grey veins and large white crystalline inclusions; used locally in the Roman Imperial period andexported inter-regionally in small quantities	Gnoli 1988: 244-245; Mielsch 1985:46; Monna and Pensabene 1977: 109-113
+Asnières-lès- Dijon	47.385304	5.044668	Near Dijon	France	GermaniaSuperior	Limestone; used locally in the RomanImperial period	Bedon 1984: 54, 90
+Assos	39.491111	26.335278	Modern Behramkale in the southern Troad	Turkey	Asia	Maroon-red andesite (lapis sarcophagus) used locally and exported inter-regionally as sarcophagi in the Roman period	Koch 1993: 172-173; Serdaroğlu 1990
+Aswan	24.101388	32.887500	Ancient Syene, 3 km north-west of Elephantine	Egypt	Aegyptus	Two varieties of granite, the most prevalent being pink-red with grey- white flecks (granito rosso di siene or sienite), the other black (granito nero di Siene), and sandstone; exported regionally from Pharaonic period and inter-regionally in Roman period	Mielsch 1985: 67; Gnoli 1988: 145-148; Lazzarini 1987b, 156; J. Röder1965; Lucas and Harris 1962: 58; Klemm and Klemm 2008: 206-212,233-267
+Atarfe	37.226106	-3.716423	10 km north-west ofGranada	Spain	Baetica	Limestone; used locally in the RomanImperial period	Cisneros Cunchillos 1989–90
+Aubert	42.966944	1.100833	St Girons, in the French Pyrenees, in the valley of Lez, 4 km from Saint Girons, in an area called the Trou de l’Oubli	France	Aquitania	Black and white marble (bianco e nero antico or marmo di Aquitania); expored regionally in the Roman Imperialperiod and to Rome later	Mielsch 1985: 57; Gnoli 1988: 196-199; Braemer 1971: 170; Braemer1984: 57-72; Bedon 1984: 66
+Auerbach	49.705771	8.630317	18 km south ofDarmstadt	Germany	GermaniaSuperior	Marble, exported regionally in theRoman period	J. Röder 1992
+Aurignac	43.216944	0.881389	North-west of Boussens	France	Aquitania	Limestone; used locally in the RomanImperial period	Bedon 1984: 64
+Aurisina	45.750556	13.675000	Just north of Trieste	Italy	Italia X	Marble (marmo di Aurisina); used locally in the Roman Imperial period, notably at nearby Trieste (Tergeste) and Aquileia	Braemer 2004; Bertacchi 1989; Lopreato 1989: 25-28; Maselli Scotti1989: 29-33
+Autun	46.949899	4.299252	North-west of Lyon, in central Saône-et-Loire	France	Lugdunensis	Schist; used locally in the RomanImperial period	Bedon 1984: 54
+Aya Klıkiri	38.084130	27.519870	23 km north-east ofEphesos	Turkey	Asia	White marble, used locally and perhaps regionally in the Roman period	Yavuz, Bruno and Attanasio 2011
+Aymavilles	45.702621	7.246867	Near Aosta	Italy	Alpes Graiae et Poeninae / Italia XI	Grey-blue veined marble, similar to bardiglio, used locally in the Roman period	Betori, Gomez Serito and Pensabene2009
+Azmak Tepe	38.529122	26.585344	On the Karaburum peninsula	Turkey	Asia	Pink-red and white marble (breccia corallina), perhaps exported regionally in the Roman period	Bruno et al. 2012
+Baalbek	34.006667	36.204167	Ancient Heliopolis	Lebanon	Syria	Limestone; used locally in the RomanImperial period	Dworakowska 1983: 13; Ruprechtsberger 1999
+Baba Dağ	37.715063	28.922675	17 km east ofAphrodisias	Turkey	Asia	Grey and white marble, used locally in the Roman period	Long 2012
+Babadag	44.892523	28.711461	Near Babadag Lake	Romania	MoesiaInferior	Limestone; used locally in the RomanImperial period	Rădulescu 1972
+Bad DeutschAltenburg	48.132052	16.91305	Just east of Carnuntum, Austria	Austria	PannoniaSuperior	Limestone	Pivko 2012
+Bafa Gölü	37.501667	27.527500	Near ancient Heracleia- on-Latmos	Turkey	Asia	Fine- to coarse-grained, white marble often with blue or grey bands; used locally from Archaic period	Peschlow-Bindoket  1981; Attanasio2003: 180
+Bahariya Oasis	28.334166	28.867222	Just south of El-Bawiti, Western Desert	Egypt	Aegyptus	Fine-grained sandstone; used locally from at least the Ptolemaic period	Klemm and Klemm 2008: 327-328
+Bahig	30.951111	29.584167	At the western end ofLake Mareotis	Egypt	Aegyptus	Limestone; used locally in the Roman Imperial period and possibly also in the Ptolemaic period	J. Röder 1967; Klemm and Klemm2008: 36-39
+Balatonalmádi	47.025876	18.014431	On the north side ofLake Balaton	Hungary	PannoniaSuperior	Red sandstone; used locally in theRoman Imperial period	Palágyi and Raucsik 2009
+Balatonrendes	46.830062	17.584235	On the north side ofLake Balaton	Hungary	PannoniaSuperior	Red sandstone; used locally in theRoman Imperial period	Palágyi and Raucsik 2009
+Balboura	36.986014	29.620061	In Lykia, north-east of modern Fethiye	Turkey	Lycia etPamphylia	Grey-white limestone; used locally in the Roman Imperial period	Money 1990
+Balıklıova	38.425684	26.581653	On the Karaburum peninsula	Turkey	Asia	Orange-red and white marble (breccia corallina)	Bruno et al. 2012
+Barbazan	43.032778	0.625556	East of St-Bertrand	France	Aquitania	Marble; used locally in the RomanImperial period	Bedon 1984: 64, 66
+Barcombe Down	54.991111	-2.360833	Near Vindolanda, Northumberland	Britain	Britannia	Limestone; used locally in the Roman Imperial period, notably for construction along Hadrian's Wall	Pearson 2006; Collingwood andWright 1965
+Bard-Le-Régulier	47.143579	4.313318	North of Autun	France	Lugdunensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 84
+Barnack	52.631944	-0.407222	Southern Lincolnshire	Britain	Britannia	Limestone; used locally in the Roman Imperial period and exported regionally	Blagg 1990
+Barousse	42.967222	0.565556	South of St-Bertrand	France	Aquitania	Marble; used locally in the RomanImperial period	Costedoat 1995b
+Barranc de LaLlet	40.795998	0.535382	Just south of Tortosa	Spain	Tarraconensis	Dark golden yellow limestone (broccatello) with shades of pink, red and white-grey; exported as far as Rome in the Roman Imperial period	Mielsch 1985: 42-43; Álvarez Pérez1992; Àlvarez et al. 2009a: 74–9; Gutiérrez 2009: 231–45
+Barutel	43.863157	4.275758	7 km north-west ofNîmes	France	Narbonensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 31, 84
+Barxeta	39.021345	-0.412450	50 km south of Valencia	Spain	Tarraconensis	Pinkish-yellow Buixcarró limestone, exported regionally in the Roman period	Àlvarez et al. 2009a: 26–31
+Basècles	50.526462	3.648263	Between Lille andCharleroi	Belgium	Belgica	Black limestone; used locally and exported regionally in the Roman period	Groessens 1991
+Bath	51.361111	-2.356389	Probably at CombeDown	Britain	Britannia	Limestone; used locally in the RomanImperial period	Pearson 2006; Stanier 2000: 13
+Batroun	34.248787	35.663454	At Batroun (ancientBotrys)	Lebanon	Syria	Sandstone; used locally in the RomanImperial period	Badawi 2002
+Bavay	50.291408	3.794352	South-West of Charleroi	Belgium	Belgica	Black limestone; exported regionally in the Roman Imperial period, especially to the Rhineland	Braemer 1982: 82; Groessens 1991
+Beaucaire	43.811111	4.636111	Near Tarascon, north ofArles	France	Narbonensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 32, 58
+Bédarieux	43.615000	3.157778	North of Béziers	France	Narbonensis	Sandstone; used locally in the RomanImperial period	Bedon 1984: 33
+Beirut	33.894225	35.488171	In and around Beirut	Lebanon	Syria	Gypsum, limestone and sandstone, used locally in the Roman period	Badawi 2002
+Belbèze	43.133056	1.025556	South-east of Boussens	France	Aquitania	Limestone; used locally in the RomanImperial period	Bedon 1984: 63, 77
+Belevi	38.010000	27.454722	Just north of Ephesos	Turkey	Asia	Several varieties of white to grey marble, used locally throughout antiquity and perhaps exported regionally or inter-regionally in the Roman period	Alzinger 1966-1977: 61; Monna andPensabene 1977: 127-144; Attanasio2003: 174; Prochaska and Grillo2009; Yavuz, Bruno and Attanasio2011
+Bellerberg	50.352821	7.231721	Just north of Mayen	Germany	GermaniaSuperior	Basalt; used locally in the RomanImperial period	Bedon 1984: pl. 1
+Beni Hassan	27.918056	30.868333	25 km south of Minia	Egypt	Aegyptus	Grey-white limestone; used locallyfrom the Pharaonic to Byzantine period	Klemm and Klemm 2008: 77-81
+Beni Suef	29.073889	31.100833	On the Nile near theFayum	Egypt	Aegyptus	Alabaster; used locally in the Pharaonic period and later; probably exported at least regionally in Roman Imperial period	Klemm and Klemm 1993
+Berici Mountains	45.423843	11.471431	South of Vicenza	Italy	Italia X	Limestone; used locally in the RomanImperial period	Roffia, Bugini and Folli 2009
+Berkovica	43.316029	23.215786	North of Sofia	Bulgaria	Thracia	Limestone; used locally in the RomanImperial period	Braemer 2004
+Beth She'an	32.499727	35.500111	Ancient Scythopolis	Israel	Judaea	Basalt; used locally in the RomanImperial period, notably at Scythopolis	Tsafrir and Foerster 1997: 89
+Beyler	38.230935	26.926279	8 km east of Teos	Turkey	Asia	Coloured breccia similar to breccia di sciro, used locally and probably exported in the Roman period	Turk et al. 1988; Bruno et al. 2012
+Biha Assid	36.971803	9.611600	In the Northern Tell	Tunisia	AfricaProconsularis	One variety of marble and one of limestone; used locally in the Roman period	Peyras 1991: 404
+Biograd	43.939379	15.445759	South of Zadar	Croatia	Dalmatia	Limestone; used locally in the RomanImperial period	Škegro 2006: 161-162
+Bir Um el- Fawarkhir / Wadi el-Sid	26.002500	33.600278	90 km east of Quft, Eastern Desert	Egypt	Aegyptus	Fine- to medium-grained grey granite (granito del Wadi Fawarkhir), with white, black, light green and pink inclusion; exported in Roman Imperial period but never in large quantities	Mielsch 1985: 68; Gnoli 1988: 148; Lazzarini 1987b, 159; Harrell, Brown and Lazzarini 1999; Klemm and Klemm 2008: 295-297
+Bir-el-Ater	34.642194	8.211676	South-east of Bir-el-Ater and west of Capsa	Algeria	Numidia / Africa Proconsularis	Limestone; used locally in the RomanImperial period	Gsell 1911: 40.154
+Birstal	47.479173	7.607119	Just west of Augst	Switzerland	GermaniaSuperior	Grey-white limestone; used locally in the Roman Imperial period	Staehelin 1948: 425
+Blagoevgrad	42.023634	23.094311	Just south of Sofia	Bulgaria	Thracia	Marble; used locally in the RomanImperial period	Braemer 2004
+Bois de Minier	47.465232	3.256687	Just north of Entrains- sur-Nohain	France	Lugdunensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 74
+Bois des Lens	43.914444	4.157778	Just west of Nîmes	France	Narbonensis	Fine white limestone; used locally in the Roman Imperial period and exported regionally	Bessac 1986a; Bessac 1996
+Bois Dufour	47.578159	3.807482	South of Arcy-sur-Cure	France	Lugdunensis	Limestone; used locally in the RomanImperial period	Bedon 1984
+Bolonia	36.090929	-5.781520	Cadiz province	Spain	Baetica	Limestone; used locally in the RomanImperial period	Cisneros Cunchillos 1988
+Borba	38.803611	-7.457500	Near Estremoz	Portugal	Lusitania	White marble (branco portugues); used locally in the Roman Imperial period and probably exported regionally	Dworakowska 1983: 14-15; Amores, Beltrán and González 2008: 219; Lamberto and Sá Caetano 2008
+Borj el Mzaouak	35.391645	11.032127	Near Salakta	Tunisia	AfricaProconsularis	Sandstone; used locally in the RomanImperial period	Paskoff and Trousset 2004: 144
+Botticino	45.536389	10.302500	Just west of Lake Garda	Italy	Italia X	White marble; used locally in the Roman Imperial period and probably regionally	Braemer 2004; David and De Michele1999
+Bou Hanifia	35.316291	0.049694	20 km south-west ofMascara	Algeria	MauretaniaCaesariensis	Red and white alabaster (alabastro a pecorella), used locally and exported	Herrmann, Van den Hoek and Tykot2012
+Bouère	47.864002	-0.481464	10 km north-west ofSablé-sur-Sarthe	France	Lugdunensis	Pink and grey limestone, used locally in the Roman period	Blanc 1999
+Boulouris	43.431111	6.803333	Close to Saint Raphael- Frejus, ancient Forum Julii	France	Narbonensis	Light blue-grey porphyry (porfido bigio or granito a morviglione) with white, pink, grey and blue flecks; used locally from Archaic period, exported further sporadically and then only to Rome	Mielsch 1985: 66; Gnoli 1988: 140-141; Bedon 1984
+Bourdeau	45.681187	5.854477	North of Chambéry	France	Aquitania	Marble; used locally in the RomanImperial period	Mazeran 1999
+Bourg	45.039903	-0.560168	North of Bordeaux	France	Aquitania	Limestone; used locally in the RomanImperial period	Bedon 1984: 35, 89
+Bourges	47.083056	2.396667	In Cher, central France	France	Aquitania	Limestone; used locally in the RomanImperial period	Bedon 1984: 60, 71
+Bouros	38.015000	24.420833	East of Karystos onEuboea	Greece	Achaia	Schist; used locally in the RomanImperial period and probably	Wallace et al. 2006: 41-43
+Bracoule	43.971944	4.521944	Next to the Pont du Gard	France	Narbonensis	Limestone; used locally in the Roman Imperial period, notably for the construction of the Pont du Gard	Bedon 1984: 32
+Brauron	37.926111	23.993889	Eastern Attica	Greece	Achaia	Marble; used locally from Archaic period	Higgins and Higgins 1996
+Brean Down	51.323889	-3.008056	North-western Somerset	Britain	Britannia	Limestone; used locally in the RomanImperial period	Blagg 1990; Pearson 2006; Stanier2000: 13
+Bu Njem	30.578056	15.413056	Ancient Gholaia	Libya	AfricaProconsularis	Limestone; used locally in the Roman Imperial period, principally for the construction of the associated fort	Chiesa 1949: 28
+Bucova	45.486679	22.679230	South of the village of Bucova and south-west of Sarmizegetusa	Romania	Dacia	White-grey marble with darker grey streaks; used locally and exported regionally between the Trajanic and Severan periods	Muller et al. 1999
+Bülbüldağ	37.937417	27.334341	Next to the habour ofEphesos	Turkey	Asia	Grey marble, used locally throughout the Roman period	Vetters 1990
+Bulcy	47.245967	3.026982	North of Nevers	France	Lugdunensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 73, 89
+Burg el-Arab(Mareotis)	30.933611	29.968889	At the western end of lake Mareotis, west of Alexandria	Egypt	Aegyptus	Limestone; used locally in the Roman Imperial period and possibly also in the Ptolemaic period	Dworakowska 1983: 10; J. Röder1967; Klemm and Klemm 2008: 36-39
+Burgbrohl	50.455706	7.272764	In the Brohl valley	Germany	GermaniaSuperior	Tuff; used locally in the RomanImperial period	Bedon 1984: 39
+Bussoleno	45.141354	7.147460	Just east of Susa	Italy	Alpes Cottiae / Italia XI	White or blue-grey marble (Foresto marble), used locally in the Roman period	Betori, Gomez Serito and Pensabene2009
+Byblos	34.122005	35.643598	In and around Byblos	Lebanon	Syria	Gypsum, limestone and sandstone, used locally in the Roman period	Badawi 2002
+Cabane de laHosse	42.910086	0.289652	South of Campan	France	Aquitania	Varieties of white, green and red nodular limestone (cipollino mandolato or griotte), exported regionally in the Roman period	Antonelli et al. 2002
+Cabezo Gordo	37.800843	-0.900193	Near Cartagena, Murcia	Spain	Tarraconensis	Marble; used locally in the Roman period, from at least the 1st century BC	Cisneros Cunchillos 1988: 69; Ramallo Asensio and Arana Castillo1987; Àlvarez et al. 2009a: 32–7;Arana et al. 2012
+Cabra	37.471055	-4.429963	55 km south of Corduba	Spain	Baetica	Red limestone, used locally and exported regionally	Cisneros 1989–90; Mayer and Rodà1998: 234
+Cachan	48.794753	2.335083	South of Paris	France	Lugdunensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 54, 73
+Caen	49.185797	-0.359666	Quarries located nearCaen, Normandy	France	Lugdunensis	Grey-white limestone; used locally in the Roman Imperial period and exported regionally, possibly even to Britain	Blagg 1990
+Caerwent	51.610833	-2.767778	South-east Wales	Britain	Britannia	Sandstone (Sudbrook sandstone); used locally in the Roman Imperial period	Pearson 2006
+Çakırsaz	39.096389	30.196389	In the Upper Tembris valley, 18 km east of Altıntaş, Phrygia	Turkey	Asia	Two varieties of marble, one white- grey and a variety of pavonazzetto, the former used locally in Roman period, the latter exported inter-regionally	Lazzarini et al. 1985: 50
+Çakmakli	38.808415	27.554482	24 km north-east ofManisa	Turkey	Asia	Pink and white breccia (broccatellone), probably exported in the Roman period	Bruno et al. 2012
+Çamarası	37.652550	28.711850	9 km south-west ofAphrodisias	Turkey	Asia	White and grey brecciated marble, used locally in the Roman period	Long 2012
+Çamova Tepe	37.689549	28.950464	22 km east ofAphrodisias	Turkey	Asia	Purple-grey and white breccia, used locally in the Roman period	Long 2012
+Campan	43.016944	0.178333	Close to Campan, on the plain of Paillol, Pyrenees	France	Aquitania	Two varieties of marble, one violet- pink (griottes de Campan or griottes mauves de Campan) with purple and grey veins, one green with lighter flecks (cipollino mandolato verde); widely exported in Roman Imperial period	Mielsch 1985: 58; Gnoli 1988: 183; Braemer 1984: 57-72; Bedon 1984: 66
+Campomarino	40.297396	17.556933	20 km south-east ofTaranto	Italy	Italia II	Limestone; used locally in the RomanImperial period	Calia et al. 2002
+Candoglia	45.975727	8.423785	Just west of Mergozzo, north-west of Lago Maggiore	Italy	Italia XI	Marble (marmo di Candoglia); used locally and probably exported regionally in the Roman period	Braemer 1992
+Canteduc	43.839444	4.345833	In Nîmes	France	Narbonensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 30-31
+Cap Couronne	43.338333	5.048056	40 km west of Marseille	France	Narbonensis	Limestone; used locally in the Roman Imperial period and exported regionally, notably to Marseille	Dworakowska 1983: 16; Bedon 1984:pl. 5
+Cap de Garde	36.963056	7.781667	12 km from Annaba (Hippo Regius) on the promontory of Cap de Garde	Algeria	Numidia	White marble (marmo di Ippona) with distinct blue and grey streaks, used locally and regionally in the Roman period	Mielsch 1985: 60; Gnoli 1988: 261; Pensabene 1976
+Cape Kolona	38.846446	24.353210	On Skiropoula island, south of Skyros	Greece	Achaia	Purple, yellow and white breccia (marmor scyrium, settebassi or breccia di sciro), exported inter-regionally in the Roman period	Bruno 2002c
+Cape Latomio	38.803900	24.490752	On Valaxa island, south of Skyros	Greece	Achaia	Purple, yellow and white breccia (marmor scyrium, settebassi or breccia di sciro), exported inter-regionally in the Roman period	Bruno 2002c
+Cape Marmaro	38.761624	24.569607	Southern Skyros	Greece	Achaia	Purple, yellow and white breccia (marmor scyrium, settebassi or breccia di sciro), exported inter-regionally in the Roman period	Bruno 2002c
+Cape Oros	38.876368	24.442813	Western Skyros	Greece	Achaia	Purple, yellow and white breccia (marmor scyrium, settebassi or breccia di sciro), exported inter-regionally in the Roman period	Bruno 2002c
+Cape Phanari	40.776328	24.728715	North-east Thasos	Greece	Macedonia	White calcitic marble, used locally and exported throughout antiquity	Bruno et al. 2002
+Cape Tainaro	36.386111	22.483056	On the Mani Peninsula	Greece	Achaia	Dark-grey, black marble (nero antico); used locally and possibly exported in Roman period and earlier	Bruno and Pallante 2002; Lazzarini2004; Lazzarini 2007
+Cape Vathy	40.743848	24.768334	North-east Thasos	Greece	Macedonia	Medium to coarse grained white dolomitic marble (marmor thasium or Thasos-2); used in Roman period and earlier; widely exported, particularly in the 3rd century and later	Herrmann 1990; Bruno et al. 2002
+Capo Testa	41.246111	9.145556	The most northerly point of Sardinia	Italy	Sardinia etCorsica	Medium-grained granite (granito della Sardegna) with shades of pink, light green and cream-white; used locally and exported regionally in the Roman Imperial period	Mielsch 1985: 69; Wilson 1988; Gnoli1988: 154; Poggi and Lazzarini 2005
+Carija	38.939436	-6.368221	Near Mérida	Spain	Lusitania	White marble; used locally in theRoman Imperial period	Dworakowska 1983: 15: Canto 1977-1978: 179; Pizzo 2010
+Carmona	37.471111	-5.642222	Seville province	Spain	Baetica	Sandstone; used locally in the RomanImperial period	Cisneros Cunchillos 1988
+Carrara	44.092500	10.126667	Northern Tuscany, in theApuan Alps	Italy	Italia VII	White marbles of various qualities (statuario, ordinario, calacata, chiaro), several veined and a blue-grey variety with dark veins (bardiglio); usedlocally from Etruscan period and widely exported in Roman Imperial period	Banti 1931; Gnoli 1988: 265; Mielsch1985: 61-62; Dolci 1980; Dolci 1981; Dolci 1988
+Carrera delCaballo	37.015837	-4.762155	North-west of Corduba	Spain	Baetica	Limestone, used locally in the Roman period	Gutiérrez Deza 2012
+Carthage	36.864527	10.338814	Near Hamilcar station, just north of Carthage	Tunisia	AfricaProconsularis	Sandstone, used locally throughout antiquity	Bullard 1978
+Casa Blanca	38.888687	-6.286010	7 km south-east ofMérida	Spain	Lusitania	Grey granite, used locally and perhaps exported regionally in the Roman period	Pizzo 2010
+Cassis	43.215556	5.538889	South of Marseille	France	Narbonensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 77, 89
+Castel Porziano	41.744167	12.402778	East of Ostia	Italy	Italia I	Tuff; used locally in the Roman period.	Lanciani 1903: 175-176
+Castellví deRosanes	41.450186	1.899566	3 km south-west ofMartorell	Spain	Tarraconensis	Red and white sandstones, used locally and perhaps exported regionally	Àlvarez and Pitarch 2012
+Castelnuovo dell’Abate	42.993271	11.515564	39 km south of Siena	Italy	Italia VII	Alabaster, exported regionally in theRoman period	Lazzarini et al. 2012
+Castrimoenium	41.769722	12.658889	Modern Marino, in theAlban Hills	Italy	Italia I	Tuff (lapis albinus or peperino); used locally from Archaic period	Heiken, Funiciello and Di Rita 2005
+Cavae Romanae	44.839864	13.859668	Near Vinkuran, 5 km south-east of Pula	Croatia	Italia X	Limestone; used locally in the RomanImperial period	Džin 2012
+Cavallo	41.361730	9.263035	South tip of the island off southern Corsica	France	Sardinia etCorsica	Grey granite; used locally and exported regionally in the Roman period	Wilson 1988: 108-109
+Cave-Hardy	36.575040	2.090717	Near the Cave Hardy villa, between Hadjret- en-Nous and Cherchel	Algeria	MauretaniaCaesariensis	Limestone; used locally in the RomanImperial period	Leveau 1984: 294-295
+Cernavoda	44.352389	28.040771	In Dobroudja province	Romania	MoesiaInferior	Limestone; used locally in the RomanImperial period	Florescu 1936: 40-44; Florescu 1937:111-113
+Cerro Redondo	40.948101	-1.926120	Pardos, Zaragoza province	Spain	Tarraconensis	Limestone (?); used locally in theRoman Imperial period	Cisneros Cunchillos 1988
+Chalon-sur-Saône	46.784160	4.853201	On the Saône north ofLyon	France	Lugdunensis	Sandstone; used locally in the RomanImperial period	Bedon 1984: 32, 54
+Chamaray	44.353224	4.771876	Near Saint-Paul-Trois- Châteaux	France	Narbonensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 32
+Chancelade	45.210833	0.668611	Near Périgueux	France	Aquitania	Limestone; used locally in the RomanImperial period	Bedon 1984: 62
+Charly	46.899069	2.748029	South-east of Bourges	France	Aquitania	Limestone; used locally in the RomanImperial period	Bedon 1984: 60, 89
+Chartres	48.450784	1.488935	South-west of Paris	France	Lugdunensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 76
+Château-Chinon	47.063838	3.936915	West of Autun	France	Lugdunensis	A variety of schist and another of marble; used locally in the Roman period	Bouthier 2004
+Châtillon-sous- les-Côtes	49.145766	5.524699	West of Pont-à-Mousson	France	Belgica	Limestone; used locally in the RomanImperial period	Bedon 1984: 38
+Chemtou	36.492500	8.576667	Ancient Simittus, nearJendouba	Tunisia	AfricaProconsularis	Several varieties of golden yellowoften marble (giallo antico), some with lighter shades, pink-red veins and grey angular inclusions; exported regionally and inter-regionally in the Roman Imperial period	Dubois 1908: 31-35; Mielsch 1985:56; Gnoli 1988: 166-168; Rakob1993; Rakob 1994a; Rakob 1994b; Rakob 1995a; Rakob 1995b; Rüger1997; G. Röder 1988
+Chénoua	36.586389	2.433056	Near Tipasa	Algeria	MauretaniaCaesariensis	Violet marble; used locally in Roman period	Barrington Atlas 30 (D3)
+Cheraf	35.599612	11.029461	3.7 km south-west ofThapsus	Tunisia	AfricaProconsularis	Limestone; used locally in the RomanImperial period	Younès, Gaied and Gallala 2012
+Chercos	37.270000	-2.254722	Almería province	Spain	Tarraconensis	Marble; used locally in the RomanImperial period	Cisneros Cunchillos 1988
+Chester	53.191944	-2.894722	North-western Cheshire	Britain	Britannia	Sandstone; used locally in the RomanImperial period	Pearson 2006
+Chevigny	47.503438	3.304470	North-east of Entrains- sur-Nohain	France	Lugdunensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 74
+Chianocco	45.148142	7.168839	Just east of Susa	Italy	Alpes Cottiae / Italia XI	White-cream marble, used locally in the Roman period	Betori, Gomez Serito and Pensabene2009
+Choridaki Valley	37.079722	25.183611	South-west of Marathi and east of the village of Choridaki, central Paros	Greece	Achaia	White, sometimes grey, marble(marmor parium, paria lithos or Paros-2), coaser than Paros-1; widely exported in Roman period and earlier	Lepsius 1890; Herz 2000; Dworakowska 1975; Schilardi 2000
+Cibyra	37.159238	29.493357	In northern Lykia, north of Balboura	Turkey	Lycia etPamphylia	Grey-white limestone; used locally in the Roman Imperial period and probably earlier	Money 1990: 38
+Cier-de-Rivière	43.066389	0.633333	North-east of St-Bertrand	France	Aquitania	Marble; used locally in the RomanImperial period and possibly regionally	Bedon 1984: 66, 76
+Çiğri Dağ	39.741389	26.241667	In the western Troad, just inland from Alexandria Troas	Turkey	Asia	Medium-grained grey-violet granite (granito violetto or granito della Troade); used locally from Classical period and widely exported in the Roman Imperial period	Mielsch 1985: 68; Gnoli 1988: 152-153; Cook 1973: 14; Ponti 1995
+Circeo	41.232500	13.052778	South-western Lazio	Italy	Italia I	Alabaster (alabastro bianco e cotognino); probably exported regionally in the Roman period	Lazzarini and Sangati 2004: 76-77; Bruno 1998b; Bruno 2002b
+Cirencester	51.646389	-2.043333	Gloucestershire	Britain	Britannia	Limestone; used locally in the RomanImperial period	Pearson 2006
+Clamart	48.799363	2.262394	South of Paris	France	Lugdunensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 73
+Clots de SantJulià	41.965262	3.074769	Just east of Girona	Spain	Tarraconensis	Sandstone (pedra dels Clots), used locally in the Roman period	Gutiérrez 2009: 43–54
+Coín	36.656389	-4.760278	Malaga province	Spain	Baetica	Three varieties of dolomitic marble, one bluish-grey, one cloudy green, one white; used locally and exported regionally in the Roman Imperial period	Cisneros Cunchillos 1988: 74; Lapuente et al. 2002; Àlvarez et al.2009a: 108–10
+Colaride	38.772104	-9.286267	Just north-west of Lisbon	Portugal	Lusitania	Limestone; used locally in the RomanImperial period	Coelho 2008
+Corinth	37.906389	22.878611	Beneath the Odeon in the centre of the city	Greece	Achaia	Limestone; used locally from theArchaic period and exportedregionally, to Delphi and Epidauros for example	Broneer 1932: 16
+Cortijo dePinedilla	37.041739	-4.696533	Near Bobadilla, Malaga province	Spain	Baetica	Sandstone; used locally in the RomanImperial period	Cisneros Cunchillos 1988
+Cottanello	42.410556	12.684167	Near Rieti, Lazio	Italy	Italia IV	Marble (cottanello antico); exported regionally in the Roman Imperial period	Lazzarini and Sangati 2004: 76-77; Bruno 2002b
+Courthézon	44.086307	4.884054	South of Orange	France	Narbonensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 40, 90
+Coves de laPedrera	41.141025	1.240189	Just north of Tarragona	Spain	Tarraconensis	Limestone (pedra de los Coves orsoldó), used locally	Gutiérrez 2009: 191–7
+Coves del Llorito	41.138746	1.267733	Just north-east ofTarragona	Spain	Tarraconensis	Limestone (pedra del Llorito), used locally in the Roman period	Gutiérrez 2009: 185–91
+Crowdundle	54.655263	-2.985972	South-east Cumbria, just north of Kirkby Thore	Britain	Britannia	Limestone; used locally in the Roman Imperial period, notably for construction along Hadrian's Wall	Pearson 2006; Collingwood andWright 1965
+Crussol	44.945782	4.844178	Near Valence	France	Narbonensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 57
+Cuarto de la Jara	39.011278	-6.394043	Near Mérida	Spain	Lusitania	Grey granite; used locally in theRoman Imperial period	Dworakowska 1983: 15; Canto 1977-1978: 179
+Cuevas delPuente de Hierro	37.925012	-4.775955	North-east of Corduba	Spain	Baetica	Limestone, used locally throughout theRoman period	Gutiérrez Deza 2012
+Dakhla Oasis	25.669170	28.834170	Near El-Qasr, WesternDesert	Egypt	Aegyptus	Fine grained sandstone and limestone;used locally from the Pharaonic period	Klemm and Klemm 2008: 328-330
+Damascus	33.517500	36.293611	Southern Syria	Syria	Syria	Gypsum; mentioned by Pliny the Elder (XXXVI.24) and probably used locally in the Roman Imperial period	Dworakowska 1983: 13
+Damparis	47.077287	5.412280	Near Dôle	France	GermaniaSuperior	Marble; used locally in the RomanImperial period	Bedon 1984: 23, 107
+Dardagani	44.391595	19.105384	Near Zvornik	Bosnia	Dalmatia	Limestone; used locally in the Roman Imperial period and exported regionally	Djurić et al. 2006; Djurić et al. 2012
+Degla	36.949310	10.826424	South-west of the tip ofCap Bon	Tunisia	AfricaProconsularis	Sandstone; used locally from theRoman Imperial period	Paskoff and Trousset 2004: 187-8
+Deir Abu Hennis	27.785556	30.901667	Near Deir Abu Hinnis	Egypt	Aegyptus	Limestone; used locally from thePharaonic to the Coptic periods	Klemm and Klemm 2000: 85-89
+Deleni	44.102536	27.955032	Near Adamklissi	Romania	MoesiaInferior	Limestone; used locally in the Roman Imperial period, notably for the Adamklissi monument	Dworakowska 1983: 20; Rădulescu1972
+Delphi	38.481111	22.490278	Just west of Delphi	Greece	Achaia	Marble; used locally from the Archaic period	Bommelaer 1991
+Denizli	37.771389	29.084444	Near ancient Laodicea- on-the-Lykos, Phrygia	Turkey	Asia	Grey-white marble, used locally and regionally from the Hellenistic period onwards	Attanasio 2003: 171
+Devín	48.177518	16.980149	North-east ofCarnuntum, Austria	Austria	PannoniaSuperior	Limestone, used locally in the Roman period	Pivko 2012
+Dinant	50.260720	4.910771	South-east of Charleroi	Belgium	Belgica / Germania Inferior	Black limestone; used locally and exported regionally in the Roman period	Groessens 1991
+Diou	46.533651	3.740864	West of Autun	France	Lugdunensis	Marble; used locally in the RomanImperial period	Bouthier 2004
+Djebel Akhdar	32.823611	21.851944	Near ancient Cyrene	Libya	Creta etCyrene	Limestone; used locally in the RomanImperial period	Busdraghi and Gessaroli 2006
+Djebel Ayari	36.884713	10.165549	Just north of Tunis	Tunisia	AfricaProconsularis	Limestone, used locally in the Roman period	Bullard 1978
+Djebel Aziz	36.498333	9.885000	Central north-eastern Tunisia, south of Carthage	Tunisia	AfricaProconsularis	Fine-grained black marble (nero antico) with occasional grey-white inclusions or angular veins; widely exported in the Roman Imperial period, particularly to Rome	Lazzarini and Sangati 2004: 76-77; Mielsch 1985: 57; Gnoli 1988: 193-194; Ward-Perkins 1951: 90; Dworakowska 1983: 12, 59; Agus et al. 2006
+Djebel Djelloud	36.757805	10.205386	Southern edge of Tunis	Tunisia	AfricaProconsularis	Limestone, used locally in the Roman period	Bullard 1978
+Djebel el Hamra	36.382522	10.424818	16 km east of Segermes, east of Zaghouan	Tunisia	AfricaProconsularis	Limestone, still quarried today; used locally in the Roman Imperial period	Ørsted 2000: 160-161; Zaugger 1995:60-62
+Djebel er Rorouf	36.730727	10.326339	Near Hamman Lif, south of Tunis	Tunisia	AfricaProconsularis	Limestone, used locally in the Roman period	Bullard 1978
+Djebel Filfila	36.895833	7.103889	23 km from Philippeville	Algeria	Numidia	White and black varieties of marble; used locally in Roman period and probably exported regionally	Toubal 1995: 57-61; Herrmann et al.2012
+Djebel Ichkeul	37.123611	9.655833	In the Northern Tell	Tunisia	AfricaProconsularis	Sandy-yellow marble, often used as substitute for giallo antico; used locally and possibly exported regionally in the Roman Imperial period	Rakob 1995b, 64-65
+Djebel Keddel	36.692966	10.384013	Between Carthage and Cap Bon, now quarried near the town of Borj Cedria	Tunisia	AfricaProconsularis	Limestone; used locally from the Punic period	Ferchiou 1976; Dworakowska 1983:13-14
+Djebel Kleb	36.390364	9.877395	2.5 km west of ThuburboMaius	Tunisia	AfricaProconsularis	Dark grey limestone, used locally and exported regionally in the Roman period	Bullard 1978
+Djebel Orousse	35.863333	-0.418333	Just east of Oran	Algeria	MauretaniaCaesariensis	Yellow marble, similar to giallo antico;used locally in Roman Imperial period	Dworakowska 1983: 14
+Djebel Oust	36.354167	10.377222	35 km south of Tunis	Tunisia	AfricaProconsularis	Dark red and pink alabaster (alabastro del Gebel Oust) often with strips  of yellow ochre or cream-white; used locally and exported regionally in the Roman Imperial period	Mielsch 1985: 40: Gnoli 1988: 227; Agus et al. 2006
+Djebel Raouass	36.406667	9.870556	Close to ThuburboMaius	Tunisia	AfricaProconsularis	Limestone; used locally in the RomanImperial period	Dworakowska 1983: 14
+Djebel Zit	36.526469	10.290297	North of the Segermes valley, north-east of Zaghouan	Tunisia	AfricaProconsularis	Sandstone; used locally in the RomanImperial period	Ørsted 2000: 160-161; Zaugger 1995:60-62
+Djeradou	36.286674	10.309164	6 km south of Segermes, south-east of Zaghouan	Tunisia	AfricaProconsularis	Fine limestone, still quarried today; used in the Roman Imperial period at nearby Segermes	Ørsted 2000: 160-161; Zaugger 1995:60-62
+Djilia	37.007462	10.902399	Near Sidi Daoud	Tunisia	AfricaProconsularis	Sandstone; used locally in the RomanImperial period	Paskoff and Trousset 2004: 184-185
+Doliana	37.454167	22.421111	In the territory of Tegea, Arcadia	Greece	Achaia	Dark-grey, almost black recrystallised limestone (marmo di Tegea or di Doliana); used locally from Classical period	Braemer 1986
+Doliche	37.061111	37.391111	Just north of Gazientep, Commagene	Turkey	Galatia etCappadocia	Limestone; used locally in the RomanImperial period	Ergeç 2003
+Dolno Ujno	42.417354	22.582392	Just west of Blagoevgrad	Bulgaria	Thracia / Moesia Superior	Marble; used locally in the RomanImperial period	TIR Naissus 46
+Domeny	41.990455	2.759527	In Girona	Spain	Tarraconensis	Sandstone (pedra dels Clots), used locally in the Roman period	Gutiérrez 2009: 66–70
+Drachenfels	50.666618	7.216741	East of Bonn, nearKonigswinter	Germany	GermaniaInferior	Tuff; used locally in the RomanImperial period	Dworakowska 1983: 17; J. Röder1974; Lukas 2002
+Drama	41.153929	24.163761	North of Kavala in ancient Macedonia	Greece	Macedonia	Dark-grey or black marble; used locally in the Roman Imperial period	Bruno and Pallante 2002
+Dramont	43.415000	6.853611	Just east of Boulouris	France	Narbonensis	Light blue-grey porphyry (porfido bigio or granito a morviglione) with white, pink, grey and blue flecks; used locally from Archaic period; exported further sporadically and then only to Rome	Mielsch 1985: 66; Gnoli 1988: 140-141; Bedon 1984; Mazeran 2004
+Dundry Hill	51.728937	-2.144166	South-east of Stroud, Gloucestershire	Britain	Britannia	Limestone; used locally in theHellenistic and Roman periods	Pearson 2006; Stanier 2000: 13
+Dura Europos	34.746014	40.729416	In and around the city ofDura Europos	Syria	Syria	Limestone; used locally in the RomanImperial period	Bessac 2005
+Edessa	40.801944	22.053056	North-west of Olympos in Macedonia	Greece	Macedonia	Marble; used locally in the RomanImperial period	Braemer 1986
+El Berrocal	38.872101	-6.330432	Near Mérida	Spain	Lusitania	Grey granite, used locally and perhaps exported regionally in the Roman Imperial period	Cisneros Cunchillos 1988; Pizzo 2010
+El Gaaphra	24.301944	32.901944	26 km north of Aswan	Egypt	Aegyptus	Sandstone; used locally from the Pharaonic period, mainly in the Ptolemaic and Roman periods	Klemm and Klemm 2008: 202-203
+El Ghedamsi	35.750465	10.828859	Just south of Monastir	Tunisia	AfricaProconsularis	Sandstone; used locally in the RomanImperial period	Paskoff and Trousset 2004: 157
+El Hannaker	36.921523	11.099323	Just south-east of the tip of Cap Bon	Tunisia	AfricaProconsularis	Sandstone; used locally in the RomanImperial period	Paskoff and Trousset 2004: 182
+El Haouaria	37.059167	10.995278	Close to the tip of CapBon	Tunisia	AfricaProconsularis	Sandstone; used locally and exported regionally from the Punic period through to the Roman, especially to Carthage	Harrazi 1995; Rakob 1984; Rakob1995b; Paskoff and Trousset 2004:183
+El Hôsh	24.644167	32.928611	12 km north of Silsila	Egypt	Aegyptus	Sandstone; used locally from Ptolemaic times and certainly in the Romanperiod - a number of Greek inscriptions are known, the latest datable to thereign of Antoninus Pius	Fitzler 1910: 103; Dworakowska1983: 49-50; Klemm and Klemm2008: 176-177
+El Kilh	25.065278	32.868611	12 km north of Edfu	Egypt	Aegyptus	Fine-grained sandstone; used locally, mainly in the Ptolemaic and Roman period	Klemm and Klemm 2008: 174
+El Llorito	41.127086	1.268288	Just east of Tarragona	Spain	Tarraconensis	Yellow-pink limestone (pedra de Santa Tecla and llisós), used locally in the Roman period, mainly at Tarragona itself	Mayer and Rodà 1998: 229; Gutiérrez2009: 208–21; Àlvarez et al. 2009b;Àlvarez et al. 2009c
+El Maabda	27.335000	30.018889	10 km north-west ofAbnub, near Assiut	Egypt	Aegyptus	Light grey-yellow limestone; used locally from the late Pharaonic to the Coptic period	Klemm and Klemm 2008: 106-109
+El Médol	41.173889	1.281111	North of Tarragona	Spain	Tarraconensis	Limestone (pedra del Médol); used locally in the Roman period	Canto 1977-1978; Mayer 1998; Gutiérrez 2009: 146-58; Àlvarez et al.2009a: 38–43
+El Mex(Mareotis)	31.101667	29.784167	A number of quarries down the coast immediately west of Alexandria	Egypt	Aegyptus	Limestone; used locally in thePtolemaic and Roman periods	Dworakowska 1983: 10; J. Röder1967; Klemm and Klemm 2008: 36-39
+El Saweita	28.366667	30.785556	Just south of Matai, on the east side of the Nile	Egypt	Aegyptus	Limestone and calcitic alabaster; used locally from the Pharaonic period and probably up until the Roman period but less intensively	Klemm and Klemm 2008: 60-63, 152
+El Torcal(Antequera)	36.972484	-4.591461	Just south of Antequera	Spain	Baetica	White, pink, and red-pink limestones	Beltrán et al. 2012
+Eldeniz	38.538805	29.725652	South-east of Uşak, near ancient Sebaste, Phrygia	Turkey	Asia	Grey-white marble; used locally and exported regionally in the Roman period	Pralong 1980; Asgari 1981; Waelkens, de Paepe and Moens 1986
+Els Munts	41.146606	1.396374	16 km east of Tarragona	Spain	Tarraconensis	Limestone (pedra d’Altafulla); used locally in the Roman Imperial period	Cisneros Cunchillos 1988; Mayer1998; Gutiérrez 2009: 138–41
+Emboune	43.287741	3.521955	Near Agde, at the mouth of the river Herault	France	Narbonensis	Basalt; used locally in the RomanImperial period	Bedon 1984: 34
+Enesh	37.053056	37.866389	Near Zeugma on theEuphrates	Turkey	Galatia etCappadocia	Limestone; used locally in the Roman Imperial period, quarried by legionary detachments	Cumont 1917; Dworakowska 1983:28
+Enfé	34.357707	35.731063	13 km south-west ofTripoli	Lebanon	Syria	Limestone and sandstone, used locally in the Roman period	Badawi 2002
+Ereño	43.360731	-2.625732	25 km north-east ofBilbao	Spain	Tarraconensis	Red and white recrystalised limestone, exported regionally in the Roman period	Àlvarez et al. 2009a: 50–3
+Eretria	38.403889	23.780833	Central southern Euboea	Greece	Achaia	Pink-grey recrystallised limestone (fior di pesco or marmor chalcidicum) with areas of red, brown, white and violet; used locally from the Archaic period and exported widely in the Roman Imperial	Mielsch 1985: 57; Gnoli 1988: 184-6; Lazzarini et al. 2002a
+Ersifet	33.562186	10.950200	Just south of Jerba	Tunisia	AfricaProconsularis	Sandstone; used locally in the RomanImperial period	Paskoff and Trousset 2004: 102-103
+Escúzar	37.065000	-3.762778	Granada province	Spain	Baetica	Sandstone; used locally in the RomanImperial period	Cisneros Cunchillos 1988
+Espejón	41.830713	-3.259775	160 km north of Madrid	Spain	Tarraconensis	Red and yellow limestone, exported regionally in the Roman period	Àlvarez et al. 2009a: 54–9; Salán2012
+Estremoz	38.845833	-7.590278	Central eastern Portugal	Portugal	Lusitania	White marble, used locally and exported across central and southern Spain in the Roman Imperial period	Cisneros Cunchillos 1988; Fusco and Mañas 2006; Lamberto and Sá Caetano 2008
+Examilia	37.897049	22.927994	South-east of Corinth	Greece	Achaia	Oolitic limestone, used locally and perhaps exported regionally in the Roman period	Hayward 1999
+Exeter	50.721667	-3.533889	Eastern Devon	Britain	Britannia	Red basalt; used locally in the RomanImperial period	Blagg 1990
+Farafra Oasis	27.351940	28.418890	50 km north of Qasr El- Farafra, Western Desert	Egypt	Aegyptus	Chalky limestone; used locally in theRoman period	Klemm and Klemm 2008: 328
+Farm Quarry’	37.929840	27.385260	5 km east of Ephesos	Turkey	Asia	White marble, used locally in theRoman period	Yavuz, Bruno and Attanasio 2011
+Farnham	51.214546	-0.795947	In the Weald, south-eastEngland	Britain	Britannia	Probably the source of the Lower and Upper Greensands (silicified glauconitic quartz sandstones) used at Silchester	Wooders 2000: 84-86
+Fay	45.658931	5.666800	Near Peyrieu	France	Narbonensis	Limestone; used locally in the RomanImperial period, particularly from the1st century AD	Bedon 1984: 32, 55
+Felsberg	49.727708	8.690726	15 km south ofDarmstadt	Germany	GermaniaSuperior	Grey granite, exported regionally in theRoman period	J. Röder 1992
+Fertörákos	47.721975	16.647872	7 km north-east ofScarbantia, Hungary	Hungary	PannoniaSuperior	Limestone, used locally in the Roman period	Pivko 2012
+Fidenae	41.978611	12.511111	North-east of Rome	Italy	Italia I	Tuff (tufo rosso a scorie nere); used locally from the Archaic period, primarily at Rome	Heiken, Funiciello and Di Rita 2005
+Flacé	46.325870	4.827123	South of Tournus	France	Lugdunensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 28, 89
+Flix	41.226667	0.544722	60 km west of Tarragona	Spain	Tarraconensis	Sandstone; used locally in the RomanImperial period	Cisneros Cunchillos 1988; Gutiérrez2009: 247–9
+Fontaines-sur- Marne	48.546857	5.102234	Near Bar-le-Duc	France	Lugdunensis / Belgica	Limestone; used locally in the RomanImperial period	Bedon 1984: 51
+Fontvieille	43.726944	4.710000	North-east of Arles	France	Narbonensis	Limestone; used locally in the RomanImperial period	Bedon 1984
+Fourvières	45.763698	4.824807	Near Lyon	France	Lugdunensis	Granite; used locally in the RomanImperial period	Audin and Burnand 1975
+Franclens	46.042620	5.829268	Near Seyssel, south-west of Geneva	France	Lugdunensis	Fine white limestone; used locally and exported regionally in the Roman Imperial period, primarily to Lugdunum	Bedon 1984: 33, 55-56
+Fruška-Gora	45.166032	19.667591	Near Sirmium on theDanube	Serbia	PannoniaInferior	Porphyry; used locally in the Roman Imperial period and perhaps exported regionally but the extent of activity at the site remains unclear	Fant 1990: 101; Peacock 1995
+Gabii	41.887222	12.715278	In the Valle Castiglione	Italy	Italia I	Tuff (lapis Gabinus or peperino); used locally from the Republican period, primarily at Rome	Heiken, Funiciello and Di Rita 2005
+Gádor	36.954360	-2.492822	13 km north of Almeria	Spain	Tarraconensis	Limestone; used locally in the RomanImperial period	Cisneros Cunchillos 1989-90
+Galgenberg	47.373586	15.248897	Near Leoben	Austria	Noricum	White marble, used locally in theRoman period	Djurić and Müller 2009
+Gammarth	36.853333	10.323333	Near Tunis	Tunisia	AfricaProconsularis	Sandstone; used locally in the RomanImperial period	Paskoff and Trousset 2004: 193-4
+Garraf	41.252879	1.900443	7 km east of Sitges	Spain	Tarraconensis	Limestone; used locally in the RomanImperial period	Cisneros Cunchillos 1988; Gutiérrez2009: 253
+Gaurion	37.889444	24.734444	West Andros	Greece	Achaia	Marble; used locally in the Roman period, and possibly earlier	Barrington Atlas 57 (C4)
+Gebel el-Ahmar	30.054167	31.285556	East Cairo	Egypt	Aegyptus	Quartzite; used locally from thePharaonic period	Klemm and Klemm 1993
+Gebel el-Silsila	24.650278	32.918333	18 km north of KomOmbo	Egypt	Aegyptus	Fine- to medium-grained sandstone; used in large quantities locally and regionally from the Pharaonic period and in especial quantities in the Ptolemaic and Roman periods	Dworakowska 1983: 10; Klemm andKlemm 2008: 180-201
+Gebel Gulab	24.111111	32.873889	West of Aswan	Egypt	Aegyptus	Quartzite; used locally and probably exported regionally from Pharaonic times to the Roman period and later	Klemm and Klemm 2008: 219-228; Heldal et al. 2005
+Gebel Tar, Palmyra	34.547500	38.278611	5 km north-west ofPalmyra	Syria	Syria	Granite; used locally in the RomanImperial period, primarily at Palmyra	Schmidt-Colinet 1990
+Gebel Tingar	24.085167	32.865694	West of Aswan	Egypt	Aegyptus	Quartzite; used locally and probably exported regionally throughout antiquity	Klemm and Klemm 2008: 219-228; Heldal et al. 2005
+Gebze	40.799167	29.437778	Just east of Istanbul, Bithynia	Turkey	Bithynia etPontus	Limestone; used locally from at least the Hellenistic period	Dodge 1988: 71
+Gemlik	40.427500	29.159722	On the Sea of Marmara north of Bursa, Bithynia	Turkey	Bithynia etPontus	Marble; used locally from at least theHellenistic period	Dodge 1988: 71
+Gerasd	46.112209	18.199735	Near Pécs	Hungary	Pannonia Superior / Pannonia Inferior	Porphyry; used locally in the RomanImperial period	Simonyi 1960
+Gerence	38.403979	26.500986	On the Karaburum peninsula	Turkey	Asia	Pink and white breccia (broccatellone), probably exported regionally or inter- regionally in the Roman period	Bruno et al. 2012
+Germolles	46.814829	4.749401	North of Saint-Boil	France	Lugdunensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 35, 89
+Ghar El Oug	35.471773	11.010564	South-west of Mahdia	Tunisia	AfricaProconsularis	Limestone; used locally in the RomanImperial period	Younès and Ouaja 2009
+Ghar SebâaSbaya	35.678131	10.868318	Near Leptiminus	Tunisia	AfricaProconsularis	Limestone; used locally in the RomanImperial period	Younès and Ouaja 2009
+Ghar SidiMessaoud	35.516225	11.033267	Near Mahdia	Tunisia	AfricaProconsularis	Limestone; used locally in the RomanImperial period	Younès and Ouaja 2009
+Ghar Tbiba	35.525976	11.026960	Near Mahdia	Tunisia	AfricaProconsularis	Limestone; used locally in the RomanImperial period	Younès and Ouaja 2009
+Ghirza	30.949804	14.556146	In the central Libyan pre- desert	Libya	AfricaProconsularis	Limestone; used locally in the RomanImperial period	Chiesa 1949: 28
+Ghlastropi	37.399444	25.266389	On Delos	Greece	Achaia	Grey marble; used locally from at least the Classical period.	Higgins and Higgins 1996: 173-174
+Gilly-sur-Loire	46.539038	3.775782	West of Autun	France	Lugdunensis	Marble; used locally in the RomanImperial period	Bouthier 2004
+Glanum	43.773611	4.833333	Just south of Saint- Rémy-de-Provence	France	Narbonensis	Limestone; used locally from theClassical or Hellenistic period	Dworakowska 1983: 16
+Glince	46.052503	14.506344	Local quarry in the territory of Emona (Ljubljana)	Slovenia	PannoniaSuperior	Limestone; used locally in the RomanImperial period	Djurić 1997
+Glyfada	40.781648	24.675843	Just west of Limenas, Thasos	Greece	Macedonia	Grey marble, used locally throughout antiquity	Wurch-Koželj and Koželj 2009
+Godella	39.522011	-0.417211	Valencia province	Spain	Tarraconensis	Limestone; used locally in the RomanImperial period	Cisneros Cunchillos 1988
+Gökcealan	38.219512	28.519930	15 km south of Alaşehir	Turkey	Asia	White marble, used locally in theRoman period	Bruno et al. 2012
+Göktepe	37.515601	28.794195	Near Kale, north-east ofMuğla, in Karia	Turkey	Asia	Black and white marble; exported regionally and inter-regionally in the Roman Imperial period	Attanasio, Bruno and Yavuz 2009; Yavuz et al. 2009
+Gölemezli	38.000344	29.016703	North of Hierapolis, Phrygia	Turkey	Asia	Yellow and pink alabaster (alabastro fiorito) with  white, brown and red stripes; used locally and exported widely in the Roman Imperial period and possibly earlier	Mielsch 1985: 37-38: Gnoli 1988:223-225; Bruno 2002a; Lazzarini and Sangati 2004: 76-77; Scardozzi 2010; Scardozzi 2012
+Göllüce	38.087100	27.487050	22 km north-east ofEphesos	Turkey	Asia	White marble, used locally and perhaps regionally in the Roman period	Yavuz, Bruno and Attanasio 2011
+Göynükören	39.235556	29.767500	In the Upper Tembris valley, 90 km north-west of Iscehisar and 15 km north-east of Aezani, Phrygia	Turkey	Asia	Two varieties of marble, one white and one similar to pavonazzetto (breccia pavonazza di Ezine); used locally inthe Roman Imperial period	Mielsch 1985: 50; Gnoli 1988: 240; Waelkens 1986; Waelkens 1990b, 67-68; Lazzarini et al.1985: 49-50
+Gözler	38.110826	29.157840	20 km north ofHierapolis in Phrygia	Turkey	Asia	Marble; used locally from theHellenistic period	Bruno 2002a, 23; Scardozzi 2010; Scardozzi 2012
+Gremdi	34.757222	11.313889	On Gremdi island off eastern Tunisia	Tunisia	AfricaProconsularis	Sandstone; used locally in the RomanImperial period	Paskoff and Trousset 2004: 128-129
+Gressan	45.721766	7.288552	Near Aosta	Italy	Alpes Graiae et Poeninae / Italia XI	Puddingstone, used locally in theRoman period	Betori, Gomez Serito and Pensabene2009
+Grotta Oscura	42.035000	12.504167	Tiber valley, north-east of Rome	Italy	Italia I	Tuff (tufo giallo della via Tiberina); used locally from the Archaic period, primarily at Rome	Heiken, Funiciello and De Rita 2005
+Guelma	36.466667	7.430833	Ancient Calama	Algeria	Numidia	Marble; used locally in the RomanImperial period	Toubal 1995: 57-61
+Gülümbe	40.203617	29.264689	In the Sagarius Valley, Bithynia	Turkey	Bithynia etPontus	Marble; used locally in the RomanImperial period	Dodge 1988: 71
+Gummern	46.662391	13.798874	North-west of Villach	Austria	Noricum	White marble, used locally and exported regionally in the Roman period	Djurić and Müller 2009
+Hadjret-en-Nous	36.572623	2.052912	14 km west of Cherchel	Algeria	MauretaniaCaesariensis	Grey granite (granito bigio grafico) with black and white inclusions; used locally and exported in Roman Imperial period	Mielsch 1985: 69; Gnoli 1988: 153-4
+Hadrianopolis	32.353333	20.307778	Modern Daryanaha, east of Benghazi	Libya	Creta etCyrene	Limestone; used locally in the RomanImperial period	Dworakowska 1983: 13
+HaghiosPanteleimonas	38.856988	24.489110	Western Skyros	Greece	Achaia	Purple, yellow and white breccia (marmor scyrium, settebassi or breccia di sciro), exported inter-regionally in the Roman period	Bruno 2002c
+Hainburg	48.140694	16.904078	Just east of Carnuntum, Austria	Austria	PannoniaSuperior	Limestone, used locally in the Roman period	Pivko 2012
+Haluntium	38.084713	14.696890	North-east Sicily	Italy	Sicilia	Deep red-brown limestone with white veins; used locally in the Roman Imperial period and possibly earlier	Wilson 1990: 239-240
+Ham Hill	51.129509	-2.737034	Near Street, south ofGlastonbury, Somerset	Britain	Britannia	Limestone; used locally in the RomanImperial period	Pearson 2006; Stanier 2000: 13; Durman 2006: 49
+Hançam	37.733574	28.628500	Near Karacasu, west ofAphrodisias	Turkey	Asia	White and grey marble, used locally in the Roman period	Long 2012
+Hanoğlu	38.591556	29.743896	South-east of Uşak, near ancient Akmonia, in Phrygia	Turkey	Asia	Marble; used locally in the RomanImperial period	Asgari 1981
+Hara	37.000775	9.373032	In the Northern Tell	Tunisia	AfricaProconsularis	Limestone; used locally in the RomanImperial period	Peyras 1991: 404
+Harmanköy	40.131522	30.419285	South of Gölpazari	Turkey	Bithynia etPontus	Yellow breccia (breccia nuvolata), exported regionally and inter- regionally in the Roman period	Lazzarini 2002b
+Hasançavuslar	38.072140	27.539680	19 km north-east ofEphesos	Turkey	Asia	White marble with black speckles (Greco scritto), white marble, and grey bigio antico, exported inter-regionally in the Roman period	Yavuz, Bruno and Attanasio 2011
+Haslach	48.545461	7.335660	Just west of Strasbourg, between Nieder- and Oberhaslach	France	GermaniaSuperior	Sandstone; used locally in the RomanImperial period	Bedon 1984: 44, 73
+Hatnub	27.550833	31.017500	15 km south-east of Tell el-Amarna	Egypt	Aegyptus	Pale yellow calcitic alabaster with areas of opaque white, pink or grey; exported regionally from the Pharaonic period and in the Roman Imperial period - probably that described by Pliny the Elder (XXXVI.60).	Mielsch 1985: 37: Gnoli 1988: 215-218; Hester and Heinzer 1981; Klemm and Klemm 2008: 161-163
+Häusling	48.245966	15.438453	East of Melk	Austria	Noricum	White marble; used locally in theRoman Imperial period	Djurić and Müller 2009
+Hauteville	46.005847	5.530281	North of Peyrieu	France	Lugdunensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 33
+Helioupolis	37.931944	23.757778	South-east of Athens, near Hymettos, in Attica	Greece	Achaia	Limestone; used locally from at least the Classical period	Barrington Atlas 59 (B/C3)
+HenchirChaabane	33.332125	11.166907	South-east of Jerba	Tunisia	AfricaProconsularis	Sandstone; used locally in the RomanImperial period	Paskoff and Trousset 2004: 97
+Henchir el Kasbat	36.398611	9.906389	Ancient Thuburbo Maius	Tunisia	AfricaProconsularis	A dark golden yellow limestone (castracane dorato) with spirals of yellow and cream-white, some grey, exported regionally in the Roman Imperial period; and a grey lumachella limestone (lumachella orientale or lumachella d’egito) widely exported after the Augustan period, primarily to Rome	Mielsch 1985: 41; Gnoli 1988: 201-205; Lazzarini and Sangati 2004
+Henchir elMzaouak	35.391645	11.032127	Near Salakta	Tunisia	AfricaProconsularis	Sandstone; used locally in the RomanImperial period	Paskoff and Trousset 2004: 144-145
+Henchir-Chelga	36.892231	9.409671	In the Northern Tell	Tunisia	AfricaProconsularis	Limestone; used locally in the RomanImperial period	Peyras 1991: 440
+Hereke	40.789170	29.614982	Along the coast west of Nicomedia, close to Gebze, Bithynia	Turkey	Bithynia etPontus	Marble breccia (breccia di Hereke); used locally in the Roman Imperial period and probably earlier	Dodge 1988: 71
+Hierakonpolis	25.067778	32.734167	16 km north-west ofEdfu	Egypt	Aegyptus	Sandstone; used locally from thePharaonic to Roman period	Klemm and Klemm 2008: 172-173
+Hierapolis	37.943889	29.123889	In the necropolis ofHierapolis, Phrygia	Turkey	Asia	Grey-white travertine; used locally from the Hellenistic period	Ronchetta 1987: 105; Vanhaverbeke and Waelkens 2002; Scardozzi 2010; Scardozzi 2012
+Hiesberg	48.170636	15.297943	South of Pöchlarn	Austria	Noricum	White marble; used locally in theRoman Imperial period	Djurić and Müller 2009
+Hohen Buche	50.456585	7.330149	South of the Brohl but north of Confluentes	Germany	GermaniaSuperior	Basalt; used locally and exported regionally in the Roman Imperial period	Mangartz 1998
+Horvat Shallalah	32.730180	35.047121	On the Carmel	Israel	Judaea	Limestone; used locally in the RomanImperial period and probably earlier	Sumaka'I Fink 2000
+Horvat Shi'a	32.749761	34.976190	On the western slopes of the Carmel	Israel	Judaea	Limestone; used locally in the RomanImperial period and probably earlier	Sumaka'I Fink 2001
+Hotnica	43.142003	25.509208	Near Nicopolis-ad- Istrum, central Bulgaria	Bulgaria	MoesiaInferior	Limestone; used locally in the RomanImperial period	Dworakowska 1983: 57
+Hudinja	46.380839	15.295809	Near Vitanje, Pohorje	Slovenia	PannoniaSuperior	White marble; used locally in theRoman Imperial period	Djurić 1997
+Hültehouse	48.718990	7.260689	Just north ofReinhardmünster	France	GermaniaSuperior	Sandstone; used locally in the RomanImperial period	Dworakowska 1983: 17
+Ideli Tepe	37.945895	27.320014	Next to the habour ofEphesos	Turkey	Asia	Grey-white marble, probably used locally in the Roman period	Vetters 1990
+Iscehisar	38.837222	30.783889	Ancient Dokimeion, north-east of Afyon	Turkey	Asia	Two varieties of marble, one fine white and one white with shades of pink and grey-blue, veins of purple and pink (pavonazzetto, marmor synnadicum or phrygium); both exported inter- regionally in the Roman Imperial period, the latter much further	Mielsch 1985: 59; Gnoli 1988: 160-71; Waelkens 1982b; Fant 1985; Fant1989a; Fant 1990; Lazzarini et al.1985; J. Röder 1971
+Isle of Wight	50.695000	-1.315833	Off the central south coast	Britain	Britannia	Limestone; used locally in the Roman Imperial period and exported regionally	Blagg 1990
+Isola del Giglio	42.357500	10.923889	East coast of Giglio island	Italy	Italia VII	Medium-grained grey granite (granito grigio minuto del Giglio) with shades of pink; used locally and exported regionally in the Roman Imperial period, primarily to Rome	Mielsch 1985: 69; Gnoli 1988: 154; Bruno 1998a
+Isole Marmorata	41.253333	9.237500	Just off northern Sardinia	Italy	Sardinia etCorsica	Grey granite (granito della Sardegna), less pink than the granite of Capo Testa; used locally and exported regionally in the Roman Imperial period, primarily to Rome	Mielsch 1985: 69; Wilson 1988; Gnoli1988: 154
+Istiklalbaği	39.388611	31.609444	Near ancient Pessinus and Eudoxias, Phrygia	Turkey	Galatia etCappadocia	White marble; used locally in theRoman Imperial period	Waelkens 1982b, 39-40; Waelkens, dePaepe and Moens 1986
+Iž	44.031075	15.123606	In the Zadar islands	Croatia	Dalmatia	Limestone; used locally in the RomanImperial period	Škegro 2006: 161-162
+Iznik	40.446182	29.747642	2-4 km north-east ofIznik	Turkey	Bithynia etPontus	Grey marble (bigio antico), usedlocally and perhaps exported regionally	Yavuz, Bruno, and Attanasio 2012
+Jano diMontaione	43.514089	10.877528	45 km south-east of Pisa	Italy	Italia VII	Alabaster, exported regionally in theRoman period	Lazzarini et al. 2012
+Jaumont	49.197487	6.057259	North of Pont à Mousson	France	Belgica	Limestone; used locally in the RomanImperial period	Bedon 1984: 49-50, 89
+Kainach	47.233944	15.244021	North of Köflach	Austria	Noricum	Grey marble, used locally and exported regionally in the Roman period	Djurić and Müller 2009
+Kairouan	35.675833	10.092500	Eastern Tunisia, inland from Sousse	Tunisia	AfricaProconsularis	Creamy-pink lumachella limestone (lumachella rosea) with occasional flecks of red; used locally and probably exported regionally in the Roman Imperial period	Mielsch 1985: 41; Gnoli 1988: 205-206
+Kaisersteinbruch	47.987623	16.70145	32 km south-east ofVienna, Austria	Austria	PannoniaSuperior	Limestone, used locally in the Roman period	Pivko 2012
+Kaiserstuhl	48.099992	7.666654	South of Strasbourg on the eastern side of the Rhine	Germany	GermaniaSuperior	Basalt; used locally in the RomanImperial period	Bedon 1984: pl. 12
+Kalınağıl	37.251408	27.869004	11 km south-east ofMilas	Turkey	Asia	Red marble, used locally and perhaps exported in the Roman period	Bruno et al. 2012
+Kalyvia Sochas	37.047782	22.410328	Just south-east of Sparta in Lakonia	Greece	Achaia	Grey-white marble; used locally in theRoman period and probably earlier	Higgins and Higgins 1996
+KamvouniaMountains	40.064592	21.832380	West of Mount Olympos	Greece	Macedonia	Grey-white marble; used locally in theRoman period and probably earlier	Vakoulis et al. 2002
+Kara Göl	38.178056	26.787500	Beneath the lake of KaraGöl, near Teos	Turkey	Asia	Two varieties of marble, one grey, the other a grey-brown breccia with pink, white, red, yellow and black shades (africano or marmor lucullum); both exported inter-regionally in the Roman Imperial period, the latter most widely	Mielsch 1985: 54; Gnoli 1988: 174-178; Ballance 1966: 79-81; Fant 1987; Fant 1989b; Baran and Petzl 1977-1978; Pensabene and Lazzarini 1998
+Karga Tepe	38.439694	26.546808	On the Karaburum peninsula	Turkey	Asia	Orange-red and white marble (breccia corallina), used locally and probably exported regionally	Bruno et al. 2012
+Karies	38.390350	26.097967	Just inland from Latomi, Chios	Greece	Asia	Grey and brown limestone conglomerate (Breccia di Aleppo), exported widely in Roman Imperial period	Lazzarini 2007: 137-149
+Kasr Sidi el Hadj	35.353858	5.581373	North of ancient Burgus Speculatorius Antoninianus (Kasr Sidi el Hadj) and south-west of Lambaesis	Algeria	Numidia / Mauretania Caesariensis	Limestone; used locally in the RomanImperial period	Baradez 1949
+Kassamboli	39.693889	22.530556	8 km north-east ofLarissa in Thessaly	Greece	Achaia	Compact, fine-grained green marble with darker patches, white and dark green crystalline inclusions (verde antico); exported inter-regionally bythe 2nd century AD and widely in LateAntiquity	Gnoli 1988: 162-165; Mielsch 1985:63-64; Lambraki 1978; Lambraki1982; Papageorgakis 1963; Jung 1961
+Kavacık	38.602143	29.818219	South-east of Uşak, near ancient Akmonia, in Phrygia	Turkey	Asia	Grey-white marble; used locally in the Roman Imperial period and possibly earlier	Pralong 1980; Asgari 1981; Waelkens, de Paepe and Moens 1986
+Kechries	37.888654	22.990979	South-west of Isthmia	Greece	Achaia	Oolitic limestone, used locally and perhaps exported regionally in the Roman period	Hayward 1999
+Kef Ben Salah	36.299965	5.700152	4 km south-west ofCuicul	Algeria	MauretaniaCaesariensis	Limestone, used locally in the Roman period	Dessandier et al. 2012
+Kentli Çiftliği	38.044730	27.455280	15 km north-east ofEphesos	Turkey	Asia	White marble, used locally in theRoman period	Prochaska and Grillo 2009; Yavuz, Bruno and Attanasio 2011
+Kestanecik	37.420370	28.321601	23 km north of Muğla	Turkey	Asia	White and purple marble (Milas lilac) similar to pavonazzetto, perhaps exported regionally or inter-regionally in the Roman period	Bruno et al. 2012
+Khalde	33.788373	35.480249	Just south of Beirut(Berytus)	Lebanon	Syria	Sandstone; used locally in the RomanImperial period	Badawi 2002
+Kharga Oasis	25.483610	30.550830	Western Desert	Egypt	Aegyptus	Sandstone; used locally from the Pharaonic period, possibly for the Roman temple at Qasr Dush	Klemm and Klemm 2008: 328-330
+Kinidaros	37.100556	25.477778	Central Naxos	Greece	Achaia	White-grey marble, used locally and exported throughout antiquity	Attanasio 2003: 184
+Kionia	35.129763	25.724213	Eastern Crete	Greece	Creta etCyrene	Pinkish marble, used locally throughout antiquity	Paton and Schneider 1999: 292; Durkin and Lister 1983
+Kirtaş/Selvioğlu	38.717986	29.304851	Near ancient Temenothyrai, north- west of Uşak, Phrygia	Turkey	Asia	Marble; used locally in the RomanImperial period and possibly earlier	Pralong 1980: 260-262; Asgari 1981
+Kızıl Cağıl	37.696122	28.760019	5 km south ofAphrodisias	Turkey	Asia	White marble, used locally in theRoman period	Long 2012
+Koepfel	48.741881	7.362128	Near Saverne	France	GermaniaSuperior	Sandstone; used locally in the RomanImperial period	Bedon 1984: pl. 12
+Koprisses	38.782559	24.642248	Southern Skyros	Greece	Achaia	Purple, yellow and white breccia (marmor scyrium, settebassi or breccia di sciro), exported inter-regionally in the Roman period	Bruno 2002c
+Korbevac	42.584507	22.018447	Southern Serbia, nearVranje	Serbia	MoesiaSuperior	Marble; used locally in the RomanImperial period	TIR Naissus 73
+Koulouri	38.871635	24.438227	Just off western Skyros	Greece	Achaia	Purple, yellow and white breccia (marmor scyrium, settebassi or breccia di sciro), exported inter-regionally in the Roman period	Bruno 2002c
+Kourelos	36.721851	22.374832	On the Mani Peninsula	Greece	Achaia	Grey-black marble (cipollino tenario) with circular veins and streaks in grey- white; exported inter-regionally by the2nd century AD, particularly to Rome	Mielsch 1985: 57; Gnoli 1988: 192-193
+Kourtzi	39.108611	26.553611	Eastern Lesbos	Greece	Asia	Grey marble; used locally from at least the Classical period, primarily at Mytilene	Millar and Williams 1993: 211-220; Pensabene 1998a, 175-184; Lazzarini, Pensabene and Turi 1999: 125-126
+Kraig	46.812154	14.368106	Just north of Klagenfurt	Austria	Noricum	Limestone; used locally in the RomanImperial period	Dworakowska 1983: 19
+Kretz	50.394211	7.362051	In the Pallenz	Germany	GermaniaSuperior	Tuff; used locally in the RomanImperial period	Bedon 1984: 48, 79; Schaaf 2000
+Kriemhildenstuhl	49.471952	8.178396	Near Bad Dürkheim, south-east of Worms	Germany	GermaniaSuperior	Sandstone; used locally in the RomanImperial period	Dworakowska 1983: 17; Bedon 1984:pl. 13; Lukas 2002
+Krokeai	36.885000	22.548333	Southern Lakonia	Greece	Achaia	Dark green serpentine (porfido verde di Grecia or serpentino) flecked with bright green crystals, and a variety of lighter green pavonazzetto; used from the Mycenean period but only exported inter-regionally in the Roman Imperial period	Gnoli 1988: 141-142; Mielsch 1985:66; Le Roy 1961; Chrismes 1952: 73; Zezza and Lazzarini 2002
+Kruft	50.385982	7.337770	So-called Idylle quarry in the Pallenz	Germany	GermaniaSuperior	Tuff; used locally in the RomanImperial period	Lehner 1921: 131; J. Röder 1957:228; Bedon 1984: 73, 90-97
+Ksour Essaf	35.416190	10.991300	5 km north-west ofSalakta	Tunisia	AfricaProconsularis	Limestone; used locally in the RomanImperial period	Younès, Gaied and Gallala 2012
+Küçükkaya	38.331355	26.896372	15 km north-east of Teos	Turkey	Asia	Black, red, and white breccia (africano), perhaps exported inter- regionally	Bruno et al. 2012
+Kurkar	32.500534	34.893166	Near Caesarea Maritima	Israel	Judaea	Limestone; quarried somewhere in this area and used locally in the Roman Imperial period, notably at nearby Caesarea Maritima	Sumaka'I Fink 2000
+Kuş-ini Tepe	37.990278	27.423611	Just north of Ephesos and south of Belevi	Turkey	Asia	White marble; used locally from at least the Classical period	Atalay 1976; Atalay 1976-1977: 59-60; Waelkens 1992: 26; Prochaska and Grillo 2009; Yavuz, Bruno and Attanasio 2011
+Kuttolsheim	48.643522	7.524838	North-west of Strasbourg	France	GermaniaSuperior	Limestone; used locally in the RomanImperial period.	Bedon 1984: 44
+Kylindroi	38.050000	24.465833	Inland from Karystos onEuboea	Greece	Achaia	Green-grey and white streaked marble (cipollino); used locally from the Classical period but only exported widely in the Roman Imperial	Mielsch 1985: 58; Gnoli 1988: 181-183; Lambraki 1980: 31-62; Hankey1965; Pensabene 1998b; Sutherland and Sutherland 2002; Tsoflias 1982
+Kyparissos	36.461111	22.439167	On the Mani Peninsula	Greece	Achaia	Dark-grey, black limestone; used locally and exported, whether regionally or inter-regionally is unclear, in the Roman Imperial period	Bruno and Pallante 2002
+L’Estel	43.957326	4.545045	Near the Pont du Gard	France	Narbonensis	Limestone; used locally in the RomanImperial period	Bessac and Vacca-Goutoulli 2002
+La Bouteillère	43.491116	6.755511	North of Fréjus	France	Narbonensis	Granite (?); used locally in the Roman period	Bedon 1984: 34
+La Celle	46.769029	2.442901	South of Bourges	France	Aquitania	Limestone; used locally in the RomanImperial period	Bedon 1984: 60, 89
+La Croix- Guillaume	48.610435	7.065520	Just north of Saint- Quirin	France	GermaniaSuperior	Sandstone; used locally in the RomanImperial period	Bedon 1984: 44; Heckenbenner andMeyer 2002; Lukas 2002
+La Croix-Rouse	45.777210	4.804136	North of Lyon	France	Lugdunensis	Granite; used locally in the RomanImperial period	Bedon 1984: pl. 6
+La Crouzade	43.947450	4.535224	Near the Pont du Gard	France	Narbonensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 32
+La Lie	46.357793	4.736570	Near Mâcon	France	Lugdunensis	Limestone; used locally in the RomanImperial period	Cognot 2002
+La Lloera	41.282679	1.136828	Just north-west ofAlcover	Spain	Tarraconensis	Limestone (pedra d’Alcover), used locally in the Roman period	Gutiérrez 2009: 223–6
+La Palmira	37.688424	-5.716432	2.5 km south-east ofMunigua	Spain	Baetica	Granite, used locally and perhaps exported regionally in the Roman period	Schattner and Ovejero 2008
+La Queyrie	44.754482	5.375714	North-east of Die	France	Narbonensis	Marble; used locally in the RomanImperial period	Bedon 1984: 57; Blanc 1986
+La Raisse	46.864528	6.749413	Near La Lance on the lake of Neuchâtel	Switzerland	GermaniaSuperior	Yellow sandstone; used locally in the Roman Imperial period, primarily at Eburodunum (Yverdon) and Aventicum (Avenches)	Dworakowska 1983: 19; Staehelin1948: 425
+La Raposera	39.083509	-6.293847	18 km north of Mérida	Spain	Lusitania	Grey granite, used locally and perhaps exported regionally in the Roman period	Pizzo 2010
+La Rierussa	41.459772	1.849318	30 km west of Barcelona	Spain	Tarraconensis	Limestone, used locally in the Roman period	Gutiérrez 2009
+La Roche l'Abeille	45.596944	1.240000	South of Limoges	France	Aquitania	Serpentine; used locally in the RomanImperial period	Bedon 1984: 62
+La Roche-Taillée	47.592538	3.750291	Near Arcy-sur-Cure	France	Lugdunensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 78
+La Romana	38.366263	-0.896187	Inland from Alicante	Spain	Tarraconensis	Grey limestone; used locally in theRoman Imperial period	Cisneros Cunchillos 1988
+La Turbie	43.747222	7.395000	Between Nice andMonaco	France	AlpesMaritimae	Limestone; used locally in the Roman Imperial period, primarily for the nearby Trophée des Alpes	Dworakowska 1983: 16; Formigé1949: 77; Mazeran 1999
+La-Pène-Saint- Martin	42.911676	0.695949	On the right bank of the Garonne, opposite Saint- Béat	France	Aquitania	A yellow breccia (brêche des Romains) with grey streaks and rose patches; exported regionally in the Roman Imperial period, particularly from the Trajanic period	Bedon 1984: 64; Lazzarini andSangati 2004: 76-77; Blanc and Blanc2012
+Lady Down	51.093611	-1.805000	Near Old Sarum, Wiltshire	Britain	Britannia	Limestone; used locally in the RomanImperial period	Pearson 2006
+Laghia- Dimaristika	36.478056	22.471111	On the Mani Peninsula	Greece	Achaia	Dark brown-red marble (rosso antico), in various shades, with occasional light grey veins; exported inter-regionally by at least the early Roman period	Gnoli 1988: 187-191; Mielsch 1985:59
+Lago Maggiore	45.968056	8.653889	North of Milan	Italy	Italia XI	Granite; used locally and possibly exported regionally in the Roman period	Braemer 1992
+Latomi	38.384987	26.135160	Eastern Chios	Greece	Asia	Pink-red recrystallised limestone (marmor chium or portasanta) breccia with large angular crystals of white, grey and red, and bands of white and pink; found in Rome from the Augustan period onwards and inparticular in the Trajanic and Hadrianicperiods	Gnoli 1988: 172-173; Mielsch 1985:55-56; Dworakowska 1975; Ballance1966: 79; Hunt 1940-1945
+Lavadra	43.938661	15.164293	In the Zadar islands	Croatia	Dalmatia	Limestone; used locally in the RomanImperial period	Škegro 2006: 161-162
+Lavagna	44.308611	9.342778	South-western Liguria	Italy	Italia IX	Schist (ardesia); used locally in the Roman Imperial period and exported regionally	Bruno 2002b
+Lavera	43.388743	5.029072	30 km north-west ofMarseille	France	Narbonensis	Limestone, used locally and exported regionally, notably to Marseille	Tréziny 2009
+Layana	42.297474	-1.249086	Near Uncastillo, Zaragoza province	Spain	Tarraconensis	Sandstone; used locally in the RomanImperial period	Cisneros Cunchillos 1988: 62
+Le Moulin-de- Champagne	48.683491	7.334625	North ofReinhardmünster	France	GermaniaSuperior	Sandstone; used locally in the RomanImperial period	Bedon 1984: 44, 96
+Le Poujol-sur- Orb	43.580000	3.059722	North-west of Béziers	France	Narbonensis	Sandstone; used locally in the RomanImperial period	Bedon 1984: 33
+Lepoura	38.403056	24.091667	Just east of Aliveri onEuboea	Greece	Achaia	Two varieties of limestone, one white- grey and one a variety of fior di pesco; the latter exported inter-regionally in the Roman Imperial period or later	Russell and Fachard 2012
+Les Averdines	47.160833	2.679167	East of Bourges	France	Aquitania / Lugdunensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 15-17, 61
+Les Brégines	43.442318	3.212108	Near Béziers	France	Narbonensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 25, 33
+Les Escaunes	43.914722	4.551111	North-east of Nîmes	France	Narbonensis	Sandstone; used locally in the RomanImperial period	Bedon 1984: 31, 84
+Les Fouilletires	47.465232	3.256687	Just north of Entrains- sur-Nohain	France	Lugdunensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 74, pl. 17
+Les Petits Caous	43.431111	6.803333	Just north of Boulouris	France	Narbonensis	Light blue-grey porphyry (porfido bigio or granito a morviglione) with white, pink, grey and blue flecks; used locally from Archaic period; exported further sporadically and then only to Rome	Mielsch 1985: 66; Gnoli 1988: 140-141; Bedon 1984; Mazeran 2004
+Lespignan	43.272500	3.173611	South of Béziers	France	Narbonensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 33
+Levanto	44.170556	9.613056	Southern Liguria	Italy	Italia IX	Dark brown breccia marble (breccia quintilina) with shades of black and swirling white veins; used locally and exported regionally in the Roman Imperial period	Mielsch 1985: 53; Gnoli 1988: 260; Lazzarini and Sangati 2004: 76-77
+Lez	42.909167	0.700833	South-east of Saint-Béat	France	Aquitania	White marble; used locally in the Roman period and probably exported regionally	Bedon 1984: 65-66
+Lindos	36.090278	28.086667	South-East Rhodes	Greece	Asia	Marble; used locally in the Roman period and earlier	Higgins and Higgins 1996
+Locuon	48.150808	3.303469	Western Brittany	France	Lugdunensis	Granite; used locally and possibly exported regionally in the Roman period	Maligorne et al. 2002
+Longwy	49.513632	5.768150	Near Arlon	France	Belgica	Limestone; used locally in the RomanImperial period	Bedon 1984: 51
+Los Castillejos	36.982682	-4.912673	Near Teba, 30 km west of Antequera	Spain	Baetica	Pink-white limestone, used locally and exported regionally in the Roman period	Beltrán et al. 2014
+Lubrín	37.215556	-2.066667	Near Macael	Spain	Tarraconensis	White marble; used locally in the Roman period and probably exported regionally	Cisneros Cunchillos 1988
+Lunghezza	41.923056	12.671944	Along the Aniene nearSalone	Italy	Italia I	Tuff (tufo lionato or tufo dell'Aniene); used locally from the Republican period, primarily at Rome	Jackson and Marra 2006
+Lunzen	48.179551	15.234431	South of Pöchlarn	Austria	Noricum	White marble; used locally in the Roman period and probably exported regionally	Djurić and Müller 2009
+Luque	37.561616	-4.277326	East of Italica	Spain	Baetica	Limestone; used locally in the RomanImperial period	Canto 1977-1978
+Lyon/Yzeron	45.767090	4.833885	Just south of Lyon	France	Lugdunensis	Schist; used locally from the middle of the 1st century BC at nearby Lyon	Bedon 1984: 27-28
+Macael	37.332222	-2.304722	Almería province	Spain	Tarraconensis	A pure white calcitic marble (blanco Macael), and possibly a limestone similar to cipollino (anasol); the former exported across southern Spain in the Roman Imperial period	Canto 1977-1978: 172; Lapuente andBlanc 2002; Àlvarez et al. 2009a: 80–5
+Mackwiller	48.921016	7.175817	North-west of Saverne	France	GermaniaSuperior	Sandstone; used locally in the RomanImperial period	Bedon 1984: 44-45
+Madonna d’AltoMare	40.295363	17.531263	20 km south-east ofTaranto	Italy	Italia II	Limestone, used locally in the Roman period	Calia et al. 2002
+Mahdia	35.503056	11.066111	Just outside Mahdia	Tunisia	AfricaProconsularis	Sandstone; used locally from the Punic period	Paskoff and Trousset 2004: 151-152
+Maidstone	51.270556	0.523611	North-west Kent	Britain	Britannia	Limestone (Kentish ragstone); used locally in the Roman Imperial period and exported regionally, mainly to London	Blagg 1990
+Malakoff	36.097484	1.240533	South-west of modernChlef	Algeria	MauretaniaCaesariensis	Limestone; used locally in the RomanImperial period	Gsell 1911: 12.171
+Malko Turnavo	41.979640	27.522708	Central Bulgaria	Bulgaria	Thracia	Limestone; used locally in the RomanImperial period	Braemer 1986
+Mandilou	37.930278	24.525000	On the islet of Mandilou in the straits between Euboea and Andros	Greece	Achaia	Sandstone; used locally in the RomanImperial period	Chidiroglou 2009
+Mannersdorf	47.974463	16.602554	31 km south of Vienna, Austria	Austria	PannoniaSuperior	Limestone, used locally in the Roman period	Pivko 2012
+Marathi	37.082500	25.200278	South-west of Marathi, central Paros	Greece	Achaia	White marble (lychnites, marmor parium, paria lithos or Paros-1) with medium crystalline grains and translucent finish when polished; widely exported in Roman period and earlier	Gnoli 1988: 261-262;  Mielsch 1985:61; Dworakowska 1975; Renfrew and Springer Peacy 1968; Herz 2000; Korres 2000
+Margaritis	38.552108	26.120164	North-east Chios	Greece	Asia	Black marble (nero antico chiota); used locally in Roman Imperial period and probably exported	Lazzarini and Sangati 2004: 76-77; Pensabene and Lazzarini 1998; Lazzarini 2007: 151-159
+Marignac	42.913889	0.659722	South of Saint-Béat	France	Aquitania	White marble; used locally in the Roman period and probably exported regionally	Bedon 1984: 65
+MarítimaResidencial	41.161404	1.431387	18 km east of Tarragona	Spain	Tarraconensis	Limestone; used locally in the RomanImperial period	Gutiérrez 2009: 127–30
+Marmara Adası	40.650833	27.656944	On the north side of the island, ancient Prokonnesos	Turkey	Asia	Several varieties of medium-grained white marble (marmo di Proconneso), one with faint light blue bands; used locally from Archaic period and widely exported from the 2nd century AD	Gnoli 1988: 263-264;  Mielsch 1985:60-61; Dworakowska 1983; Walker1984; Pensabene 1978 and 1981; Ward-Perkins 1980a; Monna and Pensabene 1977: 145-174; Hasluck1909; Asgari 1979; Asgari 1989; Asgari 1990; Asgari 1992; Attanasio2003: 194-199
+Marmaro	36.426715	22.477300	On the Mani Peninsula	Greece	Achaia	Dark brown-red marble (rosso antico), in various shades, with occasional light grey veins; exported inter-regionally by at least the early Roman period	Gorgoni et al. 1992; Gorgoni, Lazzarini and Pallente 2002
+Marmaromandra	40.765187	24.689206	Just south-west ofLimenas, Thasos	Greece	Macedonia	White-grey marble, used locally throughout antiquity	Wurch-Koželj and Koželj 2009
+Marquise	50.812042	1.703805	Quarries located nearCalais	France	Belgica	Grey-white limestone; used locally in the Roman Imperial period and probably exported regionally, perhaps to Britain	Bedon 1984: 51, 70; Blagg 1990
+Marsa Douiba	37.256054	9.445740	Just east of Cap Serrat	Tunisia	AfricaProconsularis	Sandstone; used locally in the RomanImperial period	Paskoff and Trousset 2004: 212-4
+Marseille	43.299444	5.383056	Southern Provence	France	Narbonensis	Limestone; used locally from theArchaic period	Bedon 1984: 24, 59; Tréziny 2009
+Martorell	41.473597	1.927487	Near Barcelona	Spain	Tarraconensis	Sandstone; used locally in the RomanImperial period	Cisneros Cunchillos 1988; Gutiérrez2009: 253
+Mas del Marquès	41.136436	1.351223	9 km east of Tarragona	Spain	Tarraconensis	Limestone (pedra del Médol), used locally in the Roman period	Gutiérrez 2009: 159–66
+Mas dels Arcs	41.150757	1.248954	Just north of Tarragona	Spain	Tarraconensis	Limestone (soldó), used locally in theRoman period	Gutiérrez 2009: 204–8
+Mauerley	50.436604	7.278119	Near Wassenach, east ofAndernach	Germany	GermaniaSuperior	Basalt, used locally in the Roman period	Mangartz 2000
+Mauvro Spilies	37.905406	22.837463	Just west of Corinth	Greece	Achaia	Oolitic limestone, used locally and perhaps exported regionally in the Roman period	Hayward 1999
+Megara	37.993889	23.345556	Central Megarid	Greece	Achaia	Marble (marmo megarense); used locally from the Archaic period	Higgins and Higgins 1996
+Melanes	37.089444	25.437778	Central Naxos	Greece	Achaia	Coarse-grained white marble with blue or grey bands; used locally and exported regionally throughout antiquity	Attanasio 2003: 184
+Mianes/Kokkinog hia	36.386111	22.483056	On the Mani Peninsula	Greece	Achaia	Dark brown-red marble (rosso antico), in various shades, with occasional light grey veins; exported inter-regionally by at least the early Roman period	Gorgoni et al. 1992; Gorgoni, Lazzarini and Pallente 2002
+Mijas	36.595556	-4.636667	Malaga province	Spain	Baetica	Marble; used locally and exported regionally in the Roman Imperial period	Cisneros Cunchillos 1988; Lapuente and Blanc 2002; Lapuente et al. 2002;Àlvarez et al. 2009a: 106–13; Beltrán and Rodríguez 2010
+Mokada Nazizi	36.559859	2.091390	Near Cherchel (IolCaesarea)	Algeria	MauretaniaCaesariensis	Sandstone; used locally in the RomanImperial period	Leveau 1984: 299-300
+Monda	36.630000	-4.830833	Malaga province	Spain	Baetica	Marble; used locally in the RomanImperial period	Cisneros Cunchillos 1988; Àlvarez et al. 2009a: 108
+Mons Berenicides	24.743482	34.705718	North-west of Berenike, Eastern Desert	Egypt	Aegyptus	Light alabaster (alabastro bianco) with grey-white tones and occasional fine veins; exported regionally from the Ptolemaic period	Mielsch 1985: 40; Gnoli 1988: 219; Fant 1990: 101
+Mons Claudianus(Gebel Fatira)	26.809167	33.285556	48 km north-west ofSafaga, Eastern Desert	Egypt	Aegyptus	White-grey granodiorite (granito del foro) flecked with black; exported in Roman Imperial period, predominately to Italy	Mielsch 1985: 69; Gnoli 1988: 148-150; Bülow-Jacobsen 1988; Klein1988: 120-175; Kraus and J. Röder1962a;  Kraus and J. Röder 1962b; Kraus, J. Röder and Müller-Wiener1967; Meredith 1952; Peacock andMaxfield 1997; Maxfield and Peacock2001a; Klemm and Klemm 2008:280-290
+Mons Porphyrites(Gebel Dokhan)	27.214553	33.257231	50 km west of Hurghada, Eastern Desert	Egypt	Aegyptus	A number of varieties of porphyry, the most important one being dark purple- red (porfido rosso); also at least two types of black porphyry (porfido nero and porfido nero grafico) and two of green porphyry of varying shades (porfido verde egiziana and porfido verde oliva) - an orange-red porphyry (porfido rosso laterizio) also came from this site. All of these materials were exported in the Roman Imperial period but only the purple variety in anything other than minute quantities	Delbrück 1932; Mielsch 1985: 64-70; Lucci 1964; Meredith and Tregenza1950; Meredith 1952; Meredith 1953; Maxfield and Peacock 2001b
+Mont-Saint-jean	47.292721	4.402751	North of Autun	France	Lugdunensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 35
+MontagnolaSenese	43.283343	11.183065	Quarries at Molli, Tegoia and Montarrenti, just to the south-west of Sienna	Italy	Italia VII	Two types of golden yellow breccia marble (breccia dorata and breccia gialla fibrosa); used locally and probably exported in small quantities in the Roman Imperial period	Lazzarini and Sangati 2004: 76-77; Bruno 2002b
+Montagny	45.628829	4.747989	South of Lyon, near StEtienne	France	Narbonensis	Granite; used locally in the RomanImperial period	Bedon 1984: 30
+Montalieu- Vercieu	45.813922	5.403756	North-west of Peyrieu	France	Narbonensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 33
+Monte Capanne	42.771389	10.167500	On Elba	Italy	Italia VII	Medium-grained grey granite (granito dell’Elba) with shades of pink, light green and cream-white; used locally and exported regionally, to Italy, in the Roman Imperial period	Mielsch 1985: 69; Gnoli 1988: 154
+Montecalvo	42.395278	13.189444	Near Rieti, Lazio	Italy	Italia IV	Marble (giallo tigrato); used locally and exported regionally in the Roman period	Bruno 2002b
+Monteverde	41.877500	12.457222	South of Trastevere, Rome	Italy	Italia I	Tuff (tufo lionato or tufo di Monteverde); used locally from early Republican period, primarily at Rome	Heiken, Funiciello and Di Rita 2005
+Montjuïc	41.366667	2.166667	Near Barcelona	Spain	Tarraconensis	Sandstone; used locally in the RomanImperial period	Cisneros Cunchillos 1988; Gutiérrez2009: 92–101; Miró and Revilla 2012
+Montmaurin	43.224722	0.636944	North of St-Gaudens	France	Aquitania	Limestone; used locally in the RomanImperial period	Bedon 1984: 64, 76
+Moria	39.133333	26.516389	Eastern Lesbos	Greece	Asia	Bluish tinged, coarsely crystalline marble (bigio antico), often with white veins; reasonably widely exported in the Roman Imperial period	Dwarakowska 1971; Millar and Williams 1993; Lazzarini, Pensabene and Turi 1999
+Moulay Idriss	34.053611	-5.523056	Near Volubilis	Morocco	MauretaniaTingitana	Limestone, used at nearby Volubilis in the 1st and 2nd centuries AD	Feray and Paskoff 1966; Dworakowska 1983: 13-14
+Mount Etna	37.755000	14.995833	Eastern Sicily	Italy	Sicilia	Basalt; used sporadically in the RomanImperial period and probably earlier	Wilson 1990: 239-240
+Mount Gilboa	32.475775	35.420441	Near Beth She'an, ancient Scythopolis	Israel	Judaea	Limestone; used locally in the Roman Imperial period and probably earlier, notably at Scythopolis	Tsafrir and Foerster 1997: 89
+Mount Hymettos	37.957500	23.811667	Located on west side of middle peak of the mountain, around 11 km from Athens	Greece	Achaia	White marble (marmo dell’Imetto) with fine grey veins running through it; used locally from the Classical period and exported inter-regionally in the Roman period	Gnoli 1988: 263;  Ampolo 1982; Goette et al. 1999; Mielsch 1985: 61; Ober 1981; Langdon 1988: 75
+Mount Kionia	38.048889	24.320833	Near Marmari on Euboea	Greece	Achaia	Green-grey and white streaked marble (cipollino); used locally from the Classical period but only exported widely in the Roman Imperial	Chidiroglou 2009
+Mount Kynthos	37.399444	25.266389	On Delos	Greece	Achaia	Coarse white marble used locally throughout antiquity	Dwarakowska 1971; Higgins andHiggins 1996: 173-174
+Mount Oberes	38.048889	24.320833	Near Marmari on Euboea	Greece	Achaia	Green-grey and white streaked marble (cipollino); used locally from the Classical period but only exported widely in the Roman Imperial	Chidiroglou 2009
+Mount Paikon	40.892408	22.362108	North-west of theMacedonian plain	Greece	Macedonia	Marble; used locally from Hellenistic period and possibly earlier	Vakoulis et al. 2002
+Mount Pyrgari	38.122500	24.215000	Near Nimborio onEuboea	Greece	Achaia	Green-grey and white streaked marble (cipollino); used locally from the Classical period but only exported widely in the Roman Imperial	Chidiroglou 2009
+Mount Vermion	40.500278	21.998611	West of the Macedonian plain	Greece	Macedonia	Marble; used locally from Hellenistic period and possibly earlier	Vakoulis et al. 2002
+Mount Vrethela	38.100003	24.266765	Near Marmari on Euboea	Greece	Achaia	Green-grey and white streaked marble (cipollino); used locally from the Classical period but only exported widely in the Roman Imperial	Chidiroglou 2009
+Mountanistika	36.461111	22.439167	On the Mani Peninsula	Greece	Achaia	Dark-grey, black limestone; used locally and probably exported regionally in the Roman Imperial period	Bruno and Pallante 2002
+Mourgena	40.766183	24.716334	Just south of Limenas, Thasos	Greece	Macedonia	White-grey marble, used locally throughout antiquity	Wurch-Koželj and Koželj 2009
+Mraissa	36.932807	10.793633	On the western side ofCap Bon	Tunisia	AfricaProconsularis	Sandstone; used locally in the RomanImperial period	Paskoff and Trousset 2004: 188-189
+Mrzen	41.551423	21.974682	North of Edessa, nearStobi	Macedonia	Macedonia	Marble; used locally in the RomanImperial period	Керамидчиев 1981-1982: 109-124
+Mula	38.040504	-1.486528	Near Mula	Spain	Tarraconensis	Red travertine, used locally in theRoman period	Soler 2008
+Mus	43.740000	4.200556	South-west of Nîmes	France	Narbonensis	Sandstone; used locally in the RomanImperial period	Bedon 1984: 58, 89
+Muslubium	36.638800	5.227267	Modern Cap Aokas, west of ancient Muslubium	Algeria	MauretaniaCaesariensis	Granite; used locally in the RomanImperial period	Gsell 1911: 7.56
+Musso	46.112222	9.275833	On Lake Como	Italy	Italia XI	Marble; used locally in the RomanImperial period	Braemer 1992; David and De Michele1999; Meloni and Oddone 2002
+Myloi	38.034446	24.438152	South-eastern Euboea	Greece	Achaia	Green-grey and white streaked marble (cipollino); used locally from the Classical period but only exported widely in the Roman Imperial	Mielsch 1985: 58; Gnoli 1988: 181-183; Lambraki 1980: 31-62; Hankey1965; Pensabene 1998b; Sutherland and Sutherland 2002; Tsoflias 1982; Chidiroglou 2009
+Myrtia	38.260659	24.201910	Between Dystos andStyra, Euboea	Greece	Achaia	Green-grey and white streaked marble (cipollino); used locally from the Classical period but only exported widely in the Roman Imperial	Russell and Fachard 2012
+Nabi-Younes	33.661490	35.418614	Ancient Porphyrion, 12 km north of Sidon	Lebanon	Syria	Limestone and sandstone, used locally in the Roman period	Badawi 2002
+Nahal Besor	31.461390	34.372500	At the mouth of the wadiGaza, Gaza	Israel / Palestinian Territories	Judaea	Limestone; used locally in the RomanImperial period and possibly earlier	Sumaka'I Fink 2000
+Nahr el Bared	34.515114	35.960948	14 km north-east ofTripoli	Lebanon	Syria	Limestone; used locally in the RomanImperial period and possibly earlier	Badawi 2002
+Nahr el Kelb	34.068262	35.643449	Ancient Lycus Flumini,7 km south of Byblos	Lebanon	Syria	Limestone; used locally in the RomanImperial period	Badawi 2002
+Nargedik	37.648182	28.702925	11 km south-west ofAphrodisias	Turkey	Asia	White marble, used locally in theRoman period	Long 2012
+Nicotera	38.555833	15.937222	North-western Calabria	Italy	Italia III	Granite (granito di Nicotera); used locally in the Roman Imperial period and exported regionally, to elsewhere in Italy	Solano 1985; Lazzarini and Sangati2004: 76-77
+Niedermendig	50.373553	7.286674	In the Brohl valley	Germany	GermaniaSuperior	Basalt; used locally in the RomanImperial period	Bedon 1984: 73, 89
+Nievelstein	50.887921	6.063507	Just north of Aachen	Germany	GermaniaInferior	Sandstone; used locally in the RomanImperial period	Bedon 1984: 51
+Nissan-lez- Ensérune	43.288889	3.127500	South-west of Béziers	France	Narbonensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 33, 77
+Norroy	48.217650	5.919012	Pont à Mousson, south- west of Metz	France	Belgica	Limestone; used locally and exported regionally in the Roman Imperial period, notably to other cities along the Moselle and the Rhine	Dworakowska 1983: 17; Bedon 1984; Hayward 2006
+Novelda	38.386274	-0.765468	Just west of Alicante	Spain	Tarraconensis	Pink-brown-white marble (rosa Novelda) with cloudy red-pink patches; used locally and exported regionally in the Roman Imperial period	Grünhagen 1978: 304
+Ntikali	34.932500	24.923611	Just north of Lentas, southern Crete	Greece	Creta etCyrene	Grey-blue and white marble (marmo gortino) with dark veins; used locally in Roman period and possibly earlier	Paton and Schneider 1999: 292; Lazzarini 2002a
+Öblarn	47.377125	14.493598	Western Styria	Austria	Noricum	White marble, used locally in theRoman period	Djurić and Müller 2009
+Olbia	40.922778	9.485556	North-east Sardinia	Italy	Sardinia etCorsica	Grey-pink granite (granito della Sardegna); used locally and exportedregionally, to elsewhere in Italy, in the Roman Imperial period	Williams-Thorpe and Rigby 2006
+Olèrdola	41.302238	1.709353	50 km north-east ofTarragona	Spain	Tarraconensis	Limestone; used locally in the RomanImperial period	Gutiérrez 2009: 249–51
+Ören	37.657539	28.752620	7 km south ofAphrodisias	Turkey	Asia	White marble, used locally in theRoman period	Long 2012
+Otusbir	37.913120	27.271049	On the road betweenEphesos and Kusadasi	Turkey	Asia	Grey-white marble, used locally and perhaps regionally in the Roman period	Vetters 1990
+Oued Akrech	34.047500	-6.811944	Near Sala, on the coast west of Volubilis	Morocco	MauretaniaTingitana	Limestone; used locally in the RomanImperial period	Boube 1967: 267; Euzennat 1989: 149
+Oust	42.875833	1.213056	South of St-Girons	France	Aquitania	Marble; used locally in the RomanImperial period	Bedon 1984: 67
+Ovidiu	44.255062	28.563360	Just north of Constanţa	Romania	MoesiaInferior	Limestone; used locally in the RomanImperial period	Rădulescu 1972
+Oxyrhynchos	28.538333	30.649722	In the Fayum	Egypt	Aegyptus	Limestone; used locally from thePtolemaic period	Fitzler 1910: 109, 112
+Palermo	38.116389	13.361667	Ancient Lilybaeum, northern Sicily	Italy	Sicilia	Grey-white limestone; used locally in the Roman Imperial period	Wilson 1990: 239-240
+Palmyra	34.547500	38.278611	10 km north-east ofPalmyra	Syria	Syria	Hard sandy coloured limestone; used locally in the Roman Imperial period, notably at nearby Palmyra	Schmidt-Colinet 1990
+Pamucak	37.935863	27.279060	On the road betweenEphesos and Kusadasi	Turkey	Asia	Red breccia, used locally and probably regionally in the Roman period	Vetters 1990
+Panayirdağ	37.943670	27.353860	Just east of Ephesos	Turkey	Asia	Grey marble (bigio antico), used locally in the Roman period	Yavuz, Bruno and Attanasio 2011
+Papalimani	40.783510	24.669007	Just west of Limenas, Thasos	Greece	Macedonia	Grey marble, used locally throughout antiquity	Wurch-Koželj and Koželj 2009
+Paphos	34.768611	32.580556	South-west Cyprus	Cyprus	Cyprus	Limestone; used locally in the RomanImperial period and earlier	Maier and Karageorghis 1984: 249-277
+Paximadhi	37.965556	24.383056	Just south-west ofKarystos on Euboea	Greece	Achaia	Sandstone; used locally in the Roman Imperial period, primarily at nearby Karystos	Keller 1985: 85-86
+Pedreres de l’Aqüeducte	41.146717	1.243121	Just north of Tarragona	Spain	Tarraconensis	Limestone (soldó), used locally in theRoman period	Gutiérrez 2009: 197–204
+Pegazzano-Biassa	44.109167	9.814722	Just outside of LaSpezia, Liguria	Italy	Italia IX	Pink-brown marble (breccia rossa appenninica) with lighter and darker shades of pink-red; exported to Rome in small quantities in the Roman Imperial period	Bruno and Lazzarini 1999; Lazzarini and Sangati 2004: 76-77
+Penteli	38.073889	23.881944	North-east of Athens, Attica	Greece	Achaia	White marble (marmo pentelico) with very fine crystalline grains and honey- yellow shade, often with iron/mica inclusions; used locally from Archaic period and widely exported in the Roman period	Gnoli 1988: 263;  Mielsch 1985: 61; Dworakowska 1975; Goette et al.1999; Pike 1999
+Petra	30.330022	35.430911	All around the city ofPetra	Jordan	Arabia	Sandstone, used locally	Rababeh 2005; Bessac 2007
+Peyrus	44.911862	5.103581	Near Valence	France	Narbonensis	Tuff; used locally in the RomanImperial period	Bedon 1984: 57
+Piano di Sorrento	40.639384	14.402757	3 km east of Sorrento	Italy	Italia I	Grey tuff, used loally in the Roman period	Kastenmeier et al. 2010
+Pieria Mountains	40.251667	22.415000	Just north of MountOlympos	Greece	Macedonia	Marble; used locally from Hellenistic period and possibly earlier	Vakoulis et al. 2002
+Pinarcik	37.472222	27.490000	Near ancient Herakleia- on-Latmos	Turkey	Asia	Marble; used locally from at least theHellenistic period	Peschlow-Bindoket  1981; Attanasio2003: 180
+Pitaranha	39.369968	-7.316291	9 km east of Ammaia	Portugal	Lusitania	Granite, used locally in the Roman period	Taelman et al. 2012
+Planica	46.469871	15.580475	Near Fram, Pohorje	Slovenia	PannoniaSuperior	White marble; used locally and exported regionally in the Roman period	Djurić 1997
+Plate	43.364667	16.602618	On Brač Island	Croatia	Dalmatia	Limestone; used locally and exported regionally in the Roman period	Bulić 1908: 86
+Platja de l’Arrabassada	41.116929	1.274308	Just east of Tarragona	Spain	Tarraconensis	Limestone (pedra del Médol), used locally in the Roman period	Gutiérrez 2009: 174–6
+Platja delsCapellans	41.131803	1.390551	15 km east of Tarragona	Spain	Tarraconensis	Limestone (pedra d’Altafulla), used locally in the Roman period	Gutiérrez 2009: 135–8
+Platsa	36.721851	22.374832	On the Mani Peninsula	Greece	Achaia	Dark brown-red marble (rosso antico), in various shades, with occasional light grey veins; exported inter-regionally by at least the early Roman period	Gorgoni et al. 1992; Gorgoni, Lazzarini and Pallente 2002
+Podpeč	45.973932	14.419169	In the territory of Emona(Ljubljana)	Slovenia	PannoniaSuperior	Limestone; used locally in the RomanImperial period	Djurić 1997
+Pompeii	40.750171	14.482372	Along the western side of the city	Italy	Italia I	Lava and scoria, used locally	Kastenmeier et al. 2010
+Pont-Evêque	45.530886	4.913570	Near ancient Vienne	France	Narbonensis	Sandstone; used locally in the RomanImperial period	Bedon 1984: 32
+Ponte Mammolo	41.924722	12.571111	Where the Via Tiburtina crosses the Aniene	Italy	Italia I	Tuff; used locally from the Republican period, primarily at Rome	Quilici and Quilici Gigli 1993: 366-390
+Ponteau	43.368744	5.017284	30 km north-west ofMarseille	France	Narbonensis	Limestone, used locally and regionally in the Roman period	Tréziny 2009
+Portland	50.566944	-2.444722	Southern Dorset	Britain	Britannia	Limestone; used locally in the RomanImperial period	Cunliffe and Fulford 1988: xiv
+Porto Rotondo	41.025833	9.543611	North-east Sardinia	Italy	Sardinia etCorsica	Grey-pink granite (granito della Sardegna); used locally and exported regionally, to elsewhere in Italy, in the Roman Imperial period	Williams-Thorpe and Rigby 2006
+Pourcieux	43.470556	5.785833	North-east of Marseille	France	Narbonensis	Limestone breccia; used locally in the Roman Imperial period and exported regionally	Mazeran 1999
+Priene	37.659167	27.298056	Near the mouth of theMaeander	Turkey	Asia	Marble; used locally from at least theHellenistic period	Dodge 1988: 71); Pensabene 2002a,219
+Prisat	41.408962	21.594376	Just north of Prilep	Macedonia	Macedonia	Marble; used locally in the RomanImperial period	Керамидчиев 1981-1982: 109-124; Niewöhner and Prochaska 2011: 436–9
+Profitis Elias	36.483056	22.433611	On the Mani Peninsula	Greece	Achaia	Dark brown-red marble (rosso antico), in various shades, with occasional light grey veins; exported inter-regionally by at least the early Roman period	Gorgoni et al. 1992; Gorgoni, Lazzarini and Pallente 2002
+Proserpina	38.974435	-6.371269	5 km north of Mérida	Spain	Lusitania	Grey granite, used locally and perhaps exported regionally in the Roman period	Pizzo 2010; Williams-Thorpe andPotts 2002
+Prozor	44.848433	15.268818	Near Otočac in Lika	Croatia	Dalmatia	Limestone; used locally in the RomanImperial period	Šarić 1980; Škegro 2006: 161-162
+Ptolemais	32.708333	20.951667	Modern Tolmeitha, east of Benghazi	Libya	Creta etCyrene	Limestone; used locally from theHellenistic period	Dworakowska 1983: 13
+Puch	46.665227	13.766145	Near Gummern, Carinthia	Austria	Noricum	White marble; used locally in theRoman Imperial period	Dworakowska 1983: 19; Alfoldy1974: 109
+Puig d’en Torró	41.976287	3.083859	Just east of Girona	Spain	Tarraconensis	Sandstone (pedra dels Clots), used locally in the Roman period	Gutiérrez 2009: 54-62
+Pulborough	50.956944	-0.497500	West Sussex	Britain	Britannia	Limestone; used locally in the RomanImperial period	Blagg 1990
+Punta de laCreueta	41.129094	1.325177	8 km east of Tarragona	Spain	Tarraconensis	Limestone (pedra del Médol), used locally in the Roman period	Gutiérrez 2009: 166–9
+Purbeck	50.597500	-2.038611	South-eastern Dorset	Britain	Britannia	Dark brown and black recrystallised limestone (Purbeck marble), flecked with green, yellow and other shades of brown; exported regionally in Roman Imperial period	Dworakowska 1983: 18; Beavis 1970:195; Williams and Peacock 2002
+Pustograd	43.957843	15.385760	On the island of Pašman	Croatia	Dalmatia	Limestone; used locally in the RomanImperial period	Škegro 2006: 161-162
+Queen's Crag	55.013611	-2.329722	Near Housesteads, Northumberland	Britain	Britannia	Limestone; used locally in the Roman Imperial period, notably for construction along Hadrian's Wall	Pearson 2006; Collingwood andWright 1965
+Quseir el-Amarna	27.418333	30.867778	Near El-Qorgas, on the eastern bank of the Nile	Egypt	Aegyptus	Dense grey-yellow limestone; used locally from the Pharaonic to the Coptic period	Klemm and Klemm 2008: 98-104
+R'mel	37.299722	9.604444	On the coast north of LacIchkeul	Tunisia	AfricaProconsularis	Sandstone; used locally in the RomanImperial period	Paskoff and Trousset 2004: 202
+Ramat Hanadiv	32.552874	34.945734	On the southern slopes of the Carmel	Israel	Judaea	Limestone; used locally in the RomanImperial period and possibly earlier	Sumaka'I Fink 2000
+Ramat Sharett	32.569183	34.953239	Zikhron Ya'akov, on the southern slopes of the Carmel	Israel	Judaea	Limestone; used locally in the Roman Imperial period, probably at nearby Caesarea Maritima	Sumaka'I Fink 2000
+Raouad	36.890242	10.315858	Near Tunis	Tunisia	AfricaProconsularis	Sandstone; used locally in the RomanImperial period	Paskoff and Trousset 2004: 195
+Ras el Abiad	33.162340	35.171104	Ancient PromontoriumAlbum, south of Tyre	Lebanon	Syria	Gypsum, limestone and sandstone, used locally in the Roman period	Badawi 2002
+Ras el-Hammàm	32.595833	14.302500	5 km south of ancientLepcis Magna	Libya	AfricaProconsularis	Several varieties of white, cream and yellow limestone, as well a yellow sandstone; used locally from Carthaginian/Punic  period at nearby Lepcis Magna	Chiesa 1949: 25-26; Bakir 1968: 24
+Ras el-Mergheb	32.632778	14.232778	6 km west of LepcisMagna	Libya	AfricaProconsularis	Creamy white limestone; used locally from Punic period at nearby Lepcis Magna	Chiesa 1949: 26
+Ras et Tarf	37.179444	10.280278	North of Tunis	Tunisia	AfricaProconsularis	Sandstone; used locally in the RomanImperial period	Paskoff and Trousset 2004: 196-197
+Ras-es-Saqa	34.292556	35.672075	5 km new of Batroun(Botrys)	Lebanon	Syria	Gypsum, used locally in the Roman period	Badawi 2002
+Rasohe	43.368522	16.604833	On Brač Island	Croatia	Dalmatia	Limestone; used locally and exported regionally in the Roman period	Dworakowska 1983: 21-22
+Rava	44.021557	15.065916	In the Zadar islands	Croatia	Dalmatia	Limestone; used locally in the RomanImperial period	Škegro 2006: 161-162
+Renes	38.777222	24.636944	South of Skyros	Greece	Achaia	Marble breccia (marmor scyrium, settebassi or breccia di sciro) consisting of long fragments of white,grey, pink and yellow; widely exported in the Roman Imperial period	Mielsch 1985: 47; Gnoli 1988: 232-235; Dwarakowska 1975
+Rettenstein	47.236368	12.276626	In the upper Enns valley	Austria	Noricum	White marble; used locally in theRoman Imperial period	Djurić 1997
+River Gelt	54.901389	-2.728889	East of Carlisle, Cumbria	Britain	Britannia	Limestone; used locally in the Roman Imperial period, notably for construction along Hadrian's Wall	Pearson 2006; Collingwood andWright 1965
+Rocca Argenteria	37.812222	13.302778	Near Corleone, Sicily	Italy	Sicilia	Grey granite; used locally in the Roman Imperial period and possibly earlier	Wilson 1990: 239-240
+Roda de Berà	41.190141	1.462858	20 km east of Tarragona	Spain	Tarraconensis	Limestone, used locally in the Roman period	Gutiérrez 2009: 113–20
+Rodadero de losLobos	37.920637	-4.823768	North of Corduba	Spain	Baetica	Limestone, used locally in the Roman period	Gutiérrez Deza 2012
+Rome	41.888889	12.486944	On the Palatine and theAventine	Italy	Italia I	Tuff (tufo del Palatino or tufo pisolitico); used at Rome from early Republican period	Heiken, Funiciello and Di Rita 2005
+Roquefort	43.171667	0.966389	South of Boussens	France	Aquitania	Limestone; used locally in the RomanImperial period	Bedon 1984: 64
+Roquemaillères	43.834386	4.360809	In Nîmes	France	Narbonensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 30-31
+Roselle	42.826944	11.159167	Grosseto province	Italy	Italia VII	Pink marble breccia (breccia rosata di Roselle); exported regionally in the Roman Imperial period	Bruno 2002b
+Royanejos	38.974435	-6.371269	6 km north of Mérida	Spain	Lusitania	Grey granite, used locally and perhaps exported regionally in the Roman period	Pizzo 2010
+Rubí	41.492912	2.030646	15 km north-west ofBarcelona	Spain	Tarraconensis	Limestone; used locally in the RomanImperial period	Cisneros Cunchillos 1988; Gutiérrez2009: 253
+Sabratha	32.805278	12.485000	In Tripolitania, west ofTripoli	Libya	AfricaProconsularis	Varieties of limestone and sandstone; used locally in the Roman Imperial period and probably earlier	Ward 1970: 57; Di Vita 1999: 146-159
+Saelices	39.919343	-2.803648	In Cuenca province, south-east of Madrid	Spain	Tarraconensis	Limestone; used locally in the RomanImperial period	Cisneros Cunchillos 1988
+Sagalassos	37.677222	30.518889	Several quarries in the territory of the city in northern Pisidia	Turkey	Lycia et Pamphylia / Pisidia	Grey-white limestone; used locally in the Roman Imperial period and possibly earlier	Waelkens et al. 1997; Degryse, Muchez and Waelkens 2006
+Sagunto	39.681389	-0.280000	Valencia province	Spain	Tarraconensis	Compact grey limestone; used locally in the Roman Imperial period	Cisneros Cunchillos 1988; Mayer1992; Àlvarez et al. 2009a: 94–9
+Saint-Andéol-le- Château	45.584831	4.695642	South-west of Lyon, north-west of St Etienne	France	Narbonensis	Granite; used locally in the RomanImperial period	Bedon 1984: 30
+Saint-Béat	42.913889	0.693889	In the central Pyrenees	France	Aquitania	Pure white fine- to medium-grained marble (marmo bianco di Saint-Béat); used locally from the late 1st century BC and exported across most of southern and western Gaul in the Roman Imperial period	Costedoat 1995a; Costedoat 1995b; Chevallier 1974; Lorenz 1995; Braemer 1971; Bedon 1984
+Saint-Blaise	43.456629	4.984224	South-east of Arles	France	Narbonensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 24
+Saint-Boil	46.654125	4.683568	North of Lyon in Saône- et-Loire	France	Lugdunensis	Limestone; used locally in the RomanImperial period	Monthel and Lambert 2002; Monthel and Pinette 1977; Chevallier 1974; Braemer 1971
+Saint-Christophe- le-Chaudry	46.582222	2.369167	North-west of Montluçon	France	Aquitania	Sandstone; used locally in the RomanImperial period	Laville 1963; Braemer 1971; Bedon1984: 61 and 89-90; Chevallier 1974
+Saint-Emilan	46.906592	4.483814	South-east of Autun	France	Lugdunensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 54, 84
+Saint-Hilaire-de- Laderez	43.505600	3.053647	North-west of Béziers	France	Narbonensis	Marble; used locally in the RomanImperial period	Bedon 1984: 61
+Saint-Jean-de- Verges	43.013611	1.610833	Near Foix	France	Aquitania / Narbonensis	Marble; used locally in the RomanImperial period	Bedon 1984: 63
+Saint-Léger-du- Bois	47.014408	4.447359	East of Autun	France	Lugdunensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 78
+Saint-Leu- d'Esserent	49.224577	2.402140	North of Paris	France	Lugdunensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 23, 78
+Saint-Marc-le- Blanc	48.365000	-1.409444	15 km west of Fougères, north-east of Rennes	France	Lugdunensis	Granite; used locally in the RomanImperial period	Bedon 1984: 52
+Saint-Merd-les- Oussines	45.635833	2.038056	East of Limoges	France	Aquitania	Granite; used locally in the RomanImperial period	Bedon 1984: 62
+Saint-Pons-de- Thombières	43.487500	2.760278	North-west of Narbonne on the Jaur river	France	Narbonensis	Marble; used locally in the RomanImperial period	Bedon 1984: 33, 75-77
+Saint-Vaast-les- Mello	49.280855	2.384475	North of Paris	France	Lugdunensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 37, 92
+Sainte-Lucie	43.048039	3.048679	On the coast south-east of Narbonne	France	Narbonensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 134, 142
+Saintes	45.747500	-0.637500	Just north of the estuary of the Garonne	France	Aquitania	Limestone; used locally in the RomanImperial period	Bedon 1984: 35, 84
+Sali	43.938661	15.164293	In the Zadar islands	Croatia	Dalmatia	Limestone; used locally in the RomanImperial period	Škegro 2006: 161-162
+Saliara	40.750556	24.747222	North-east Thasos	Greece	Macedonia	Medium to coarse grained white dolomitic marble (marmor thasium or Thasos-2); used in Roman period and earlier; widely exported, particularly in the 3rd century and later	Herrmann 1990; Bruno et al. 2002
+Salla	47.055382	15.050998	North-west of Köflach	Austria	Noricum	White marble, used locally in theRoman period	Djurić and Müller 2009
+Salone	41.913611	12.635556	Along the Via Tiburtina, east of Rome	Italy	Italia I	Tuff (tufo lionato or tufo dell'Aniene); used locally from the Republican period, primarily at Rome	Heiken, Funiciello and Di Rita 2005
+Sampans	47.126604	5.456605	Near Dôle	France	GermaniaSuperior	Marble; used locally in the RomanImperial period	Bedon 1984
+San Bainzo	41.363156	9.262884	The southern tip ofCavallo island, Corsica	France	Sardinia etCorsica	Grey granite; used locally and exported regionally in the Roman period	Wilson 1988: 108-109
+San Passera	41.850556	12.483333	South of Rome on theTiber	Italy	Italia I	Tuff; used locally from the Republican period, primarily at Rome	Mocchegiani Carpano 1975-1976:250-255
+San Pedro	38.943849	-6.188445	5 km from Mérida	Spain	Lusitania	Marble; used locally in the RomanImperial period	Canto 1977-1978: 179
+Sant Martíd’Empúries	42.139446	3.118002	Just north of L’Escala, near Empúries	Spain	Tarraconensis	Limestone (pedra d’Empúries), used locally in the Roman period	Gutiérrez 2009: 33–6
+Sant Vincenç deCastellet	41.665569	1.863249	Barcelona province	Spain	Tarraconensis	Sandstone (Sant Vincenç); used locally in the Roman Imperial period	Cisneros Cunchillos 1988; Gutiérrez2009: 253
+Sant'Ambrogio deValpolicella	45.522778	10.837778	In the Lessini mountains, just east of Lake Garda	Italy	Italia X	Fine white marble; used locally in theRoman Imperial period	Braemer 2004; Roffia, Bugini andFolli 2009
+Santa Maria de laAlbaida	37.913048	-4.853469	North-east of Corduba	Spain	Baetica	Limestone, used locally in the Roman period	Gutiérrez Deza 2012
+São Brissos	38.071667	-7.946944	Eastern Portugal	Portugal	Lusitania	Limestone; used locally and exported regionally in the Roman period	Dworakowska 1983: 14-15
+Sarafand	33.445122	35.278380	Ancient Sarepta, 20 km north of Tyre	Lebanon	Syria	Gypsum, limestone and sandstone, used locally in the Roman period	Badawi 2002
+Sardis	38.487222	28.038611	In the lower Hermos valley, Lydia	Turkey	Asia	Marble; used locally from the Archaic period	Waelkens, de Paepe and Moens 1986
+Sarno Valley	40.754894	14.517085	East of Pompeii	Italy	Italia I	Travertine (so-called ‘Sarno Limestone’), used locally in the Roman period	Kastenmeier et al. 2010
+Sarp	43.015833	0.589722	South of St-Bertrand	France	Aquitania	Marble; used locally in the Roman Imperial period and exported regionally	Costedoat 1995b
+Sarrancolin	42.966389	0.376389	North of Arreau in the central Pyrenees	France	Aquitania	Marble; used locally in the Roman Imperial period and exported regionally	Bedon 1984: 66, 76
+Sattendorf	46.664470	13.919091	Just east of Puch, nearGummern	Austria	Noricum	White marble; used locally in theRoman Imperial period	Djurić 1997
+Savonnières-en- Perthois	48.613927	5.127952	South of Bar-le-Duc	France	Lugdunensis / Belgica	Limestone; used locally in the RomanImperial period	Bedon 1984: 50-51
+Schaidberg	47.249809	13.572248	Northern Carinthia	Austria	Noricum	White marble; used locally in theRoman Imperial period	Djurić 1997
+Schweppenburg	50.466742	7.305396	In the Brohl valley	Germany	GermaniaSuperior	Tuff; used locally in the RomanImperial period	Bedon 1984: 39, 213-217
+Segorbe	39.853497	-0.486710	Castellón province	Spain	Tarraconensis	Limestone; used locally in the RomanImperial period	Cisneros Cunchillos 1988
+Seix	42.863889	1.200278	South of St-Girons	France	Aquitania	Marble; used locally in the Roman Imperial period and exported regionally	Bedon 1984: 67
+Sekull	46.580479	14.159540	West of Klagenfurt	Austria	Noricum	White marble, used locally and exported regionally in the Roman period	Djurić and Müller 2009
+Selge	37.228333	31.127500	In the territory of Selge, Pisidia	Turkey	Lycia et Pamphylia / Pisidia	Grey-white limestone; used locally in the Roman Imperial period and probably earlier	Machatschek and Schwartz 1980
+Selsey Bill	50.722500	-0.787500	West Sussex	Britain	Britannia	Limestone; used locally in the Roman Imperial period and exported regionally	Blagg 1990
+Seravezza	43.994722	10.227222	South of Carrara	Italy	Italia VII	Violet breccia marble (breccia di Serravezza antica) with white, grey- blue, red and pink shades; exported regionally in the Roman period	Mielsch 1985: 51; Gnoli 1988: 240-241; Lazzarini and Sangati 2004: 76-77; Bruno 2002b
+Serranía deRonda	36.740546	-5.165250	Near Ronda, 36 km north-west of Marbella	Spain	Baetica	Pink-red breccia, used locally and exported regionally in the Roman period	Beltrán et al. 2012
+Servian	43.426944	3.299167	North-east of Béziers	France	Narbonensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 33-34
+Sestrunj	44.160191	14.988730	In the Zadar islands	Croatia	Dalmatia	Limestone; used locally in the RomanImperial period	Škegro 2006: 161-162
+Settecamini	41.941389	12.628056	Along the Aniene nearSalone	Italy	Italia I	Tuff (tufo lionato or tufo dell'Aniene); used locally from the Republican period, primarily at Rome	Jackson and Marra 2006
+Shawk	54.844430	-2.985972	Near Dalstone, south- east of Carlisle, Cumbria	Britain	Britannia	Limestone; used locally in the Roman Imperial period, notably for construction along Hadrian's Wall	Pearson 2006; Collingwood andWright 1965
+Sheikh Ibada	27.834444	30.851944	Ancient Antinoopolis	Egypt	Aegyptus	White-grey limestone; used locally from the Pharaonic period but most intensively in the Roman Imperial period, after the founding of Antinoopolis	Klemm and Klemm 2008: 83-85
+Sidi ben Ghayada	35.441182	11.034171	Just south of Mahdia	Tunisia	AfricaProconsularis	Sandstone; used locally in the RomanImperial period	Paskoff and Trousset 2004: 150
+Sidi Daoud	37.021389	10.910278	Just west of the tip ofCap Bon	Tunisia	AfricaProconsularis	Sandstone; used locally in the RomanImperial period	Paskoff and Trousset 2004: 187
+Sidi Hamza	34.833742	-1.158394	Just south of Siga, south of Ain-Tekbalet	Algeria	MauretaniaCaesariensis	Marble; used locally in the RomanImperial period	Gsell 1911: 42.73
+Sidi Mechrig	37.195278	9.168889	Just west of Cap Serrat	Tunisia	AfricaProconsularis	Sandstone; used locally in the RomanImperial period	Paskoff and Trousset 2004
+Sidi Moussa / Gebel Tuch	26.417778	31.834167	Near to ancient Ptolemais, 10 km north of Girga	Egypt	Aegyptus	Fine white limestone; used locally from the Ptolemaic to Roman period	Fitzler 1910: 107; Dworakowska1983: 49 n.61; Klemm and Klemm2008: 130-135
+Sidi-Abd-el- Basset	36.924925	9.659118	In the Northern Tell	Tunisia	AfricaProconsularis	Limestone; used locally in the RomanImperial period	Peyras 1991: 97-100
+Sidon	33.562582	35.368690	In and around the city ofSidon	Lebanon	Syria	Gypsum, limestone and sandstone, used locally in the Roman period	Badawi 2002
+Sierra de lasCabras	36.966901	-4.455604	South-east of Antequera	Spain	Baetica	Cream-white limestone and red and yellow brecciated limestone, exported regionally in the Roman period	Beltrán et al. 2012
+Sierra deMondúber	38.954123	-0.184736	Just south of Valencia	Spain	Tarraconensis	Limestone; used locally in the RomanImperial period	Cisneros Cunchillos 1988
+Sierra de Paloma Alta-San Bartolomé	36.072425	5.731840	4-5 km east of BaeloClaudia, near Cadiz	Spain	Baetica	Bioclastic conglomerate, used locally in the Roman period	Domínguez-Bella 2009
+Sierra Elvira	37.231209	-3.673391	Just north-west ofGranada	Spain	Baetica	Green marble; used locally in theRoman Imperial period	Cisneros Cunchillos 1988
+Sierra Traviesa	37.688648	-5.791778	5 km west of Munigua	Spain	Baetica	Limestone; used locally in the RomanImperial period	Schattner and Ovejero 2008
+Silchester	51.353611	-1.100278	Near Reading, Berkshire	Britain	Britannia	Limestone; used locally in the RomanImperial period	Blagg 1990
+Šilo	43.854466	15.228576	In the Kornti archipelago	Croatia	Dalmatia	Limestone; used locally in the RomanImperial period	Škegro 2006: 161-162
+Sint-Pietersberg	50.831125	5.666787	Near Maastricht	Netherlands	GermaniaInferior	Limestone; used locally in the RomanImperial period	Bedon 1984
+Sintra	38.798644	-9.385747	23 km north-west ofLisbon	Portugal	Lusitania	Pink-red limestone, used locally and exported regionally in the Roman period	Fusco and Mañas 2006; Nogles, Rodrigues and Lapuente 2008
+Sivečki	41.352616	21.562319	Just outside Prilep	Macedonia	Macedonia	Coarse-grained grey marble; used locally and probably exported regionally in the Roman Imperial period	Tomović 1993: 21
+Sığacik	38.178056	26.787500	Near the village ofSığacik, close to Teos	Turkey	Asia	Grey marble; used locally in the Roman Imperial period and possibly earlier	Ballance 1966
+Sıvaslı	38.526944	29.656111	South-east of Uşak, close to ancient Sebaste, Phrygia	Turkey	Asia	Grey-white marble; used locally in theRoman Imperial period	Pralong 1980; Asgari 1981
+Skopačnik	46.052503	14.506344	In the territory of Emona(Ljubljana)	Slovenia	PannoniaSuperior	Limestone; used locally in the RomanImperial period	Djurić 1997
+Smadah	36.892231	9.409671	In the Northern Tell	Tunisia	AfricaProconsularis	Limestone; used locally in the RomanImperial period	Peyras 1991: 404
+Šmartno	46.127070	14.476114	In the Pohorje	Slovenia	PannoniaSuperior	White marble; used locally in the Roman Imperial period and exported regionally	Djurić 1997
+Smokovenjak	43.854466	15.228576	In the Kornti archipelago	Croatia	Dalmatia	Limestone; used locally in the RomanImperial period	Škegro 2006: 161-162
+Söğüt	40.021111	30.185833	In the Sagarius Valley, Bithynia	Turkey	Bithynia etPontus	Marble; used locally in the RomanImperial period and possibly earlie	Dodge 1988: 71
+Solb ech Chergui	33.236904	11.378039	South-east of Jerba	Tunisia	AfricaProconsularis	Sandstone; used locally in the RomanImperial period	Paskoff and Trousset 2004: 94
+Sölk	47.201379	14.150371	Western Styria	Austria	Noricum	White marble; used locally in theRoman Imperial period	Djurić abd Müller 2009
+Solothurn	47.206991	7.533266	South of Basel	Switzerland	GermaniaSuperior	Tuff; used locally in the RomanImperial period	Staehelin 1948: 425
+Sost	42.928611	0.556944	West of Saint-Béat	France	Aquitania	Marble; used locally in the Roman Imperial period and probably exported regionally	Bedon 1984: 66, 77
+Sounine	37.198889	10.159167	On the coast north ofTunis	Tunisia	AfricaProconsularis	Sandstone; used locally in the RomanImperial period	Paskoff and Trousset 2004: 198
+Sparta	37.082222	22.423611	Central Lakonia	Greece	Achaia	Dark green marble (breccia verde di Sparta) with fragments of granite and porphyry, mainly green or grey in colour; probably used in Roman Imperial period but rare before Late Antiquity when exported inter- regionally	Mielsch 1985: 66-67
+Spitzelofen	46.819406	15.174473	South-west of Graz	Austria	Noricum	White marble; used locally in theRoman Imperial period	Djurić 1997
+Stabia	40.693856	14.486194	6 km south of Pompeii	Italy	Italia I	Grey tuff, used locally	Kastenmeier et al. 2010
+Stagira	40.529982	23.750854	On the eastern side of theChersonnesus	Greece	Macedonia	Dark-grey, black marble; used locally in the Roman Imperial period	Bruno and Pallente 2002
+Staje	45.959215	14.512268	In the territory of Emona(Ljubljana)	Slovenia	PannoniaSuperior	Limestone; used locally in the RomanImperial period	Djurić 1997
+Stratonikeia	37.311389	28.064722	Near ancientStratonikeia, Karia	Turkey	Asia	White marble; used locally from theClassical period	Waelkens, de Paepe and Moens 1986
+Stražišće	42.940089	17.192358	On Brač Island	Croatia	Dalmatia	Limestone; used locally and exported regionally in the Roman period	Dworakowska 1983: 21-22
+Styra	38.149722	24.259722	South-eastern Euboea	Greece	Achaia	Green-grey and white streaked marble (cipollino); used locally from the Classical period but only exported widely in the Roman Imperial	Papageorgakis 1963; Vanhove 1989; Vanhove 1996
+Suas	36.716135	9.576426	In the Northern Tell	Tunisia	AfricaProconsularis	Limestone; used locally in the RomanImperial period	Peyras 1991: 404
+Sutvara	42.940089	17.192358	Island near Korčula	Croatia	Dalmatia	Limestone; used locally in the Roman Imperial period and possibly exported regionally	Gjivoje 1970: 71-73: and Fisković1971: 143-144
+Sv. Ana	45.970774	14.422268	In the territory of Emona(Ljubljana)	Slovenia	PannoniaSuperior	Limestone; used locally in the RomanImperial period	Djurić 1997
+Syracuse	37.072500	15.285278	South-eastern Sicily	Italy	Sicilia	Grey-white limestone; used locally from at least the Classical period	Wilson 1990: 239-240
+Taillebourg	45.835278	-0.646111	North of Saintes	France	Aquitania	Limestone; used locally in the RomanImperial period	Bedon 1984: 35, 84-89
+Taormina	37.852500	15.288611	North-east Sicily	Italy	Sicilia	Two varieties of limestone, one white- grey and one a red-pink breccia (marmo rosso di Taormina); used locally in the Roman Imperial period and possibly earlier	Wilson 1990: 239-240
+Tarifa	36.010000	-5.603056	Cadiz province	Spain	Baetica	Limestone; used locally in the RomanImperial period	Canto 1977-1978; Mayer and Rodà1998
+Tarragona	41.118611	1.233333	North-east Catalonia	Spain	Tarraconensis	Limestone (pedra del Médol), used locally in Roman period	Cisneros Cunchillos 1988; Mayer1998; Mayer and Rodà de Llanza1998: 229; Gutiérrez 2009: 176–80
+Taskisiği	40.828670	30.448822	Near Adapazari inBithynia	Turkey	Bithynia etPontus	Pink-orange marble (occhio di pavone rosso or occhio di pavone pavonazzo) with white veins and light grey shades; exported inter-regional in the Roman Imperial period but in small quantities	Mielsch 1985: 42; Gnoli 1988: 206-209; Ward-Perkins 1980a, 23; Ward- Perkins 1980b, 325; Monna and Pensabene 1977: 74-77
+Tautavel	42.813611	2.745556	North-west of Perpignan	France	Narbonensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 64-65
+Techirghiol	44.058115	28.596067	South of Constanţa	Romania	MoesiaInferior	Limestone; used locally in the RomanImperial period	Rădulescu 1972
+Tehna	28.168611	30.768889	10 km north of Minia	Egypt	Aegyptus	Limestone; used locally from the Pharaonic period and certainly in the Ptolemaic and Roman period	Klemm and Klemm 2008: 68-69
+Tendu	46.644429	1.557871	Near Saint-Marcel and Argenton-sur-Creuse (Argentomagus)	France	Lugdunensis	Limestone; used locally in the RomanImperial period	Coulon and Tardy 1997: 199
+Tentschach	46.680797	14.273755	Carinthia	Austria	Noricum	Limestone; used locally in the RomanImperial period	Dworakowska 1983: 19
+Tenuta diCappannacce	41.941590	12.638645	Along the Aniene nearSalone	Italy	Italia I	Tuff (tufo lionato or tufo dell'Aniene); used locally from the Republican period, primarily at Rome	Jackson and Marra 2006
+Tepeler	43.314899	27.333188	Near ancient Marcianopolis, inland from Odessos	Bulgaria	Thracia	Limestone; used locally in the RomanImperial period	Dworakowska 1983
+Teucheira	32.540556	20.569722	Modern Tocra, east ofBenghazi	Libya	Creta etCyrene	Limestone; used locally from at least the Hellenistic period	Personal observation
+Theux	50.535177	5.813131	South-east of Liège and south-west of Aachen	Belgium	GermaniaInferior	Black limestone; used locally and exported regionally in the Roman period	Groessens 1991
+Thorikos	37.738056	24.053611	South-east Attica	Greece	Achaia	Marble; used locally from at least theClassical period	Higgins and Higgins 1996
+Thunigaba	36.929065	9.257724	In the Northern Tell	Tunisia	AfricaProconsularis	Limestone; used locally in the RomanImperial period	Peyras 1991: 404
+Tiffen	46.708350	14.058127	East of Puch and south- west of Tentschach	Austria	Noricum	White marble; used locally in theRoman Imperial period	Djurić 1997
+Tilal-Sawda	28.250537	30.542874	North-west of El-Minya	Egypt	Aegyptus	Basalt, used locally in the Roman period	Storemyr et al. 2009: 252-254
+Tintry	46.929658	4.495091	South-east of Autun	France	Lugdunensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 113
+Tivoli	41.980278	12.798056	Ancient Tibur	Italy	Italia I	Tuff; used locally from the Republican period, primarily at Rome	Heiken, Funiciello and De Rita 2005
+Tönisstein	50.454477	7.298521	In the Brohl valley	Germany	GermaniaSuperior	Tuff; used locally in the RomanImperial period	Bedon 1984: 185, 213-216
+Toprak Alinmis	38.435465	26.593554	Just north of Balıklıova on the Karaburum peninsula	Turkey	Asia	Pink-red and white marble (breccia corallina), perhaps exported regionally in the Roman period	Bruno et al. 2012
+Tor Cervara	41.923611	12.588056	Along the Aniene nearSalone	Italy	Italia I	Tuff (tufo lionato or tufo dell'Aniene); used locally from the Republican period, primarily at Rome	Heiken, Funiciello and Di Rita 2005
+Torbali	38.177480	27.304260	Near Metropolis, 25 km north of Ephesos	Turkey	Asia	White marble, used locally in theRoman period	Yavuz, Bruno and Attanasio 2011
+Torre d’en Dolça	41.100965	1.157990	7 km west of Tarragona	Spain	Tarraconensis	Limestone (soldó), used locally in theRoman period	Gutiérrez 2009: 169–73
+Torre Ovo	40.297068	17.503865	20 km south-east ofTaranto	Italy	Italia II	Limestone; used locally in the RomanImperial period	Calia et al. 2002
+Töschling	46.634880	14.112610	West of Klagenfurt	Austria	Noricum	White marble; used locally and exported regionally in the Roman period	Djurić 1997; Djurić and Müller 2009
+Toubia	36.949865	9.650879	In the Northern Tell	Tunisia	AfricaProconsularis	Limestone; used locally in the RomanImperial period	Peyras 1991: 404
+Toulouse	43.605556	1.442500	On the Garonne just north of the central Pyrenees	France	Narbonensis	Limestone; used locally from basic construction in the Roman period	Bedon 1984: 63-64
+Tournai	50.604481	3.389777	East of Lille	Belgium	Belgica	Black limestone; used locally and exported regionally in the Roman period	Groessens 1991
+Tournus	46.564441	4.907610	South-east of Saint-Boil	France	Lugdunensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 78, 89
+Trapani	38.016667	12.538889	Ancient Drepanum, western Sicily	Italy	Sicilia	Hard grey limestone; used locally in the Roman Imperial period.	Wilson 1990: 239-240
+Treffen	46.668323	13.854338	South-east of Tiffen	Austria	Noricum	White marble; used locally in theRoman Imperial period	Djurić 1997
+Trept	45.687330	5.321615	West of Fay	France	Narbonensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 33
+Tres Boukes	38.771111	24.612500	On the southern coast ofSkyros	Greece	Achaia	Marble breccia (marmor scyrium, settebassi or breccia di sciro) consisting of long fragments of white,grey, pink and yellow; widely exported in the Roman Imperial period	Mielsch 1985: 47; Gnoli 1988: 232-235; Dwarakowska 1975; Bruno2002c
+Trets	43.447222	5.685000	North-east of Marseille	France	Narbonensis	Limestone breccia; used locally in theRoman Imperial period	Mazeran 1999
+Trigaches	38.088540	-7.971786	Just north of Beja	Portugal	Lusitania	Grey marble, used locally in theRoman period	Fusco and Mañas 2006; Fusco andMañas 2008: 510–13
+Tripoli	34.452089	35.812438	In and around the city ofTripoli	Lebanon	Syria	Sandstone, used locally in the Roman period	Badawi 2002
+Trogir	43.526816	16.226421	North-west of Split, central Dalmatia	Croatia	Dalmatia	Limestone; used locally and exported regionally in the Roman period	Bulić 1908; Wilkes 1969: 388; Dworakowska 1983: 21-22; Maršić2007
+Trujillo	37.610076	-0.978872	Near Cartagena	Spain	Tarraconensis	Grey marble, used locally in theRoman period	Soler 2008; Arana et al. 2012
+Tuccabor	36.706978	9.521414	In the Northern Tell	Tunisia	AfricaProconsularis	Limestone; used locally in the RomanImperial period	Peyras 1991: 404
+Tuna el-Gebel	27.701111	30.683333	On the west bank of the Nile, 12 km west of Mallawi	Egypt	Aegyptus	Limestone; used locally in thePtolemaic and Roman periods	Klemm and Klemm 2008: 94-96
+Turgut	38.259587	26.807253	7 km north of Teos	Turkey	Asia	Black, red, and white breccia (africano), probably exported inter- regionally in the Roman period	Bruno et al. 2012
+Tuscolo	41.798333	12.708611	On the northern side of the Alban Hills	Italy	Italia I	Tuff (tufo di Tuscolo); used locally from the Republican period, primarily at Rome	Jackson and Marra 2006
+Tyre	33.270556	35.203889	On the coast in the southern Lebanon	Lebanon	Syria	Limestone; used locally in the RomanImperial period and earlier	Mentioned in Statius, Silvae I.5.39
+Ulupınar	38.616014	29.804766	South-east of Uşak, near ancient Akmonia, in Phrygia	Turkey	Asia	Grey-white marble; used locally in theRoman Imperial period	Pralong 1980; Asgari 1981
+Umm Huyut	26.809167	33.285556	Near Mons Claudianus, Eastern Desert	Egypt	Aegyptus	Mottled light grey and greenish black gneiss, virtually identical to the granite of Mons Claudianus; exported in the Roman Imperial period in small quantities	Harrell, Brown and Lazzarini 1999; Klemm and Klemm 2008: 291
+Umm Shegilat	26.957398	33.257545	Eastern Desert, around20 km south of the road- station of Qattar, close to Mons Porphyrites	Egypt	Aegyptus	Large-grained black and white granite (granito della colonna); exported to Rome in the Roman Imperial period in small quantities	Mielsch 1985: 69; Gnoli 1988: 150-152; Klein 1988
+Urfalidaği Tepesi	38.056850	27.437170	16 km north-east ofEphesos	Turkey	Asia	White marble, used locally in theRoman period	Prochaska and Grillo 2009; Yavuz, Bruno and Attanasio 2011
+Uzali Sar	36.790508	9.675449	In the Northern Tell	Tunisia	AfricaProconsularis	Varieties of both marble and limestone;used locally in the Roman period	Peyras 1991: 404
+Valdarno	43.681379	10.703806	Just south of Florence	Italy	Italia VII	Marble (pietra paesina); used locally in the Roman Imperial period	Bruno 2002b
+Valence	44.930370	4.891757	On the Rhône, in theDrôme	France	Narbonensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 57
+Valle deiManienti	43.086883	10.604674	Near CampigliaMarittima	Italy	Italia II	White marble, used locally and regionally in the Roman period	Cavari et al. 2012
+Valsenestre	44.908749	6.054361	South-east of Grenoble, in the Alps	France	Narbonensis	Marble; used locally in the RomanImperial period	Bedon 1984: 77, 89; Blanc 1986
+Vathia	36.443490	22.459238	On the Mani Peninsula	Greece	Achaia	Dark brown-red marble (rosso antico), in various shades, with occasional light grey veins; exported inter-regionally by at least the early Roman period	Gorgoni et al. 1992; Gorgoni, Lazzarini and Pallente 2002
+Vazari	36.894125	9.615218	In the Northern Tell	Tunisia	AfricaProconsularis	Limestone; used locally in the RomanImperial period	Peyras 1991: 149
+Verona	45.441389	10.996389	Just east of Lake Garda	Italy	Italia X	Red-pink marble breccia (breccia rosso di Verona); exported regionally insmall quantities in the Roman Imperial period	Bruno 2002b
+Verzirhen	40.236111	30.014722	In the Sagarius Valley north of Bilecik, Bithynia	Turkey	Bithynia etPontus	Red and pink marble (breccia corallina) with white, pink and grey shades; used locally and probably exported regionally from the late 1st century BC	Mielsch 1985: 45-46; Gnoli 1988:238-240
+Via Tiberina	42.101389	12.506667	Tiber valley, near Riano	Italy	Italia I	Tuff (tufo giallo della via Tiberina); used locally from the Republican period, primarily at Rome	Heiken, Funiciello and De Rita 2005
+Viana	38.333362	-8.000397	Near Estremoz	Portugal	Lusitania	Green and white marble (verde Viana)similar to cipollino	Fusco and Mañas 2006; Nogles, Rodrigues and Lapuente 2008
+Vienne	45.524987	4.870936	On the Rhône south ofLyon	France	Narbonensis	Limestone; used locally in the RomanImperial period	Bedon 1984: 30-33, 116
+Vila Viçosa	38.777778	-7.417222	Near Estremoz	Portugal	Lusitania	Pink-cream marble (rosa Portugues) with cloudy red patches and brown-red veins, similar to varieties of Portasanta; used locally and exported regionally in the Roman Imperial period	Canto 1977-1978: 179; Lamberto andSá Caetano 2008
+Villebois	45.849121	5.434653	North-west of Peyrieu	France	Lugdunensis	Limestone; used locally from the middle of the 1st century AD	Bedon 1984: 29, 89
+Villette	45.552307	6.599620	North-east of Grenoble, in the Alps	France	Alpes Graiae et Poeninae	Marble; used locally in the RomanImperial period	Bedon 1984: 56-57, 75
+Vimines	45.546955	5.864874	Near Chambéry	France	Lugdunensis	Marble; used locally in the RomanImperial period	Bedon 1984: 57
+Volos	39.364444	22.933333	South-eastern Thessaly	Greece	Achaia	Marble; used locally from the Classical or Hellenistic period	Personal observation
+Vrgada	43.855038	15.501182	In the Zadar islands, nearPasman	Croatia	Dalmatia	Limestone; used locally in the RomanImperial period	Škegro 2006: 161-162
+Vrnik	42.937316	17.169249	Island near Korčula	Croatia	Dalmatia	Limestone; used locally in the Roman Imperial period and possibly exported regionally (it certainly was later)	Gjivoje 1970: 71-73; Fisković 1971:143-144
+Wadi Abu Gerida	26.354839	33.284331	10 km north-west of Maghrabiya, Eastern Desert	Egypt	Aegyptus	Purple porphyry (porfido rosso laterizio) with lighter flecks; exported in tiny quantities in the Roman Imperial period	Harrell 2005
+Wadi Atalla / Wadi Um Esh	26.051389	33.601111	88 km east of Quft, Eastern Desert	Egypt	Aegyptus	Green serpentine (serpentina moschinata) with swirls of dark blue, grey, white and brown veins; exported from Pharaonic period but always in small quantities	Gnoli 1988: 159; Mielsch 1985: 63; Klemm and Klemm 2008: 294-295
+Wadi Bârud	26.784167	33.516944	10 km south-east of Mons Claudianus, Eastern Desert	Egypt	Aegyptus	Medium-grained white granite (granito bianco e nero) with angular black inclusions; exported in Roman Imperial period but in small quantities	Mielsch 1985: 69; Gnoli 1988: 150; Klein 1988; Klemm and Klemm 2008:290-291
+Wadi Hammâmât(Mons Basanites)	25.469167	33.552222	83 km east of Quft, Eastern Desert	Egypt	Aegyptus	Marble breccia (breccia verde d’Egitto or hecatontalithos) and greywacke (pietra Bekhen or basanites), both dark green with shades of grey-brown, the former sometimes with yellow, red, white inclusions; exported in Roman Imperial period but very rare	Mielsch 1985: 64; Gnoli 1988: 111-121; Kraus 1975-1976; Lucas and Harris 1962: 407-408; Harrell, Brown and Lazzarini 1999; Harrell, Brown and Lazzarini 2002; Klemm and Klemm 2008: 297-311
+Wadi Lebda	32.634722	14.293056	Near ancient LepcisMagna	Libya	AfricaProconsularis	Yellow-white limestone; used at LepcisMagna from the Punic period	Chiesa 1949: 26
+Wadi Maghrabiya	26.344166	33.421149	North of Wadi Hammâmât, Eastern Desert	Egypt	Aegyptus	Four varieties of gabbro, all with shades of grey, green and black but differing in coarseness; exported in the Roman Imperial period in small quantities	Sidebotham 1996: 189-190; Harrell, Brown and Lazzarini 1999
+Wadi Semna/Wadi Wikala	26.433611	33.652222	50 km south-west ofSafaga, Eastern Desert	Egypt	Aegyptus	Several varities of dark green granite with white or light grey inclusions (grantio verde della sedia di San Pietro or ophytes and granito verde dellasedia di San Lorenzo); exported in Roman Imperial period, predominately to Italy	Mielsch 1985: 804-806; Gnoli 1988:154-157; Sidebotham et al. 2001; Klemm and Klemm 2008: 291-294
+Wadi SheikhYasin	28.050556	30.835278	Just south of El-Minya	Egypt	Aegyptus	Limestone; used locally in the Pharaonic, Ptolemaic and Byzantine period and, therefore, probably also in the Roman period	Klemm and Klemm 2008: 77
+Wadi UmmBalad	27.132739	33.278910	Just south of Mons Porphyrites, Eastern Desert	Egypt	Aegyptus	Fine-grained green-grey granite (granito verde fiorito di bigio) with white inclusions; exported in Roman Imperial period, predominantly to Rome	Mielsch 1985: 70; Gnoli 1988: 159-60
+Wadi UmmTowat	27.152425	33.220376	Just south-west of Mons Porphyrites, Eastern Desert	Egypt	Aegyptus	Dark grey serpentine (porfido serpentine nero) with a green shade and white flecks; exported in the Roman Imperial period but very rare	Gnoli 1988: 139; Mielsch 1985: 65; Meredith 1952
+Water Newton	52.560833	-0.364167	North-westernCambridgeshire	Britain	Britannia	Limestone; used locally in the RomanImperial period	Pearson 2006
+Weldon	52.495733	-0.637056	Northamptonshire, between Peterborough and Leicester	Britain	Britannia	Limestone; used locally in the Roman Imperial period and exported regionally	Blagg 1990
+Wetheral	54.884167	-2.834444	Near Carlisle, Cumbria	Britain	Britannia	Limestone; used locally in the RomanImperial period	Pearson 2006; Collingwood andWright 1965
+Widan el-Faras	29.659096	30.623560	Near Gebel Qatrani, north of the Fayum	Egypt	Aegyptus	Basalt, used locally in the Roman period	Storemyr et al. 2009: 248-251
+Winden	47.952751	16.752678	40 km south-east ofVienna, Austria	Austria	PannoniaSuperior	Lunachella limestone, used locally in the Roman period	Pivko 2012
+Windisch	47.478651	8.220164	Ancient Vindonissa	Switzerland	GermaniaSuperior	Grey-white limestone; used locally in the Roman Imperial period	Staehelin 1948: 425
+Wolfsthal	48.136102	17.005259	Just east of Carnuntum, Austria	Austria	PannoniaSuperior	Limestone, locally and regionally used in the Roman period	Pivko 2012
+Wollanigberg	46.646363	13.816349	Just south-est of Puch, near Gummern	Austria	Noricum	White marble; used locally in theRoman Imperial period	Djurić 1997
+Xylophagou	34.976944	33.849444	South-east Cyprus	Cyprus	Cyprus	Limestone; used locally in the RomanImperial period and probably earlier	Karageorghis 1969: 494
+Yarhiv	32.151541	34.967989	North-east of Tel-Aviv	Israel	Judaea	Limestone; used locally in the RomanImperial period and probably earlier	Sumaka'I Fink 2000
+Yazır	37.761963	28.711851	11 km south-west ofAphrodisias	Turkey	Asia	Blue-grey and white marble, used locally in the Roman period	Long 2012
+Zawiet Sultan	28.067500	30.818056	Near El-Minya	Egypt	Aegyptus	Limestone; used locally in the Pharaonic, Ptolemaic and Byzantine period and, therefore, probably also in the Roman period	Klemm and Klemm 2008: 70-77
+Zbidi	35.632084	11.009439	3.5 km west of Thapsus	Tunisia	AfricaProconsularis	Limestone; used locally in the RomanImperial period	Younès, Gaied and Gallala 2012
+Zreče	46.369141	15.391631	In the Pohorje mountains	Slovenia	PannoniaSuperior	White marble; used locally and exported regionally in the Roman period	Braemer 1992: 12; Djurić 1997
