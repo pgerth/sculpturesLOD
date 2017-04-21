@@ -7,7 +7,7 @@
         <th>Title</th>
         <th>Datierung</th>
         <th>Material</th>
-        <th>Link</th>
+        <th></th>
       </tr>
     </thead>
     <tbody>
@@ -16,7 +16,7 @@
         <td>{{object['_source']['dc:title']}}</td>
         <td>{{object['_source']['dc:temporal']}}</td>
         <td>{{object['_source']['dc:medium']}}</td>
-        <td><a href="{{object['_source']['@id']}}">{{object['_source']['type']}}</a></td>
+        <td><a href="{{object['_source']['@id']}}"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
       </tr>
     </tbody>
   </table>

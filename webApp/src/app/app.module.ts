@@ -12,8 +12,11 @@ import { MapComponent } from './component/map.component';
 import { ObjectComponent } from './component/object.component';
 import { ObjectDetailComponent } from './component/object-detail.component';
 import { PlaceComponent } from './component/place.component';
+
 import { ResourcesService } from './service/resources.service';
 import { MapService } from './service/map.service';
+import { NamespaceService } from './service/namespace.service';
+
 import { KeysPipe } from './pipe/keys.pipe';
 import { NamespaceResolverPipe } from './pipe/namespace-resolver.pipe';
 
@@ -33,7 +36,7 @@ import { NamespaceResolverPipe } from './pipe/namespace-resolver.pipe';
     KeysPipe,
     NamespaceResolverPipe
   ],
-  providers: [MapService, ResourcesService],
+  providers: [MapService, ResourcesService, NamespaceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

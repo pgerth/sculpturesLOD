@@ -1,5 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+
 import { ResourcesService } from '../service/resources.service';
+import { MapService } from '../service/map.service';
+import { NamespaceService } from '../service/namespace.service';
 
 @Component({
   selector: 'place',
@@ -9,7 +12,9 @@ export class PlaceComponent {
   public places: Object[];
 
   constructor(
-    private resourcesService: ResourcesService
+    private resourcesService: ResourcesService,
+    private mapService: MapService,
+    private namespaceService: NamespaceService,
   ) {}
 
   ngOnInit(): void {

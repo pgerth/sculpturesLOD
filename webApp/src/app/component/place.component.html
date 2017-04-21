@@ -1,31 +1,33 @@
 <div class="container">
   <h3>Places</h3>
   <div class="row">
-    <div class="col-sm-6">
+    <div class="col-sm-8">
       <table class="table table-striped">
         <thead>
           <tr>
-            <th><a href="http://purl.org/dc/elements/1.1/title">dc:title</a></th>
-            <th><a href="http://purl.org/dc/elements/1.1/description">dc:description</a></th>
-            <th><a href="http://purl.org/dc/elements/1.1/medium">dc:medium</a></th>
-            <th>link</th>
+            <th><a href="{{this.namespaceService.namespace.dc}}title">dc:title</a></th>
+            <th><a href="{{this.namespaceService.namespace.dc}}type">dc:type</a></th>
+            <th><a href="{{this.namespaceService.namespace.dc}}description">dc:description</a></th>
+            <th><a href="{{this.namespaceService.namespace.dc}}medium">dc:medium</a></th>
+            <th></th>
           </tr>
         </thead>
         <tbody>
           <tr *ngFor="let place of places">
             <td>{{place['_source']['dc:title']}}</td>
+            <td><a href="{{place['_source']['dc:type'] | resolve}}">{{place['_source']['type']}}</a></td>
             <td>{{place['_source']['dc:description']}}</td>
             <td>
               <ng-container *ngFor="let material of place['_source']['dc:medium']">
                 <a href="{{material['@id'] | resolve}}">{{material['dc:title']}}</a>
               </ng-container>
             </td>
-            <td><a href="{{place['_source']['@id']}}">{{place['_source']['type']}}</a></td>
+            <td><a href="{{place['_source']['@id']}}"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
           </tr>
         </tbody>
       </table>
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm-4">
       <div style="height: 400px" id="map">
       </div>
     </div>
