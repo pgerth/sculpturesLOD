@@ -15,6 +15,7 @@ import { PlaceComponent } from './component/place.component';
 import { ResourcesService } from './service/resources.service';
 import { MapService } from './service/map.service';
 import { KeysPipe } from './pipe/keys.pipe';
+import { NamespaceResolverPipe } from './pipe/namespace-resolver.pipe';
 
 @NgModule({
   imports: [
@@ -29,7 +30,8 @@ import { KeysPipe } from './pipe/keys.pipe';
     PlaceComponent,
     ObjectComponent,
     ObjectDetailComponent,
-    KeysPipe
+    KeysPipe,
+    NamespaceResolverPipe
   ],
   providers: [MapService, ResourcesService],
   bootstrap: [AppComponent]

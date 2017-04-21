@@ -7,6 +7,7 @@
           <tr>
             <th><a href="http://purl.org/dc/elements/1.1/title">dc:title</a></th>
             <th><a href="http://purl.org/dc/elements/1.1/description">dc:description</a></th>
+            <th><a href="http://purl.org/dc/elements/1.1/medium">dc:medium</a></th>
             <th>link</th>
           </tr>
         </thead>
@@ -14,6 +15,11 @@
           <tr *ngFor="let place of places">
             <td>{{place['_source']['dc:title']}}</td>
             <td>{{place['_source']['dc:description']}}</td>
+            <td>
+              <ng-container *ngFor="let material of place['_source']['dc:medium']">
+                <a href="{{material['@id'] | resolve}}">{{material['dc:title']}}</a>
+              </ng-container>
+            </td>
             <td><a href="{{place['_source']['@id']}}">{{place['_source']['type']}}</a></td>
           </tr>
         </tbody>
