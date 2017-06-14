@@ -24,7 +24,7 @@ export class ResourcesService {
   }
   // function that returns all places of the data store
   getPlaces() {
-    return this.http.get('http://localhost:9200/place/_search?pretty=true&filter_path=hits.hits._source')
+    return this.http.get('http://localhost:9200/place/_search?pretty=true&size=100&filter_path=hits.hits._source')
       .map((res: Response) => res.json().hits.hits);
   }
 
