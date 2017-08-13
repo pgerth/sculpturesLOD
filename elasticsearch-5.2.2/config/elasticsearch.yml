@@ -89,6 +89,8 @@ network.host: 127.0.0.1
 reindex.remote.whitelist: localhost:*
 
 xpack.security.enabled: false
+xpack.monitoring.enabled: false
+node.ingest: true
 
 http.cors.enabled: true
 http.cors.allow-origin: "*"
