@@ -42,7 +42,7 @@ export class PlaceComponent {
       .bindPopup(
         "<b>" + place._source['dcterms:title'] + "</b><br>" +
         place._source['dcterms:description'] + "<br>" +
-        "<a href=" + place._source['@id'] + ">OXREP Database</a>"
+        "<a href=" + place._source['@id'] + ">" + place._source['@id'] + "</a>"
       );
   }
 }
