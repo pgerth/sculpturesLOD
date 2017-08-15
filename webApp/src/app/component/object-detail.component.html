@@ -19,13 +19,13 @@
         <dt><a href="http://purl.org/dc/relation">dcterms:relation</a></dt>
         <dd><span>
           <ng-container *ngFor="let obj of object?._source['dcterms:relation']">
-            <a href="http://arachne.dainst.org/entity/{{obj}}">arachne:{{obj}}</a> <br>
+            <a href="http://arachne.dainst.org/entity/{{obj['@id']}}">{{obj['@id']}}</a> <br>
           </ng-container>
         </span></dd>
         <dt><a href="http://purl.org/dc/terms/isReferencedBy">dcterms:isReferencedBy</a></dt>
         <dd><span>
           <ng-container *ngFor="let obj of object?._source['dcterms:isReferencedBy']">
-            <a href="http://arachne.dainst.org/entity/{{obj['imageId']}}">{{obj['imageSubtitle']}}</a> <br>
+            <a href="http://arachne.dainst.org/entity/{{obj['@id']}}">{{obj['dcterms:title']}}</a> <br>
           </ng-container>
         </span></dd>
         <dt><a href="http://purl.org/dc/terms/spatial">dcterms:spatial</a></dt>
