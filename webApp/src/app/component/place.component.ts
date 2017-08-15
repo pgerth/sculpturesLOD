@@ -40,8 +40,8 @@ export class PlaceComponent {
     L.marker([place._source.location.lat, place._source.location.lon])
       .addTo(this.map)
       .bindPopup(
-        "<b>" + place._source['dc:title'] + "</b><br>" +
-        place._source['dc:description'] + "<br>" +
+        "<b>" + place._source['dcterms:title'] + "</b><br>" +
+        place._source['dcterms:description'] + "<br>" +
         "<a href=" + place._source['@id'] + ">OXREP Database</a>"
       );
   }

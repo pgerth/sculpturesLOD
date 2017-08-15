@@ -10,39 +10,39 @@
             <dd><span>{{object?._source[prop]}}</span></dd>
           </ng-container>
         </ng-container>
-        <dt><a href="http://purl.org/dc/terms/medium">dc:medium</a></dt>
+        <dt><a href="http://purl.org/dc/terms/medium">dcterms:medium</a></dt>
         <dd><span>
-          <ng-container *ngFor="let medium of object?._source['dc:medium']">
-            <a href="{{medium['@id'] | resolve}}">{{medium['dc:title']}}</a> <br>
+          <ng-container *ngFor="let medium of object?._source['dcterms:medium']">
+            <a href="{{medium['@id'] | resolve}}">{{medium['dcterms:title']}}</a> <br>
           </ng-container>
         </span></dd>
-        <dt><a href="http://purl.org/dc/relation">dc:relation</a></dt>
+        <dt><a href="http://purl.org/dc/relation">dcterms:relation</a></dt>
         <dd><span>
-          <ng-container *ngFor="let obj of object?._source['dc:relation']">
+          <ng-container *ngFor="let obj of object?._source['dcterms:relation']">
             <a href="http://arachne.dainst.org/entity/{{obj}}">arachne:{{obj}}</a> <br>
           </ng-container>
         </span></dd>
-        <dt><a href="http://purl.org/dc/terms/isReferencedBy">dc:isReferencedBy</a></dt>
+        <dt><a href="http://purl.org/dc/terms/isReferencedBy">dcterms:isReferencedBy</a></dt>
         <dd><span>
-          <ng-container *ngFor="let obj of object?._source['dc:isReferencedBy']">
+          <ng-container *ngFor="let obj of object?._source['dcterms:isReferencedBy']">
             <a href="http://arachne.dainst.org/entity/{{obj['imageId']}}">{{obj['imageSubtitle']}}</a> <br>
           </ng-container>
         </span></dd>
         <dt><a href="http://purl.org/dc/terms/spatial">dcterms:spatial</a></dt>
         <dd><span>
-          <ng-container *ngFor="let obj of object?._source['dc:spatial']">
-            <a href="#{{obj['dc:type']}}">{{obj['dc:type']}}</a> <br>
+          <ng-container *ngFor="let obj of object?._source['dcterms:spatial']">
+            <a href="#{{obj['dcterms:type']}}">{{obj['dcterms:type']}}</a> <br>
           </ng-container>
         </span></dd>
       </dl>
-      <ng-container *ngFor="let obj of object?._source['dc:spatial']">
-        <h4 id="{{obj['dc:type']}}">
-          <a href="#{{obj['dc:type']}}">#{{obj['dc:type']}}</a>
+      <ng-container *ngFor="let obj of object?._source['dcterms:spatial']">
+        <h4 id="{{obj['dcterms:type']}}">
+          <a href="#{{obj['dcterms:type']}}">#{{obj['dcterms:type']}}</a>
           <small> (<a href="http://purl.org/dc/terms/spatial">dcterms:spatial</a>)</small>
         </h4>
         <dl class="dl-horizontal">
-          <dt><a href="http://purl.org/dc/terms/title">dc:title</a></dt>
-          <dd><span>{{obj['dc:title']}}</span></dd>
+          <dt><a href="http://purl.org/dc/terms/title">dcterms:title</a></dt>
+          <dd><span>{{obj['dcterms:title']}}</span></dd>
           <dt><a href="http://www.w3.org/2003/01/geo/wgs84_pos#lat">geo:lat</a></dt>
           <dd><span>{{obj['wgs84:lat']}}</span></dd>
           <dt><a href="http://www.w3.org/2003/01/geo/wgs84_pos#long">geo:long</a></dt>

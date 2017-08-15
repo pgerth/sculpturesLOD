@@ -5,21 +5,21 @@
       <table class="table table-striped">
         <thead>
           <tr>
-            <th><a href="{{this.namespaceService.namespace.dc}}title">dc:title</a></th>
-            <th><a href="{{this.namespaceService.namespace.dc}}type">dc:type</a></th>
-            <th><a href="{{this.namespaceService.namespace.dc}}description">dc:description</a></th>
-            <th><a href="{{this.namespaceService.namespace.dc}}medium">dc:medium</a></th>
+            <th><a href="{{this.namespaceService.namespace.dc}}title">dcterms:title</a></th>
+            <th><a href="{{this.namespaceService.namespace.dc}}type">dcterms:type</a></th>
+            <th><a href="{{this.namespaceService.namespace.dc}}description">dcterms:description</a></th>
+            <th><a href="{{this.namespaceService.namespace.dc}}medium">dcterms:medium</a></th>
             <th></th>
           </tr>
         </thead>
         <tbody>
           <tr *ngFor="let place of places">
-            <td>{{place['_source']['dc:title']}}</td>
-            <td><a href="{{place['_source']['dc:type'] | resolve}}">{{place['_source']['type']}}</a></td>
-            <td>{{place['_source']['dc:description']}}</td>
+            <td>{{place['_source']['dcterms:title']}}</td>
+            <td><a href="{{place['_source']['dcterms:type'] | resolve}}">{{place['_source']['type']}}</a></td>
+            <td>{{place['_source']['dcterms:description']}}</td>
             <td>
-              <ng-container *ngFor="let material of place['_source']['dc:medium']">
-                <a href="{{material['@id'] | resolve}}">{{material['dc:title']}}</a>
+              <ng-container *ngFor="let material of place['_source']['dcterms:medium']">
+                <a href="{{material['@id'] | resolve}}">{{material['dcterms:title']}}</a>
               </ng-container>
             </td>
             <td><a href="{{place['_source']['@id']}}"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>

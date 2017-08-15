@@ -3,21 +3,21 @@
   <table class="table table-striped">
     <thead>
       <tr>
-        <th><a href="{{this.namespaceService.namespace.dc}}ID">dc:identifier</a></th>
-        <th><a href="{{this.namespaceService.namespace.dc}}title">dc:title</a></th>
+        <th><a href="{{this.namespaceService.namespace.dc}}ID">dcterms:identifier</a></th>
+        <th><a href="{{this.namespaceService.namespace.dc}}title">dcterms:title</a></th>
         <th><a href="{{this.namespaceService.namespace.dcterms}}temporal">dcterms:temporal</a></th>
-        <th><a href="{{this.namespaceService.namespace.dc}}medium">dc:medium</a></th>
+        <th><a href="{{this.namespaceService.namespace.dc}}medium">dcterms:medium</a></th>
         <th></th>
       </tr>
     </thead>
     <tbody>
       <tr *ngFor="let object of objects">
-        <td><a [routerLink]="['/object', object['_source']['dc:identifier']]">{{object['_source']['dc:identifier']}}</a></td>
-        <td>{{object['_source']['dc:title']}}</td>
-        <td>{{object['_source']['dc:temporal']}}</td>
+        <td><a [routerLink]="['/object', object['_source']['dcterms:identifier']]">{{object['_source']['dcterms:identifier']}}</a></td>
+        <td>{{object['_source']['dcterms:title']}}</td>
+        <td>{{object['_source']['dcterms:temporal']}}</td>
         <td>
-          <ng-container *ngFor="let medium of object['_source']['dc:medium']">
-            <a href="{{medium['@id'] | resolve}}">{{medium['dc:title']}}<br></a>
+          <ng-container *ngFor="let medium of object['_source']['dcterms:medium']">
+            <a href="{{medium['@id'] | resolve}}">{{medium['dcterms:title']}}<br></a>
           </ng-container>
         </td>
         <td><a href="{{object['_source']['@id']}}"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>

@@ -14,7 +14,7 @@ import { MapService } from '../service/map.service';
 export class ObjectDetailComponent {
   public object: Object[];
   public quarry: Object[];
-  public properties: string[] = [ "dc:title", "dc:identifier", "dc:temporal", "facet_geschlecht", "facet_lebensalter", "facet_erhaltung", "facet_funktion", "dc:bibliographicCitation" ];
+  public properties: string[] = [ "dcterms:title", "dcterms:identifier", "dcterms:temporal", "facet_geschlecht", "facet_lebensalter", "facet_erhaltung", "facet_funktion", "dcterms:bibliographicCitation" ];
 
   constructor(
     private route: ActivatedRoute,
