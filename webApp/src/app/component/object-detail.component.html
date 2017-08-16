@@ -16,6 +16,12 @@
             <a href="{{medium['@id'] | resolve}}">{{medium['dcterms:title']}}</a> <br>
           </ng-container>
         </span></dd>
+        <dt><a href="http://purl.org/dc/terms/spatial">dcterms:spatial</a></dt>
+        <dd><span>
+          <ng-container *ngFor="let obj of object?._source['dcterms:spatial']">
+            <a href="#{{obj['dcterms:type']}}">{{obj['dcterms:type']}}</a> <br>
+          </ng-container>
+        </span></dd>
         <dt><a href="http://purl.org/dc/relation">dcterms:relation</a></dt>
         <dd><span>
           <ng-container *ngFor="let obj of object?._source['dcterms:relation']">
@@ -26,12 +32,6 @@
         <dd><span>
           <ng-container *ngFor="let obj of object?._source['dcterms:isReferencedBy']">
             <a href="http://arachne.dainst.org/entity/{{obj['@id']}}">{{obj['dcterms:title']}}</a> <br>
-          </ng-container>
-        </span></dd>
-        <dt><a href="http://purl.org/dc/terms/spatial">dcterms:spatial</a></dt>
-        <dd><span>
-          <ng-container *ngFor="let obj of object?._source['dcterms:spatial']">
-            <a href="#{{obj['dcterms:type']}}">{{obj['dcterms:type']}}</a> <br>
           </ng-container>
         </span></dd>
       </dl>
