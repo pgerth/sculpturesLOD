@@ -1,12 +1,20 @@
 <div class="container">
   <h3>Object</h3>
+  <input #searchBox id="search-box" (keyup)="search(searchBox.value)" />
+  <div>
+    <div *ngFor="let object of objects">
+      {{object['_source']['dcterms:title']}}
+    </div>
+  </div>
+
+<!--
   <table class="table table-striped">
     <thead>
       <tr>
-        <th><a href="{{this.namespaceService.namespace.dc}}ID">dcterms:identifier</a></th>
-        <th><a href="{{this.namespaceService.namespace.dc}}title">dcterms:title</a></th>
+        <th><a href="{{this.namespaceService.namespace.dcterms}}ID">dcterms:identifier</a></th>
+        <th><a href="{{this.namespaceService.namespace.dcterms}}title">dcterms:title</a></th>
         <th><a href="{{this.namespaceService.namespace.dcterms}}temporal">dcterms:temporal</a></th>
-        <th><a href="{{this.namespaceService.namespace.dc}}medium">dcterms:medium</a></th>
+        <th><a href="{{this.namespaceService.namespace.dcterms}}medium">dcterms:medium</a></th>
         <th></th>
       </tr>
     </thead>
@@ -25,3 +33,4 @@
     </tbody>
   </table>
 </div>
+-->

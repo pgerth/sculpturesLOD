@@ -14,13 +14,9 @@ export class ObjectComponent {
     private namespaceService: NamespaceService
   ) {}
 
-  ngOnInit(): void {
-    this.loadData();
-  }
-
-  loadData() {
+  search(term: string) {
     this.resourcesService
-      .getObjects()
+      .getObjects(term)
       .subscribe((objects: Object[]) => this.objects = objects);
   }
 }

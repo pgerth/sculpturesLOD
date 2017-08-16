@@ -12,8 +12,10 @@ export class ResourcesService {
   ) { }
 
   // function, that returns all objects of the data store
-  getObjects() {
-    return this.http.get('http://localhost:9200/object/arachne/_search?pretty=true&filter_path=hits.hits._source')
+  getObjects(term: string) {
+    const url = `http://localhost:9200/object/arachne/_search?source={"query":{"match":{"dcterms:title":"${term}"}}}`;
+    return this.http
+      .get(url)
       .map((res: Response) => res.json().hits.hits);
   }
 
