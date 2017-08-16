@@ -18,7 +18,8 @@ import { MapService } from './service/map.service';
 import { NamespaceService } from './service/namespace.service';
 
 import { KeysPipe } from './pipe/keys.pipe';
-import { NamespaceResolverPipe } from './pipe/namespace-resolver.pipe';
+import { NamespaceResolverPipe } from './pipe/resolver.pipe';
+import { ImageResolverPipe } from './pipe/resolver.pipe';
 
 @NgModule({
   imports: [
@@ -34,7 +35,8 @@ import { NamespaceResolverPipe } from './pipe/namespace-resolver.pipe';
     ObjectComponent,
     ObjectDetailComponent,
     KeysPipe,
-    NamespaceResolverPipe
+    NamespaceResolverPipe,
+    ImageResolverPipe
   ],
   providers: [MapService, ResourcesService, NamespaceService],
   bootstrap: [AppComponent]

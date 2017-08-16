@@ -11,53 +11,59 @@
     </div>
   </div>
   <br>
-  <ng-container *ngIf="objects">
-    <ul class="media-list">
-        <li class="media" *ngFor="let object of objects">
-            <div class="media-left media-middle">
-                <a href="#">
-                <img class="media-object img-thumbnail" alt="No Image">
-                </a>
-            </div>
-            <div class="media-body">
-                <h3 class="media-heading"><a [routerLink]="['/object', object['_source']['dcterms:identifier']]">{{object['_source']['dcterms:title']}}</a></h3>
-                <a href="{{object['_source']['@id']}}">{{object['_source']['@id']}}<br></a>
-                <a>
-                  <ng-container *ngFor="let medium of object['_source']['dcterms:medium']">
-                    <a href="{{medium['@id']}}">{{medium['dcterms:title']}}<br></a>
-                  </ng-container>
-                </a>
-                <a>{{object['_source']['dcterms:description']}}</a>
-            </div>
-        </li>
-    </ul>
-  </ng-container>
+  <ul class="media-list">
+    <li class="media" *ngFor="let object of objects">
+      <div class="media-left media-middle">
+        <a href="#">
+          <ng-container *ngIf="object['_source']['dcterms:isReferencedBy']; else elseBlock">
+            <img class="media-object img-thumbnail" width="100" src="{{object['_source']['dcterms:isReferencedBy'][0]['@id'] | imgResolve}}" alt="No Image">
+          </ng-container>
+          <ng-template #elseBlock>
+            <img class="media-object img-thumbnail" width="100" alt="No Image">
+          </ng-template>
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a [routerLink]="['/object', object['_source']['dcterms:identifier']]">{{object['_source']['dcterms:title']}}</a></h3>
+        <a href="{{object['_source']['dcterms:bib']}}">{{object['_source']['@id']}}<br></a>
+        <a>
+          <ng-container *ngFor="let medium of object['_source']['dcterms:medium']">
+            <a href="{{medium['@id']}}">{{medium['dcterms:title']}}<br></a>
+          </ng-container>
+        </a>
+        <a>{{object['_source']['dcterms:description']}}</a>
+        <ng-container *ngIf="object['_source']['dcterms:isReferencedBy']">
+          <a>{{object['_source']['dcterms:isReferencedBy'][0]['@id'] | imgResolve}}</a>
+        </ng-container>
+      </div>
+    </li>
+  </ul>
 </div>
 <!--
-  <table class="table table-striped">
-    <thead>
-      <tr>
-        <th><a href="{{this.namespaceService.namespace.dcterms}}ID">dcterms:identifier</a></th>
-        <th><a href="{{this.namespaceService.namespace.dcterms}}title">dcterms:title</a></th>
-        <th><a href="{{this.namespaceService.namespace.dcterms}}temporal">dcterms:temporal</a></th>
-        <th><a href="{{this.namespaceService.namespace.dcterms}}medium">dcterms:medium</a></th>
-        <th></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr *ngFor="let object of objects">
-        <td><a [routerLink]="['/object', object['_source']['dcterms:identifier']]">{{object['_source']['dcterms:identifier']}}</a></td>
-        <td>{{object['_source']['dcterms:title']}}</td>
-        <td>{{object['_source']['dcterms:temporal']}}</td>
-        <td>
-          <ng-container *ngFor="let medium of object['_source']['dcterms:medium']">
-            <a href="{{medium['@id'] | resolve}}">{{medium['dcterms:title']}}<br></a>
-          </ng-container>
-        </td>
-        <td><a href="{{object['_source']['@id']}}"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
-      </tr>
-    </tbody>
-  </table>
-  </ng-container>
+<table class="table table-striped">
+<thead>
+<tr>
+<th><a href="{{this.namespaceService.namespace.dcterms}}ID">dcterms:identifier</a></th>
+<th><a href="{{this.namespaceService.namespace.dcterms}}title">dcterms:title</a></th>
+<th><a href="{{this.namespaceService.namespace.dcterms}}temporal">dcterms:temporal</a></th>
+<th><a href="{{this.namespaceService.namespace.dcterms}}medium">dcterms:medium</a></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr *ngFor="let object of objects">
+<td><a [routerLink]="['/object', object['_source']['dcterms:identifier']]">{{object['_source']['dcterms:identifier']}}</a></td>
+<td>{{object['_source']['dcterms:title']}}</td>
+<td>{{object['_source']['dcterms:temporal']}}</td>
+<td>
+<ng-container *ngFor="let medium of object['_source']['dcterms:medium']">
+<a href="{{medium['@id'] | resolve}}">{{medium['dcterms:title']}}<br></a>
+</ng-container>
+</td>
+<td><a href="{{object['_source']['@id']}}"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
+</tr>
+</tbody>
+</table>
+</ng-container>
 </div>
 -->
