@@ -1,5 +1,5 @@
 <div class="sub-container">
-  <h2>Object Fulltext Search</h2>
+  <h2 style="text-align: center">Object Fulltext Search</h2>
   <div id="custom-search-input">
     <div class="input-group col-md-12">
       <input #searchBox id="search-box" class="search-query form-control" placeholder="Search" (keyup)="search(searchBox.value)"/>
@@ -10,7 +10,30 @@
       </span>
     </div>
   </div>
+  <br>
   <ng-container *ngIf="objects">
+    <ul class="media-list">
+        <li class="media" *ngFor="let object of objects">
+            <div class="media-left media-middle">
+                <a href="#">
+                <img class="media-object img-thumbnail" alt="No Image">
+                </a>
+            </div>
+            <div class="media-body">
+                <h3 class="media-heading"><a [routerLink]="['/object', object['_source']['dcterms:identifier']]">{{object['_source']['dcterms:title']}}</a></h3>
+                <a href="{{object['_source']['@id']}}">{{object['_source']['@id']}}<br></a>
+                <a>
+                  <ng-container *ngFor="let medium of object['_source']['dcterms:medium']">
+                    <a href="{{medium['@id']}}">{{medium['dcterms:title']}}<br></a>
+                  </ng-container>
+                </a>
+                <a>{{object['_source']['dcterms:description']}}</a>
+            </div>
+        </li>
+    </ul>
+  </ng-container>
+</div>
+<!--
   <table class="table table-striped">
     <thead>
       <tr>
@@ -37,3 +60,4 @@
   </table>
   </ng-container>
 </div>
+-->
