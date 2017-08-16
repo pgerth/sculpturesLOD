@@ -22,3 +22,24 @@ export class NamespaceResolverPipe implements PipeTransform {
     return url;
   }
 }
+
+/*
+ * Resolves the image path for an arachne image.
+ * Takes an arachne image uri as an argument.
+ * Usage:
+ *   arachneImgUrl | imgResolve
+ * Example:
+ *   {{ 'https://arachne.dainst.org/entity/5336893' |  imgResolve}}
+ *   returns: 'https://arachne.dainst.org/data/image/5336893'
+*/
+
+@Pipe({name: 'imgResolve'})
+export class ImageResolverPipe implements PipeTransform {
+  constructor(public namespaceService: NamespaceService) {}
+
+  transform(value:any, args:string[]) : any {
+    let id = value.split("/")[4]
+    let url = "https://arachne.dainst.org/data/image/" + id
+    return url;
+  }
+}
