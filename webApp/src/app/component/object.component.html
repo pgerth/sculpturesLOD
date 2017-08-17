@@ -19,50 +19,43 @@
             <img class="media-object img-thumbnail" src="{{object['_source']['dcterms:isReferencedBy'][0]['@id'] | imgResolve}}" alt="No Image">
           </ng-container>
           <ng-template #elseBlock>
-            <img class="media-object img-thumbnail" width="110" alt="No Image">
+            <img class="media-object img-thumbnail" width="160" alt="No Image">
           </ng-template>
         </a>
       </div>
       <div class="media-body">
         <h3 class="media-heading"><a [routerLink]="['/object', object['_source']['dcterms:identifier']]">{{object['_source']['dcterms:title']}}</a></h3>
-        <a href="{{object['_source']['dcterms:bib']}}">{{object['_source']['@id']}}<br></a>
-        <a>
+        <div class="row">
+          <div class="col-sm-2">@id</div>
+          <div class="col-sm-8">
+            <a href="{{object['_source']['@id']}}">{{object['_source']['@id']}}<br></a>
+        </div>
+      </div>
+        <div class="row">
+          <div class="col-sm-2"><a href="{{this.namespaceService.namespace.dcterms}}medium">dcterms:medium</a></div>
+          <div class="col-sm-8">
           <ng-container *ngFor="let medium of object['_source']['dcterms:medium']">
             <a href="{{medium['@id']}}">{{medium['dcterms:title']}}<br></a>
           </ng-container>
-        </a>
-        <ng-container *ngIf="object['_source']['dcterms:description']">
-          <a>{{object['_source']['dcterms:description']}}</a>
+        </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-2"><a href="{{this.namespaceService.namespace.dcterms}}subject">dcterms:subject</a></div>
+          <div class="col-sm-8">
+        <ng-container *ngIf="object['_source']['dcterms:subject']">
+          {{object['_source']['dcterms:subject'] | slice:0:500}}<br>
         </ng-container>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-2"><a href="{{this.namespaceService.namespace.dcterms}}description">dcterms:description</a></div>
+          <div class="col-sm-8">
+        <ng-container *ngIf="object['_source']['dcterms:description']">
+          {{object['_source']['dcterms:description'] | slice:0:500}}
+        </ng-container>
+        </div>
+        </div>
       </div>
     </li>
   </ul>
 </div>
-<!--
-<table class="table table-striped">
-<thead>
-<tr>
-<th><a href="{{this.namespaceService.namespace.dcterms}}ID">dcterms:identifier</a></th>
-<th><a href="{{this.namespaceService.namespace.dcterms}}title">dcterms:title</a></th>
-<th><a href="{{this.namespaceService.namespace.dcterms}}temporal">dcterms:temporal</a></th>
-<th><a href="{{this.namespaceService.namespace.dcterms}}medium">dcterms:medium</a></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr *ngFor="let object of objects">
-<td><a [routerLink]="['/object', object['_source']['dcterms:identifier']]">{{object['_source']['dcterms:identifier']}}</a></td>
-<td>{{object['_source']['dcterms:title']}}</td>
-<td>{{object['_source']['dcterms:temporal']}}</td>
-<td>
-<ng-container *ngFor="let medium of object['_source']['dcterms:medium']">
-<a href="{{medium['@id'] | resolve}}">{{medium['dcterms:title']}}<br></a>
-</ng-container>
-</td>
-<td><a href="{{object['_source']['@id']}}"><i class="fa fa-external-link" aria-hidden="true"></i></a></td>
-</tr>
-</tbody>
-</table>
-</ng-container>
-</div>
--->

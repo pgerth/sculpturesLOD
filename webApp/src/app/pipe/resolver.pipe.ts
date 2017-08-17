@@ -39,7 +39,7 @@ export class ImageResolverPipe implements PipeTransform {
 
   transform(value:any) : any {
     let id = value.split("/")[4]
-    let url = "https://arachne.dainst.org/data/image/width/" + id + "?width=100"
+    let url = "https://arachne.dainst.org/data/image/width/" + id + "?width=150"
     return url;
   }
 }
