@@ -1,0 +1,80 @@
+{
+  "aliases": {},
+  "mappings": {
+    "_default_": {
+      "properties": {
+        "@id": {
+          "type": "text"
+        },
+        "@context": {
+          "type": "text"
+        },
+        "@timestamp": {
+          "type": "date"
+        },
+        "@version": {
+          "type": "text"
+        },
+        "dcterms:description": {
+          "type": "text"
+        },
+        "dcterms:subject": {
+          "type": "text"
+        },
+        "dcterms:format": {
+          "type": "text"
+        },
+        "dcterms:identifier": {
+          "type": "text"
+        },
+        "dcterms:medium": {
+          "properties": {
+            "@id": {
+              "type": "text"
+            },
+            "dcterms:title": {
+              "type": "text"
+            }
+          }
+        },
+        "dcterms:title": {
+          "type": "text"
+        },
+        "dcterms:type": {
+          "type": "text"
+        },
+        "dcterms:spatial": {
+          "properties": {
+            "@id": {
+              "type": "text"
+            },
+            "dcterms:title": {
+              "type": "text"
+            },
+            "dcterms:type": {
+              "type": "text"
+            },
+            "dcterms:isPartOf": {
+              "type": "text"
+            },
+            "wgs84:lat": {
+              "type": "text"
+            },
+            "wgs84:lon": {
+              "type": "text"
+            }
+          }
+        },
+        "location": {
+          "type": "geo_point"
+        },
+        "geometry": {
+          "type": "geo_shape"
+        },
+        "type": {
+          "type": "text"
+        }
+      }
+    }
+  }
+}
