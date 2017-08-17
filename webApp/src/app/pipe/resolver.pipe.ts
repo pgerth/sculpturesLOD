@@ -37,9 +37,9 @@ export class NamespaceResolverPipe implements PipeTransform {
 export class ImageResolverPipe implements PipeTransform {
   constructor(public namespaceService: NamespaceService) {}
 
-  transform(value:any, args:string[]) : any {
+  transform(value:any) : any {
     let id = value.split("/")[4]
-    let url = "https://arachne.dainst.org/data/image/" + id
+    let url = "https://arachne.dainst.org/data/image/width/" + id + "?width=100"
     return url;
   }
 }

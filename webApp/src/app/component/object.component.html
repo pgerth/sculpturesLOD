@@ -16,10 +16,10 @@
       <div class="media-left media-middle">
         <a href="#">
           <ng-container *ngIf="object['_source']['dcterms:isReferencedBy']; else elseBlock">
-            <img class="media-object img-thumbnail" width="100" src="{{object['_source']['dcterms:isReferencedBy'][0]['@id'] | imgResolve}}" alt="No Image">
+            <img class="media-object img-thumbnail" src="{{object['_source']['dcterms:isReferencedBy'][0]['@id'] | imgResolve}}" alt="No Image">
           </ng-container>
           <ng-template #elseBlock>
-            <img class="media-object img-thumbnail" width="100" alt="No Image">
+            <img class="media-object img-thumbnail" width="110" alt="No Image">
           </ng-template>
         </a>
       </div>
@@ -31,9 +31,8 @@
             <a href="{{medium['@id']}}">{{medium['dcterms:title']}}<br></a>
           </ng-container>
         </a>
-        <a>{{object['_source']['dcterms:description']}}</a>
-        <ng-container *ngIf="object['_source']['dcterms:isReferencedBy']">
-          <a>{{object['_source']['dcterms:isReferencedBy'][0]['@id'] | imgResolve}}</a>
+        <ng-container *ngIf="object['_source']['dcterms:description']">
+          <a>{{object['_source']['dcterms:description']}}</a>
         </ng-container>
       </div>
     </li>
