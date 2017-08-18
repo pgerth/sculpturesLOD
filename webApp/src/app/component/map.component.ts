@@ -13,6 +13,7 @@ export class MapComponent {
   public places: Object[];
   public objects: Object[];
   public map: L.Map;
+  public markersLayer: L.LayerGroup;
 
   constructor(
     private resourcesService: ResourcesService,
@@ -47,14 +48,17 @@ export class MapComponent {
       .getObjects(term)
       .subscribe((objects: Object[]) => {
         this.objects = objects;
+        this.map.eachLayer(function(layer){
+          if (layer._url == undefined) {layer.remove();}
+        });
         for (let object of objects) {
-          this.genrateMarkerForPlace(object);
+          this.genrateMarker(object);
         }
       });
   }
 
-  private genrateMarkerForPlace (place : any) {
-    L.marker([place._source.location.lat, place._source.location.lon])
+  private genrateMarker (place : any) {
+    let marker = L.marker([place._source.location.lat, place._source.location.lon])
       .addTo(this.map)
       .bindPopup(
         "<b>" + place._source['dcterms:title'] + "</b><br>" +
