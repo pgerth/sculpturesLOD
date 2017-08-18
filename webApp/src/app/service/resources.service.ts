@@ -13,7 +13,7 @@ export class ResourcesService {
 
   // function, that returns all objects of the data store
   getObjects(term: string) {
-    const url = `http://localhost:9200/object/arachne/_search?source={"query":{"match":{"_all":"${term}"}}}`;
+    const url = `http://localhost:9200/object/arachne/_search?source={"query":{"bool":{"must":[{"exists":{"field":"location"}},{"match":{"_all":"${term}"}}]}}}`;
     return this.http
       .get(url)
       .map((res: Response) => res.json().hits.hits);

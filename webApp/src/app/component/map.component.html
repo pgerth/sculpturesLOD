@@ -1,6 +1,22 @@
 <div class=container style="width: 100%;">
   <div class=row>
-    <div class="col-xs-2">Search</div>
-    <div class="col-xs-10" style="height: 640px" id="map"></div>
+    <div class="col-xs-3">
+      <div id="custom-search-input">
+        <div class="input-group">
+          <input #searchBox id="search-box" class="search-query form-control" placeholder="Search" (keyup)="search(searchBox.value)"/>
+          <span class="input-group-btn">
+            <button class="btn btn-danger" type="button">
+              <span class=" glyphicon glyphicon-search"></span>
+            </button>
+          </span>
+        </div>
+      </div>
+      <ul>
+        <li *ngFor="let object of objects">
+          <a href="{{object['_source']['@id']}}">{{object['_source']['@id']}}<br></a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-xs-9" style="height: 640px" id="map"></div>
   </div>
 </div>

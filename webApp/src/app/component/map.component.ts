@@ -11,6 +11,7 @@ import { ResourcesService } from '../service/resources.service';
 })
 export class MapComponent {
   public places: Object[];
+  public objects: Object[];
   public map: L.Map;
 
   constructor(
@@ -37,11 +38,19 @@ export class MapComponent {
       .getPlaces()
       .subscribe((places: any) => {
         this.places = places;
-        for (let place of places) {
-          this.genrateMarkerForPlace(place);
-        }
       });
 
+  }
+
+  search(term: string) {
+    this.resourcesService
+      .getObjects(term)
+      .subscribe((objects: Object[]) => {
+        this.objects = objects;
+        for (let object of objects) {
+          this.genrateMarkerForPlace(object);
+        }
+      });
   }
 
   private genrateMarkerForPlace (place : any) {
