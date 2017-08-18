@@ -14,20 +14,8 @@ import { ResourcesService } from '../service/resources.service';
   ],
 })
 export class MapComponent {
-  public places: Object[];
-  public objects: Object[];
+  public docs: Object[];
   public map: L.Map;
-  public objectIcon = L.AwesomeMarkers.icon({
-    icon: 'glyphicon-asterisk',
-    prefix: 'glyphicon',
-    markerColor: 'cadetblue'
-  });
-  public placeIcon = L.AwesomeMarkers.icon({
-    icon: 'cubes',
-    prefix: 'fa',
-    markerColor: 'orange'
-  });
-
 
   constructor(
     private resourcesService: ResourcesService,
@@ -49,37 +37,30 @@ export class MapComponent {
     L.control.zoom({position: 'topright'}).addTo(this.map);
     L.control.layers(baseMaps).addTo(this.map);
     L.control.scale().addTo(this.map);
-
-    this.resourcesService
-      .getPlaces()
-      .subscribe((places: any) => {
-        this.places = places;
-      });
-
   }
 
   search(term: string) {
     this.resourcesService
-      .getObjects(term)
-      .subscribe((objects: Object[]) => {
-        this.objects = objects;
+      .getDocs(term)
+      .subscribe((docs: Object[]) => {
+        this.docs = docs;
         this.map.eachLayer(function(layer){
           if (layer._url == undefined) {layer.remove();}
         });
-        for (let object of objects) {
-          this.genrateMarker(object);
-          console.log(object)
+        for (let doc of docs) {
+          this.genrateMarker(doc);
         }
       });
   }
 
-  private genrateMarker (object : any) {
-    let marker = L.marker([object._source.location.lat, object._source.location.lon], {icon: this.mapService.objectIcon})
+  private genrateMarker (doc : any) {
+    let icon
+    let marker = L.marker([doc._source.location.lat, doc._source.location.lon], {icon: this.mapService.objectIcon})
       .addTo(this.map)
       .bindPopup(
-        "<b>" + object._source['dcterms:title'] + "</b><br>" +
-        object._source['dcterms:description'] + "<br>" +
-        "<a href=" + object._source['@id'] + ">" + object._source['@id'] + "</a>"
+        "<b>" + doc._source['dcterms:title'] + "</b><br>" +
+        doc._source['dcterms:description'] + "<br>" +
+        "<a href=" + doc._source['@id'] + ">" + doc._source['@id'] + "</a>"
       );
   }
 }

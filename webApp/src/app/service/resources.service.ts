@@ -11,7 +11,15 @@ export class ResourcesService {
     private http: Http,
   ) { }
 
-  // function, that returns all objects of the data store
+  // function, that returns all documents of all indeces of the data store, found by a full text search term
+  getDocs(term: string) {
+    const url = `http://localhost:9200/place,object/_search?source={"query":{"bool":{"must":[{"exists":{"field":"location"}},{"match":{"_all":"${term}"}}]}}}`;
+    return this.http
+      .get(url)
+      .map((res: Response) => res.json().hits.hits);
+  }
+
+  // function, that returns all objects of the data store found by a full text search term
   getObjects(term: string) {
     const url = `http://localhost:9200/object/arachne/_search?source={"query":{"bool":{"must":[{"exists":{"field":"location"}},{"match":{"_all":"${term}"}}]}}}`;
     return this.http
@@ -19,6 +27,7 @@ export class ResourcesService {
       .map((res: Response) => res.json().hits.hits);
   }
 
+  // function, that returns
   getObject(id: number) {
     const url = `http://localhost:9200/object/arachne/${id}`;
     return this.http.get(url)
