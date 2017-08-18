@@ -7,13 +7,27 @@ import { ResourcesService } from '../service/resources.service';
 @Component({
   selector: 'map',
   templateUrl: './map.component.html',
-  styles: ['./map.component.css', '../../node_modules/leaflet/dist/leaflet.css'],
+  styles: [
+    './map.component.css',
+    '../../node_modules/leaflet/dist/leaflet.css',
+    '../../node_modules/leaflet.awesome-markers/dist/leaflet.awesome-markers.css'
+  ],
 })
 export class MapComponent {
   public places: Object[];
   public objects: Object[];
   public map: L.Map;
-  public markersLayer: L.LayerGroup;
+  public objectIcon = L.AwesomeMarkers.icon({
+    icon: 'glyphicon-asterisk',
+    prefix: 'glyphicon',
+    markerColor: 'cadetblue'
+  });
+  public placeIcon = L.AwesomeMarkers.icon({
+    icon: 'cubes',
+    prefix: 'fa',
+    markerColor: 'orange'
+  });
+
 
   constructor(
     private resourcesService: ResourcesService,
@@ -30,6 +44,7 @@ export class MapComponent {
     });
 
     // adds map control: layertree, scale
+
     let baseMaps = this.mapService.baseMaps;
     L.control.zoom({position: 'topright'}).addTo(this.map);
     L.control.layers(baseMaps).addTo(this.map);
@@ -58,13 +73,13 @@ export class MapComponent {
       });
   }
 
-  private genrateMarker (place : any) {
-    let marker = L.marker([place._source.location.lat, place._source.location.lon])
+  private genrateMarker (object : any) {
+    let marker = L.marker([object._source.location.lat, object._source.location.lon], {icon: this.mapService.objectIcon})
       .addTo(this.map)
       .bindPopup(
-        "<b>" + place._source['dcterms:title'] + "</b><br>" +
-        place._source['dcterms:description'] + "<br>" +
-        "<a href=" + place._source['@id'] + ">" + place._source['@id'] + "</a>"
+        "<b>" + object._source['dcterms:title'] + "</b><br>" +
+        object._source['dcterms:description'] + "<br>" +
+        "<a href=" + object._source['@id'] + ">" + object._source['@id'] + "</a>"
       );
   }
 }

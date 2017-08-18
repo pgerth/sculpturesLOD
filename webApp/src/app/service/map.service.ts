@@ -7,6 +7,8 @@ export class MapService {
     public map: Map;
     public baseMaps: any;
     public quarryStyle: any;
+    public objectIcon: any;
+    public placeIcon: any;
 
     constructor(private http: Http) {
         this.baseMaps = {
@@ -20,6 +22,18 @@ export class MapService {
                 attribution: '&copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
             })
         };
+
+        this.objectIcon = L.AwesomeMarkers.icon({
+          icon: 'glyphicon-asterisk',
+          prefix: 'glyphicon',
+          markerColor: 'cadetblue'
+        });
+
+        this.placeIcon = L.AwesomeMarkers.icon({
+          icon: 'cubes',
+          prefix: 'fa',
+          markerColor: 'orange'
+        });
 
         this.quarryStyle = {
           color: '#663399',
