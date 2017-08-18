@@ -55,7 +55,9 @@ export class MapComponent {
 
   private genrateMarker (doc : any) {
     let icon
-    let marker = L.marker([doc._source.location.lat, doc._source.location.lon], {icon: this.mapService.objectIcon})
+    if (doc._index == "object") {icon = this.mapService.objectIcon}
+    if (doc._index == "place") {icon = this.mapService.placeIcon}
+    let marker = L.marker([doc._source.location.lat, doc._source.location.lon], {icon: icon})
       .addTo(this.map)
       .bindPopup(
         "<b>" + doc._source['dcterms:title'] + "</b><br>" +
