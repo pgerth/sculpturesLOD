@@ -53,6 +53,7 @@ export class MapComponent {
         });
         for (let object of objects) {
           this.genrateMarker(object);
+          console.log(object)
         }
       });
   }
