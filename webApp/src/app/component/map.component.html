@@ -11,11 +11,8 @@
           </span>
         </div>
       </div>
-      <ul>
-        <li *ngFor="let object of objects">
-          <a href="{{object['_source']['@id']}}">{{object['_source']['@id']}}<br></a>
-        </li>
-      </ul>
+      <h4>Type</h4>
+      <a>{{stats?.type.buckets | json}}<br></a>
     </div>
     <div class="col-xs-9" style="height: 640px" id="map"></div>
   </div>

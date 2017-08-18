@@ -24,7 +24,7 @@ export class MapService {
         };
 
         this.objectIcon = L.AwesomeMarkers.icon({
-          icon: 'glyphicon-asterisk',
+          icon: 'glyphicon-eye-open',
           prefix: 'glyphicon',
           markerColor: 'cadetblue'
         });

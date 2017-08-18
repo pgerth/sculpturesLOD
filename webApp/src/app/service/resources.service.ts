@@ -13,10 +13,10 @@ export class ResourcesService {
 
   // function, that returns all documents of all indeces of the data store, found by a full text search term
   getDocs(term: string) {
-    const url = `http://localhost:9200/place,object/_search?source={"query":{"bool":{"must":[{"exists":{"field":"location"}},{"match":{"_all":"${term}"}}]}}}`;
+    const url = `http://localhost:9200/place,object/_search?size=10&source={"query":{"bool":{"must":[{"exists":{"field":"location"}},{"match":{"_all":"${term}"}}]}},"aggs":{"type":{"terms":{"field":"_index"}}}  }`;
     return this.http
       .get(url)
-      .map((res: Response) => res.json().hits.hits);
+      .map((res: Response) => res.json());
   }
 
   // function, that returns all objects of the data store found by a full text search term

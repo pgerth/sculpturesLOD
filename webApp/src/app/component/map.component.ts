@@ -14,7 +14,7 @@ import { ResourcesService } from '../service/resources.service';
   ],
 })
 export class MapComponent {
-  public docs: Object[];
+  public stats: Object[];
   public map: L.Map;
 
   constructor(
@@ -43,11 +43,11 @@ export class MapComponent {
     this.resourcesService
       .getDocs(term)
       .subscribe((docs: Object[]) => {
-        this.docs = docs;
+        this.stats = docs['aggregations'];
         this.map.eachLayer(function(layer){
           if (layer._url == undefined) {layer.remove();}
         });
-        for (let doc of docs) {
+        for (let doc of docs['hits']['hits']) {
           this.genrateMarker(doc);
         }
       });
