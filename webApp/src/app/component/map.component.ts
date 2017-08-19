@@ -3,6 +3,7 @@
 import { Component, OnInit } from '@angular/core';
 import { MapService } from '../service/map.service';
 import { ResourcesService } from '../service/resources.service';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'map',
@@ -16,6 +17,8 @@ import { ResourcesService } from '../service/resources.service';
 export class MapComponent {
   public stats: Object[];
   public map: L.Map;
+  public searchTerm: string;
+  public selectedType: string;
 
   constructor(
     private resourcesService: ResourcesService,
@@ -39,11 +42,13 @@ export class MapComponent {
     L.control.scale().addTo(this.map);
   }
 
-  search(term: string) {
+  private search(term: string, esType: string) {
+    this.searchTerm = term;
+    this.selectedType = esType;
     this.resourcesService
-      .getDocs(term)
+      .getDocs(term,esType)
       .subscribe((docs: Object[]) => {
-        this.stats = docs['aggregations'];
+        this.stats = docs;
         this.map.eachLayer(function(layer){
           if (layer._url == undefined) {layer.remove();}
         });
@@ -51,6 +56,10 @@ export class MapComponent {
           this.genrateMarker(doc);
         }
       });
+  }
+
+  myFunc(){
+    console.log("function called");
   }
 
   private genrateMarker (doc : any) {

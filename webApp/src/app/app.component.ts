@@ -2,6 +2,7 @@
 
 import { Component } from '@angular/core';
 import { ResourcesService } from './service/resources.service';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
