@@ -20,7 +20,7 @@ export class PlaceComponent {
 
   ngOnInit(): void {
     this.map = L.map('map', {
-      center: [40,20],
+      center: [43,10],
       zoom: 4
     });
     L.control.scale().addTo(this.map);
@@ -37,7 +37,9 @@ export class PlaceComponent {
   }
 
   private genrateMarkerForPlace (place : any) {
-    L.marker([place._source.location.lat, place._source.location.lon])
+    // icon definition: usage of in mapService defined icon
+    let icon = this.mapService.placeIcon
+    L.marker([place._source.location.lat, place._source.location.lon], {icon: icon})
       .addTo(this.map)
       .bindPopup(
         "<b>" + place._source['dcterms:title'] + "</b><br>" +

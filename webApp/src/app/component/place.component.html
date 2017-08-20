@@ -1,8 +1,10 @@
 <div class="container">
   <h3>Places</h3>
   <div class="row">
-    <div class="col-sm-8">
+    <!-- DATA TABLE -->
+    <div class="col-sm-7">
       <table class="table table-striped">
+        <!-- Table head description -->
         <thead>
           <tr>
             <th><a href="{{this.namespaceService.namespace.dcterms}}title">dcterms:title</a></th>
@@ -12,6 +14,7 @@
             <th></th>
           </tr>
         </thead>
+        <!-- Creation of table row for earch dataset -->
         <tbody>
           <tr *ngFor="let place of places">
             <td>{{place['_source']['dcterms:title']}}</td>
@@ -27,8 +30,9 @@
         </tbody>
       </table>
     </div>
-    <div class="col-sm-4">
-      <div style="height: 400px" id="map">
+    <!-- MAP -->
+    <div class="col-sm-5">
+      <div style="height: 50vH" id="map">
       </div>
     </div>
   </div>
