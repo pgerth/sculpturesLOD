@@ -58,7 +58,6 @@ export class MapComponent {
     this.selectedMedium = medium;
     this.selectedTemporal = temporal;
 
-    console.log(term,index,type,medium,temporal);
     this.resourcesService
       .getDocs(term,index,type,medium,temporal)
       .subscribe((docs: Object[]) => {
