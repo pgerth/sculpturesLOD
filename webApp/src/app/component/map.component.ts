@@ -19,8 +19,9 @@ export class MapComponent {
   public map: L.Map;
   // base parameters for facetted search
   public searchTerm: string;
-  public selectedIndex = 'place,object';
-  public selectedType = '';
+  public selectedIndex = "place,object";
+  public selectedType = "";
+  public selectedMedium = "";
 
   constructor(
     private resourcesService: ResourcesService,
@@ -44,13 +45,14 @@ export class MapComponent {
     L.control.scale().addTo(this.map);
   }
 
-  private search(term: string, index: string, type?: string) {
+  private search(term: string, index: string, type: string, medium: string) {
     this.searchTerm = term;
     this.selectedIndex = index;
     this.selectedType = type;
+    this.selectedMedium = medium;
     console.log(type)
     this.resourcesService
-      .getDocs(term,index,type)
+      .getDocs(term,index,type,medium)
       .subscribe((docs: Object[]) => {
         this.stats = docs;
         this.map.eachLayer(function(layer){
@@ -60,10 +62,6 @@ export class MapComponent {
           this.genrateMarker(doc);
         }
       });
-  }
-
-  myFunc(){
-    console.log("function called");
   }
 
   private genrateMarker (doc : any) {
