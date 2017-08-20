@@ -11,9 +11,23 @@
           </span>
         </div>
       </div>
-      <ng-container *ngIf="stats?.aggregations.type.buckets">
+      <ng-container *ngIf="stats?.aggregations.index.buckets">
         <hr>
         <h4>Type</h4>
+        <div class="btn-group-vertical btn-block">
+          <button type="button"
+            class="btn btn-small btn-default"
+            [ngClass]="{'active': selectedType == bucket.key}"
+            *ngFor="let bucket of stats?.aggregations.index.buckets"
+            (click)="search(searchTerm,bucket.key)">
+            {{bucket.key}}
+            <span class="badge badge-light">{{bucket.doc_count}}</span>
+          </button>
+        </div>
+      </ng-container>
+      <ng-container *ngIf="stats?.aggregations.type.buckets">
+        <hr>
+        <h4>Source</h4>
         <div class="btn-group-vertical btn-block">
           <button type="button"
             class="btn btn-small btn-default"
