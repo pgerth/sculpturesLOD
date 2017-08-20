@@ -13,13 +13,13 @@
           </span>
         </div>
       </div>
+      <hr>
       <!-- FILTER SEARCH IN SIDEBAR -->
       <ng-container *ngIf="stats?.aggregations.index.buckets">
-        <hr>
-        <h4>Type</h4>
+        <h5>Type</h5>
         <div class="btn-group-vertical btn-block">
           <button type="button"
-            class="btn btn-small btn-default"
+            class="btn btn-xs btn-default"
             [ngClass]="{'active': selectedIndex == bucket.key}"
             *ngFor="let bucket of stats?.aggregations.index.buckets"
             (click)="search(searchTerm,bucket.key,selectedType)">
@@ -29,13 +29,25 @@
         </div>
       </ng-container>
       <ng-container *ngIf="stats?.aggregations.type.buckets">
-        <hr>
-        <h4>Source</h4>
+        <h5>Source</h5>
         <div class="btn-group-vertical btn-block">
           <button type="button"
-            class="btn btn-small btn-default"
+            class="btn btn-xs btn-default"
             [ngClass]="{'active': selectedType == bucket.key}"
             *ngFor="let bucket of stats?.aggregations.type.buckets"
+            (click)="search(searchTerm,selectedIndex,bucket.key)">
+            {{bucket.key}}
+            <span class="badge badge-light">{{bucket.doc_count}}</span>
+          </button>
+        </div>
+      </ng-container>
+      <ng-container *ngIf="stats?.aggregations.medium.buckets">
+        <h5>Medium</h5>
+        <div class="btn-group-vertical btn-block">
+          <button type="button"
+            class="btn btn-xs btn-default"
+            [ngClass]="{'active': selectedType == bucket.key}"
+            *ngFor="let bucket of stats?.aggregations.medium.buckets"
             (click)="search(searchTerm,selectedIndex,bucket.key)">
             {{bucket.key}}
             <span class="badge badge-light">{{bucket.doc_count}}</span>
