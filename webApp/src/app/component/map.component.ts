@@ -39,9 +39,8 @@ export class MapComponent {
     });
 
     // adds map control: layertree, scale
-    let baseMaps = this.mapService.baseMaps;
     L.control.zoom({position: 'topright'}).addTo(this.map);
-    L.control.layers(baseMaps).addTo(this.map);
+    L.control.layers(this.mapService.baseMaps).addTo(this.map);
     L.control.scale().addTo(this.map);
   }
 
@@ -85,7 +84,7 @@ export class MapComponent {
         // popUp content creation for each dataset
         "<b>" + doc._source['dcterms:title'] + "</b><br>" +
         doc._source['dcterms:description'] + "<br>" +
-        "<a href=" + doc._source['@id'] + ">" + doc._source['@id'] + "</a>"
+        "<a class='url-break' href=" + doc._source['@id'] + ">" + doc._source['@id'] + "</a>"
       );
   }
 }
