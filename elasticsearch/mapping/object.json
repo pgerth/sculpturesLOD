@@ -16,13 +16,19 @@
           "type": "text"
         },
         "dcterms:description": {
-          "type": "text"
+          "type": "text",
+          "fielddata": true
         },
         "dcterms:subject": {
-          "type": "text"
+          "type": "text",
+          "fielddata": true
         },
         "dcterms:format": {
           "type": "text"
+        },
+        "dcterms:temporal": {
+          "type": "text",
+          "fielddata": true
         },
         "dcterms:identifier": {
           "type": "text"
@@ -33,7 +39,7 @@
               "type": "text"
             },
             "dcterms:title": {
-              "type": "text"
+              "type": "keyword"
             }
           }
         },

@@ -34,7 +34,7 @@
               "type": "text"
             },
             "dcterms:title": {
-              "type": "text"
+              "type": "keyword"
             }
           }
         },
