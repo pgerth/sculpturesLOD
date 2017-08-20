@@ -1,6 +1,7 @@
 <div class="container">
   <h3><a href="{{object?._source['@id']}}">{{object?._source['@id']}}</a></h3>
   <div class="row">
+    <!-- LEFT SIDE ATTRIBUTES LIST -->
     <div class="col-sm-6">
       <dl class="dl-horizontal">
         <ng-container *ngFor="let prop of properties">
@@ -52,7 +53,14 @@
         </dl>
       </ng-container>
     </div>
+    <!-- RIGHT SIDE -->
     <div class="col-sm-6">
+      <ng-container *ngIf="object?._source['dcterms:isReferencedBy']">
+        <div class="media-left media-middle" *ngFor="let img of object?._source['dcterms:isReferencedBy']">
+          <img class="media-object img-thumbnail" src="{{img['@id'] | imgResolve}}" alt="No Image">
+        </div>
+      </ng-container>
+      <!-- Map -->
       <div style="height: 400px" id="map">
       </div>
     </div>

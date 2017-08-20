@@ -14,14 +14,12 @@
   <ul class="media-list">
     <li class="media" *ngFor="let object of objects">
       <div class="media-left media-middle">
-        <a href="#">
-          <ng-container *ngIf="object['_source']['dcterms:isReferencedBy']; else elseBlock">
-            <img class="media-object img-thumbnail" src="{{object['_source']['dcterms:isReferencedBy'][0]['@id'] | imgResolve}}" alt="No Image">
-          </ng-container>
-          <ng-template #elseBlock>
-            <img class="media-object img-thumbnail" width="160" alt="No Image">
-          </ng-template>
-        </a>
+        <ng-container *ngIf="object['_source']['dcterms:isReferencedBy']; else elseBlock">
+          <img class="media-object img-thumbnail" src="{{object['_source']['dcterms:isReferencedBy'][0]['@id'] | imgResolve}}" alt="No Image">
+        </ng-container>
+        <ng-template #elseBlock>
+          <img class="media-object img-thumbnail" width="160" alt="No Image">
+        </ng-template>
       </div>
       <div class="media-body">
         <h3 class="media-heading"><a [routerLink]="['/object', object['_source']['dcterms:identifier']]">{{object['_source']['dcterms:title']}}</a></h3>
