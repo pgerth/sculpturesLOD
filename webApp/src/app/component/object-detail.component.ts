@@ -56,7 +56,9 @@ export class ObjectDetailComponent {
               for (let quarry of this.quarries['hits']) {
                 this.generateMarker(quarry);
               }
-              })
+            });
+        // draws circle with 500km radius to visualize the spatial query
+        L.circle([lat, lon], {radius: 500000}).addTo(this.map);
       });
   }
 
