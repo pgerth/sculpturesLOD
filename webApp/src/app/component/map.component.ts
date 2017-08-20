@@ -22,6 +22,7 @@ export class MapComponent {
   public selectedIndex = "place,object";
   public selectedType = "";
   public selectedMedium = "";
+  public selectedTemporal = "";
 
   constructor(
     private resourcesService: ResourcesService,
@@ -45,14 +46,16 @@ export class MapComponent {
     L.control.scale().addTo(this.map);
   }
 
-  private search(term: string, index: string, type: string, medium: string) {
+  private search(term: string, index: string, type: string, medium: string, temporal: string) {
     this.searchTerm = term;
     this.selectedIndex = index;
     this.selectedType = type;
     this.selectedMedium = medium;
-    console.log(type)
+    this.selectedTemporal = temporal;
+
+    console.log(term,index,type,medium,temporal);
     this.resourcesService
-      .getDocs(term,index,type,medium)
+      .getDocs(term,index,type,medium,temporal)
       .subscribe((docs: Object[]) => {
         this.stats = docs;
         this.map.eachLayer(function(layer){

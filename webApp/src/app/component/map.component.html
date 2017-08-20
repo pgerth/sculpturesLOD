@@ -5,7 +5,7 @@
       <!-- FULL TEXT SEARCH IN SIDEBAR -->
       <div id="custom-search-input">
         <div class="input-group">
-          <input #searchBox id="search-box" class="search-query form-control" placeholder="Search" (keyup)="search(searchBox.value,selectedIndex,selectedType,selectedMedium)"/>
+          <input #searchBox id="search-box" class="search-query form-control" placeholder="Search" (keyup)="search(searchBox.value,selectedIndex,selectedType,selectedMedium,selectedTemporal)"/>
           <span class="input-group-btn">
             <button type="button" class="btn btn-default" (click)="refresh();">
               <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
@@ -23,7 +23,7 @@
             class="btn btn-xs btn-default"
             [ngClass]="{'active': selectedIndex == bucket.key}"
             *ngFor="let bucket of stats?.aggregations.index.buckets"
-            (click)="search(searchTerm,bucket.key,selectedType,selectedMedium)">
+            (click)="search(searchTerm,bucket.key,selectedType,selectedMedium,selectedTemporal)">
             {{bucket.key}}
             <span class="badge badge-light">{{bucket.doc_count}}</span>
           </button>
@@ -37,7 +37,7 @@
             class="btn btn-xs btn-default"
             [ngClass]="{'active': selectedType == bucket.key}"
             *ngFor="let bucket of stats?.aggregations.type.buckets"
-            (click)="search(searchTerm,selectedIndex,bucket.key,selectedMedium)">
+            (click)="search(searchTerm,selectedIndex,bucket.key,selectedMedium,selectedTemporal)">
             {{bucket.key}}
             <span class="badge badge-light">{{bucket.doc_count}}</span>
           </button>
@@ -49,9 +49,9 @@
         <div class="btn-group-vertical btn-block">
           <button type="button"
             class="btn btn-xs btn-default"
-            [ngClass]="{'active': selectedMedium == bucket.key}"
             *ngFor="let bucket of stats?.aggregations.medium.buckets"
-            (click)="search(searchTerm,selectedIndex,selectedType,bucket.key)">
+            [ngClass]="{'active': selectedMedium == bucket.key}"
+            (click)="search(searchTerm,selectedIndex,selectedType,bucket.key,selectedTemporal)">
             {{bucket.key}}
             <span class="badge badge-light">{{bucket.doc_count}}</span>
           </button>
@@ -63,9 +63,9 @@
         <div class="btn-group-vertical btn-block">
           <button type="button"
             class="btn btn-xs btn-default"
-            [ngClass]="{'active': selectedTemporal == bucket.key}"
             *ngFor="let bucket of stats?.aggregations.temporal.buckets"
-            (click)="search(searchTerm,selectedIndex,selectedType,bucket.key)">
+            [ngClass]="{'active': bucket.key == selectedTemporal}"
+            (click)="search(searchTerm,selectedIndex,selectedType,selectedMedium,bucket.key)">
             {{bucket.key}}
             <span class="badge badge-light">{{bucket.doc_count}}</span>
           </button>

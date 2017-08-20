@@ -12,11 +12,13 @@ export class ResourcesService {
   ) { }
 
   // function, that returns all documents of all indeces of the data store, found by a full text search term
-  getDocs(term: string, index: string, type: string, medium: string) {
-    let _type
-    if (type == '') {_type=``} else {_type = `/${type}`}
+  getDocs(term: string, index: string, type: string, medium: string, temporal: string) {
+    let separator = ``
+    if (type == '') {type=``} else {type = `/${type}`}
+    if (medium !== '' && temporal !== '' ) {separator = `,`}
     if (medium == '') {medium=``} else {medium = `{"term":{"dcterms:medium.dcterms:title":"${medium}"}}`}
-    const url = `http://localhost:9200/${index}` + _type + `/_search?size=10&source={"query":{"bool":{"must":[{"exists":{"field":"location"}},{"match":{"_all":"${term}"}}],"filter":{"bool":{"must":[` + medium + `]}}}},"aggs":{"index":{"terms":{"field":"_index"}},"type":{"terms":{"field":"_type"}},"medium":{"terms":{"field":"dcterms:medium.dcterms:title"}},"temporal":{"terms":{"field":"dcterms:temporal"}}}}`;
+    if (temporal == '') {temporal=``} else {temporal = `{"term":{"dcterms:temporal":"${temporal}"}}`}
+    const url = `http://localhost:9200/${index}` + type + `/_search?size=10&source={"query":{"bool":{"must":[{"exists":{"field":"location"}},{"match":{"_all":"${term}"}}],"filter":{"bool":{"must":[` + medium + separator + temporal + `]}}}},"aggs":{"index":{"terms":{"field":"_index"}},"type":{"terms":{"field":"_type"}},"medium":{"terms":{"field":"dcterms:medium.dcterms:title"}},"temporal":{"terms":{"field":"dcterms:temporal"}}}}`;
     console.log(url)
     return this.http
       .get(url)
