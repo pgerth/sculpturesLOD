@@ -46,9 +46,9 @@ export class ObjectDetailComponent {
         this.map.setView([lat, lon], 5);
         // add point marker for find location
         this.generateMarker(this.object);
-
+        console.log(this.object._source['dcterms:medium'])
         // searches for nearby quarries
-        this.resourcesService.getQuarries(lat, lon)
+        this.resourcesService.getQuarries(this.object._source.location.lat, this.object._source.location.lon)
           .subscribe(res => {
               this.quarry = res;
               // add point marker for quarry location
