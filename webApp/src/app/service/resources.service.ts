@@ -19,7 +19,7 @@ export class ResourcesService {
     if (medium !== '' && temporal !== '' ) {separator = `,`}
     if (medium == '') {medium=``} else {medium = `{"term":{"dcterms:medium.dcterms:title":"${medium}"}}`}
     if (temporal == '') {temporal=``} else {temporal = `{"term":{"dcterms:temporal":"${temporal}"}}`}
-    const url = `http://localhost:9200/${index}` + type + `/_search?size=500&source={"query":{"bool":{"must":[{"exists":{"field":"location"}}` + term + `],"filter":{"bool":{"must":[` + medium + separator + temporal + `]}}}},"aggs":{"index":{"terms":{"field":"_index"}},"type":{"terms":{"field":"_type"}},"medium":{"terms":{"field":"dcterms:medium.dcterms:title"}},"temporal":{"terms":{"field":"dcterms:temporal"}}}}`;
+    const url = `http://localhost:9200/${index}` + type + `/_search?size=500&source={"_source":["location","@id","dcterms:title","dcterms:description"],"query":{"bool":{"must":[{"exists":{"field":"location"}}` + term + `],"filter":{"bool":{"must":[` + medium + separator + temporal + `]}}}},"aggs":{"index":{"terms":{"field":"_index"}},"type":{"terms":{"field":"_type"}},"medium":{"terms":{"field":"dcterms:medium.dcterms:title"}},"temporal":{"terms":{"field":"dcterms:temporal"}}}}`;
     console.log(url)
     return this.http
       .get(url)
