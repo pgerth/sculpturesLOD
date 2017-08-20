@@ -64,6 +64,10 @@ export class MapComponent {
       });
   }
 
+  refresh(): void {
+    location.reload();
+  }
+
   private genrateMarker (doc : any) {
     let icon
     if (doc._index == "object") {icon = this.mapService.objectIcon}
