@@ -17,8 +17,10 @@ import { DomSanitizer } from '@angular/platform-browser';
 export class MapComponent {
   public stats: Object[];
   public map: L.Map;
+  // base parameters for facetted search
   public searchTerm: string;
-  public selectedType: string;
+  public selectedIndex = 'place,object';
+  public selectedType = '';
 
   constructor(
     private resourcesService: ResourcesService,
@@ -42,11 +44,13 @@ export class MapComponent {
     L.control.scale().addTo(this.map);
   }
 
-  private search(term: string, esType: string) {
+  private search(term: string, index: string, type?: string) {
     this.searchTerm = term;
-    this.selectedType = esType;
+    this.selectedIndex = index;
+    this.selectedType = type;
+    console.log(type)
     this.resourcesService
-      .getDocs(term,esType)
+      .getDocs(term,index,type)
       .subscribe((docs: Object[]) => {
         this.stats = docs;
         this.map.eachLayer(function(layer){

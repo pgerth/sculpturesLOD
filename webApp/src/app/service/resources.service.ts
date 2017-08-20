@@ -12,8 +12,11 @@ export class ResourcesService {
   ) { }
 
   // function, that returns all documents of all indeces of the data store, found by a full text search term
-  getDocs(term: string, type: string) {
-    const url = `http://localhost:9200/${type}/_search?size=10&source={"query":{"bool":{"must":[{"exists":{"field":"location"}},{"match":{"_all":"${term}"}}]}},"aggs":{"index":{"terms":{"field":"_index"}},"type":{"terms":{"field":"_type"}},"medium":{"terms":{"field":"dcterms:medium.dcterms:title"}},"temporal":{"terms":{"field":"dcterms:temporal"}}}}`;
+  getDocs(term: string, index: string, type?: string) {
+    let _type
+    if (type == undefined) {_type=``} else {_type = `/${type}`}
+    const url = `http://localhost:9200/${index}` + _type + `/_search?size=10&source={"query":{"bool":{"must":[{"exists":{"field":"location"}},{"match":{"_all":"${term}"}}]}},"aggs":{"index":{"terms":{"field":"_index"}},"type":{"terms":{"field":"_type"}},"medium":{"terms":{"field":"dcterms:medium.dcterms:title"}},"temporal":{"terms":{"field":"dcterms:temporal"}}}}`;
+    console.log(url)
     return this.http
       .get(url)
       .map((res: Response) => res.json());
