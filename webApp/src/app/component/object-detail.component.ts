@@ -14,7 +14,7 @@ import { MapService } from '../service/map.service';
 export class ObjectDetailComponent {
   // defenition of public parameters for map, ressources and facetted search parameters
   public object: Object[];
-  public quarry: Object[];
+  public quarries: Object[];
   public map: L.Map;
   public properties: string[] = [ "dcterms:title", "dcterms:identifier", "dcterms:temporal", "dcterms:bibliographicCitation" ];
 
@@ -42,17 +42,20 @@ export class ObjectDetailComponent {
         this.object = result;
         let lat = result._source.location.lat
         let lon = result._source.location.lon
+        let medium = result._source['dcterms:medium']
         // center map view on find location
         this.map.setView([lat, lon], 5);
         // add point marker for find location
         this.generateMarker(this.object);
-        console.log(this.object._source['dcterms:medium'])
-        // searches for nearby quarries
-        this.resourcesService.getQuarries(this.object._source.location.lat, this.object._source.location.lon)
+        console.log(medium[medium.length-1]['dcterms:title'])
+        // searches for nearby quarries by position and the material of the find object
+        this.resourcesService.getQuarries(lat, lon,medium[medium.length-1]['dcterms:title'])
           .subscribe(res => {
-              this.quarry = res;
-              // add point marker for quarry location
-              this.generateMarker(this.quarry.hits[0]);
+              this.quarries = res;
+              // add point marker for each quarry location
+              for (let quarry of this.quarries['hits']) {
+                this.generateMarker(quarry);
+              }
               })
       });
   }

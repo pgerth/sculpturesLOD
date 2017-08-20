@@ -46,10 +46,20 @@ export class ResourcesService {
       .map((res: Response) => res.json().hits.hits);
   }
 
-  // http://localhost:9200/place/_search?source={"query":{"bool":{"must":{"match_all":{}},"filter":{"geo_distance":{"distance":"500km","location":{"lon":15,"lat":43}}}}}}
-
-  getQuarries(lat: number, lon: number) {
-    const url = 'http://localhost:9200/place/_search?source={"query":{"bool":{"must":{"match_all":{}},"filter":{"geo_distance":{"distance":"500km","location":{"lon":' + lon + ', "lat":' + lat + '}}}}}}'
+  /*
+   * Searches for Quarries, that match the material of the given object
+   * and is located within 500km distance.
+   * Takes the location and the material as arguments. Querries ElasticSearch, e.g.:
+   * {"query":{"bool":{"must":{"match_all":{}},"filter":{"geo_distance":{"distance":"500km","location":{"lon":5.59468, "lat":49.64387}}}}}}
+   * Returns the matching quarries as object.
+   * Usage:
+   *   getQuarries(lat, lon, material)
+   * Example:
+   *   getQuarries(5.59468,49.64387,"limestone")
+   *   returns: '[object]'
+  */
+  getQuarries(lat: number, lon: number, material: string) {
+    const url = 'http://localhost:9200/place/_search?source={"query":{"bool":{"must":{"term":{"dcterms:medium.dcterms:title":"' + material + '"}},"filter":{"geo_distance":{"distance":"500km","location":{"lon":' + lon + ', "lat":' + lat + '}}}}}}'
     console.log(url)
     return this.http.get(url)
       .map((res: Response) => res.json().hits);
