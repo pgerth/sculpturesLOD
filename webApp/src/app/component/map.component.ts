@@ -15,9 +15,9 @@ import { DomSanitizer } from '@angular/platform-browser';
   ],
 })
 export class MapComponent {
-  public stats: Object[];
+  // defenition of public parameters for map, ressources and facetted search parameters
+  public docs: Object[];
   public map: L.Map;
-  // base parameters for facetted search
   public searchTerm: string;
   public selectedIndex = "place,object";
   public selectedType = "";
@@ -39,13 +39,19 @@ export class MapComponent {
     });
 
     // adds map control: layertree, scale
-
     let baseMaps = this.mapService.baseMaps;
     L.control.zoom({position: 'topright'}).addTo(this.map);
     L.control.layers(baseMaps).addTo(this.map);
     L.control.scale().addTo(this.map);
   }
 
+  // simple function to reload web page
+  refresh(): void {
+    location.reload();
+  }
+
+  // general search function, which calls the ressources service with provided
+  // facetted search parameters
   private search(term: string, index: string, type: string, medium: string, temporal: string) {
     this.searchTerm = term;
     this.selectedIndex = index;
@@ -57,7 +63,7 @@ export class MapComponent {
     this.resourcesService
       .getDocs(term,index,type,medium,temporal)
       .subscribe((docs: Object[]) => {
-        this.stats = docs;
+        this.docs = docs;
         this.map.eachLayer(function(layer){
           if (layer._url == undefined) {layer.remove();}
         });
@@ -67,10 +73,7 @@ export class MapComponent {
       });
   }
 
-  refresh(): void {
-    location.reload();
-  }
-
+  // private function to generate markers and bind popup informations for the results
   private genrateMarker (doc : any) {
     let icon
     if (doc._index == "object") {icon = this.mapService.objectIcon}

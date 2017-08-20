@@ -16,13 +16,13 @@
       <hr>
       <!-- FILTER SEARCH IN SIDEBAR -->
       <!-- Index Filter -->
-      <ng-container *ngIf="stats?.aggregations.index.buckets">
+      <ng-container *ngIf="docs?.aggregations.index.buckets">
         <h5>Type</h5>
         <div class="btn-group-vertical btn-block">
           <button type="button"
             class="btn btn-xs btn-default"
             [ngClass]="{'active': selectedIndex == bucket.key}"
-            *ngFor="let bucket of stats?.aggregations.index.buckets"
+            *ngFor="let bucket of docs?.aggregations.index.buckets"
             (click)="search(searchTerm,bucket.key,selectedType,selectedMedium,selectedTemporal)">
             {{bucket.key}}
             <span class="badge badge-light">{{bucket.doc_count}}</span>
@@ -30,13 +30,13 @@
         </div>
       </ng-container>
       <!-- Type Filter -->
-      <ng-container *ngIf="stats?.aggregations.type.buckets">
+      <ng-container *ngIf="docs?.aggregations.type.buckets">
         <h5>Source</h5>
         <div class="btn-group-vertical btn-block">
           <button type="button"
             class="btn btn-xs btn-default"
             [ngClass]="{'active': selectedType == bucket.key}"
-            *ngFor="let bucket of stats?.aggregations.type.buckets"
+            *ngFor="let bucket of docs?.aggregations.type.buckets"
             (click)="search(searchTerm,selectedIndex,bucket.key,selectedMedium,selectedTemporal)">
             {{bucket.key}}
             <span class="badge badge-light">{{bucket.doc_count}}</span>
@@ -44,12 +44,12 @@
         </div>
       </ng-container>
       <!-- Medium Filter -->
-      <ng-container *ngIf="stats?.aggregations.medium.buckets">
+      <ng-container *ngIf="docs?.aggregations.medium.buckets">
         <h5>Medium</h5>
         <div class="btn-group-vertical btn-block">
           <button type="button"
             class="btn btn-xs btn-default"
-            *ngFor="let bucket of stats?.aggregations.medium.buckets"
+            *ngFor="let bucket of docs?.aggregations.medium.buckets"
             [ngClass]="{'active': selectedMedium == bucket.key}"
             (click)="search(searchTerm,selectedIndex,selectedType,bucket.key,selectedTemporal)">
             {{bucket.key}}
@@ -58,12 +58,12 @@
         </div>
       </ng-container>
       <!-- Temporal Filter -->
-      <ng-container *ngIf="stats?.aggregations.temporal.buckets">
+      <ng-container *ngIf="docs?.aggregations.temporal.buckets">
         <h5>Temporal</h5>
         <div class="btn-group-vertical btn-block">
           <button type="button"
             class="btn btn-xs btn-default"
-            *ngFor="let bucket of stats?.aggregations.temporal.buckets"
+            *ngFor="let bucket of docs?.aggregations.temporal.buckets"
             [ngClass]="{'active': bucket.key == selectedTemporal}"
             (click)="search(searchTerm,selectedIndex,selectedType,selectedMedium,bucket.key)">
             {{bucket.key}}
@@ -72,11 +72,11 @@
         </div>
       </ng-container>
       <!--
-      <ng-container *ngIf="stats?.aggregations.type.buckets">
+      <ng-container *ngIf="docs?.aggregations.type.buckets">
         <hr>
         <h4>Type</h4>
-        {{stats?.aggregations.type.buckets | json}}
-        <div class="progress" *ngFor="let bucket of stats?.aggregations.type.buckets">
+        {{docs?.aggregations.type.buckets | json}}
+        <div class="progress" *ngFor="let bucket of docs?.aggregations.type.buckets">
           <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
             {{bucket.key}}
           </div>
