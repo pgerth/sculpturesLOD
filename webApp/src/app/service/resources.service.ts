@@ -122,8 +122,9 @@ export class ResourcesService {
    *   returns: '[object]'
   */
 
-  getDocsByProvince() {
-  const url = 'http://localhost:9200/shape/_search?source={"_source":[""],"query":{"bool":{"must":{"match":{"dcterms:medium.dcterms:title":"Pentelic marble"}},"filter":{"geo_shape":{"geometry":{"indexed_shape":{"index":"shape","type":"pleiades","id":"981537","path":"geometry"}}}}}}}'
+  getDocsByProvince(id: number) {
+  const url = 'http://localhost:9200/object,place/_search?source={"_source":[""],"query":{"bool":{"must":{"match":{"dcterms:medium.dcterms:title":"Pentelic marble"}},"filter":{"geo_shape":{"geometry":{"indexed_shape":{"index":"shape","type":"pleiades","id":"'+id+'","path":"geometry"}}}}}}}';
+  console.log(url);
   return this.http.get(url)
     .map((res: Response) => res.json().hits);
   }

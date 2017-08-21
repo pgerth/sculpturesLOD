@@ -31,8 +31,7 @@ export class QueryComponent implements AfterViewInit {
     L.control.scale().addTo(this.map);
 
     // major function, which calls the ressourcesService for places datasets
-    this.resourcesService
-      .getProvinces()
+    this.resourcesService.getProvinces()
       .subscribe((res: any) => {
         this.provinces = res;
         for (let prov of res.hits) {
@@ -40,12 +39,19 @@ export class QueryComponent implements AfterViewInit {
         }
       });
   }
-  // private function to generate markers and bind popup informations for the results
+  // private function to generate a shape and create a tooltip
   private generatePolygon(prov : any) {
     prov['_source']['geometry'].type = "MultiPolygon";
-    L.geoJSON(prov['_source']['geometry']).addTo(this.map)
-      // definition of the tooltip content
-      .bindTooltip("<b>" + prov['_source']['dcterms:title'] + "</b>");
+    this.resourcesService.getDocsByProvince(prov['_id'])
+      .subscribe((res: any) => {
+        console.log(res.total)
+        L.geoJSON(prov['_source']['geometry']).addTo(this.map)
+          // definition of the tooltip content
+          .bindTooltip(
+            "<b>" + prov['_source']['dcterms:title'] + "</b><br>" +
+            "Docs:" + res.total
+          );
+      });
   }
   // reset basemaps to fix bug after each view is build up
   ngAfterViewInit() {
