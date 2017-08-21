@@ -5,11 +5,11 @@ import { MapComponent }   from '../component/map.component';
 import { ObjectComponent }   from '../component/object.component';
 import { ObjectDetailComponent }  from '../component/object-detail.component';
 import { PlaceComponent }   from '../component/place.component';
-import { QueryComponent }   from '../component/query.component';
+import { ProvinceComponent }   from '../component/province.component';
 
 /*
  * Provides the global path variables for routing of the angular app.
- * 
+ *
  * Example:
  *   "https:localhost:3000/map"
  *   routes to: MapComponent
@@ -20,7 +20,7 @@ const routes: Routes = [
   { path: 'object',  component: ObjectComponent },
   { path: 'object/:id', component: ObjectDetailComponent },
   { path: 'place',  component: PlaceComponent },
-  { path: 'query',  component: QueryComponent },
+  { path: 'province',  component: ProvinceComponent },
 ];
 @NgModule({
   imports: [ RouterModule.forRoot(routes) ],

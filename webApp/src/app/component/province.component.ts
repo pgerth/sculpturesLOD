@@ -6,9 +6,9 @@ import { NamespaceService } from '../service/namespace.service';
 
 @Component({
   selector: 'query',
-  templateUrl: './query.component.html',
+  templateUrl: './province.component.html',
 })
-export class QueryComponent implements AfterViewInit {
+export class ProvinceComponent implements AfterViewInit {
   // public definitions for ressources and map
   public provinces: Object[];
   public map: L.Map;
@@ -70,11 +70,11 @@ export class QueryComponent implements AfterViewInit {
     let color = "#feebe2"
     let breaks = {
       "0":"#fcc5c0",
-      "5":"#fa9fb5",
-      "10":"#f768a1",
-      "50":"#dd3497",
-      "100":"#ae017e",
-      "500":"#7a0177"
+      "2":"#fa9fb5",
+      "5":"#f768a1",
+      "10":"#dd3497",
+      "50":"#ae017e",
+      "100":"#7a0177"
     };
     for (let key of Object.keys(breaks)) {
       if (count > Number(key)) {color = breaks[key]}
