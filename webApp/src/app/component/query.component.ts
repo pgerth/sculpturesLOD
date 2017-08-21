@@ -44,6 +44,8 @@ export class QueryComponent implements AfterViewInit {
   private generatePolygon(prov : any) {
     prov['_source']['geometry'].type = "MultiPolygon";
     L.geoJSON(prov['_source']['geometry']).addTo(this.map)
+      // definition of the tooltip content
+      .bindTooltip("<b>" + prov['_source']['dcterms:title'] + "</b>");
   }
   // reset basemaps to fix bug after each view is build up
   ngAfterViewInit() {
