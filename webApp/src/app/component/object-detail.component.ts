@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { ActivatedRoute, Params }   from '@angular/router';
 import 'rxjs/add/operator/switchMap';
 
@@ -20,7 +20,7 @@ import { MapService } from '../service/map.service';
   templateUrl: './object-detail.component.html',
   styles: ['../node_modules/leaflet/dist/leaflet.css'],
 })
-export class ObjectDetailComponent {
+export class ObjectDetailComponent implements AfterViewInit {
   // definition of public parameters for map, ressources and facetted search parameters
   public object: Object[];
   public quarries: Object[];
@@ -95,5 +95,10 @@ export class ObjectDetailComponent {
             "<a target='_blank' href='http://orbis.stanford.edu/api/route/" + this.orbisId + "/" + orbisRes.hits[0]._id + "/6/1'>Orbis Route Calculation<a>"
           );
       });
+    }
+
+    ngAfterViewInit() {
+      this.map.removeLayer(this.mapService.baseMaps.RomanEmpire);
+      this.map.addLayer(this.mapService.baseMaps.RomanEmpire);
     }
   }

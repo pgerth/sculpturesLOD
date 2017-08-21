@@ -1,6 +1,6 @@
 /// <reference path="../../../node_modules/@types/leaflet/index.d.ts"/>
 
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { MapService } from '../service/map.service';
 import { ResourcesService } from '../service/resources.service';
 import { DomSanitizer } from '@angular/platform-browser';
@@ -8,8 +8,8 @@ import { DomSanitizer } from '@angular/platform-browser';
 /*
  * Component, which is used to provide an map based search over all the documents.
  * Showcases an example for an map integration of all the datasets. The result could be
- * refined by free text search and facetted browsing. The Facets allow an fast basic
- * statistical overview of the distribution of the dataset.
+ * refined by free text search and facetted browsing. Uses the ElasticSearch aggregations
+ * for the facets. These allow an fast basic statistical overview of the dataset.
 */
 @Component({
   selector: 'map',
@@ -20,7 +20,8 @@ import { DomSanitizer } from '@angular/platform-browser';
     '../../node_modules/leaflet.awesome-markers/dist/leaflet.awesome-markers.css'
   ],
 })
-export class MapComponent {
+
+export class MapComponent implements AfterViewInit {
   // defenition of public parameters for map, ressources and facetted search parameters
   public docs: Object[];
   public map: L.Map;
@@ -33,7 +34,8 @@ export class MapComponent {
   constructor(
     private resourcesService: ResourcesService,
     private mapService: MapService,
-  ) {}
+  ) {
+  }
 
   ngOnInit(): void {
     // initialize map & mapping parameters
@@ -91,5 +93,9 @@ export class MapComponent {
         doc._source['dcterms:description'] + "<br>" +
         "<a class='url-break' href=" + doc._source['@id'] + ">" + doc._source['@id'] + "</a>"
       );
+  }
+  ngAfterViewInit() {
+    this.map.removeLayer(this.mapService.baseMaps.RomanEmpire);
+    this.map.addLayer(this.mapService.baseMaps.RomanEmpire);
   }
 }

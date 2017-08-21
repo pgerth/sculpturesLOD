@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 
 import { ResourcesService } from '../service/resources.service';
 import { MapService } from '../service/map.service';
@@ -8,7 +8,7 @@ import { NamespaceService } from '../service/namespace.service';
   selector: 'query',
   templateUrl: './query.component.html',
 })
-export class QueryComponent {
+export class QueryComponent implements AfterViewInit {
   // public definitions for ressources and map
   public places: Object[];
   public map: L.Map;
@@ -24,7 +24,7 @@ export class QueryComponent {
     this.map = L.map('map', {
       center: [43,10],
       zoom: 4,
-      layers: [this.mapService.baseMaps.OpenStreetMap],
+      layers: [this.mapService.baseMaps.CartoDB],
     });
     // adds map control: scale, layertree
     L.control.layers(this.mapService.baseMaps).addTo(this.map);
@@ -53,5 +53,9 @@ export class QueryComponent {
         "<b>" + doc._source['dcterms:title'] + "</b><br>" +
         doc._source['dcterms:description'] + "<br>" +
         "<a class='url-break' href=" + doc._source['@id'] + ">" + doc._source['@id'] + "</a>");
+  }
+  ngAfterViewInit() {
+    this.map.removeLayer(this.mapService.baseMaps.CartoDB);
+    this.map.addLayer(this.mapService.baseMaps.CartoDB);
   }
 }

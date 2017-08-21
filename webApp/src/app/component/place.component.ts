@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 
 import { ResourcesService } from '../service/resources.service';
 import { MapService } from '../service/map.service';
@@ -13,7 +13,7 @@ import { NamespaceService } from '../service/namespace.service';
   selector: 'place',
   templateUrl: './place.component.html',
 })
-export class PlaceComponent {
+export class PlaceComponent implements AfterViewInit {
   // public definitions for ressources and map
   public places: Object[];
   public map: L.Map;
@@ -29,7 +29,7 @@ export class PlaceComponent {
     this.map = L.map('map', {
       center: [43,10],
       zoom: 4,
-      layers: [this.mapService.baseMaps.OpenStreetMap],
+      layers: [this.mapService.baseMaps.CartoDB],
     });
     // adds map control: scale, layertree
     L.control.layers(this.mapService.baseMaps).addTo(this.map);
@@ -56,5 +56,10 @@ export class PlaceComponent {
         "<b>" + place._source['dcterms:title'] + "</b><br>" +
         place._source['dcterms:description'] + "<br>" +
         "<a class='url-break' href=" + place._source['@id'] + ">" + place._source['@id'] + "</a>");
+  }
+
+  ngAfterViewInit() {
+    this.map.removeLayer(this.mapService.baseMaps.CartoDB);
+    this.map.addLayer(this.mapService.baseMaps.CartoDB);
   }
 }
