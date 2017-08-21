@@ -44,8 +44,8 @@ export class QueryComponent implements AfterViewInit {
     prov['_source']['geometry'].type = "MultiPolygon";
     this.resourcesService.getDocsByProvince(prov['_id'])
       .subscribe((res: any) => {
-        console.log(res.total)
-        L.geoJSON(prov['_source']['geometry'],{style:this.polygonStyle}).addTo(this.map)
+        let style = this.polygonStyle(res.total);
+        L.geoJSON(prov['_source']['geometry'],{style: style}).addTo(this.map)
           // definition of the tooltip content
           .bindTooltip(
             "<b>" + prov['_source']['dcterms:title'] + "</b><br>" +
@@ -54,9 +54,9 @@ export class QueryComponent implements AfterViewInit {
       });
   }
   // styling for polygon
-  private polygonStyle() {
+  private polygonStyle(count: number) {
     return {
-      // fillColor: getColor(feature.properties.children),
+      fillColor: this.getColor(count),
       weight: 2,
       opacity: 1,
       color: 'white',
@@ -64,6 +64,23 @@ export class QueryComponent implements AfterViewInit {
       fillOpacity: 0.7
     };
    }
+
+  //
+  private getColor(count: number) {
+    let color = "#feebe2"
+    let breaks = {
+      "0":"#fcc5c0",
+      "5":"#fa9fb5",
+      "10":"#f768a1",
+      "50":"#dd3497",
+      "100":"#ae017e",
+      "500":"#7a0177"
+    };
+    for (let key of Object.keys(breaks)) {
+      if (count > Number(key)) {color = breaks[key]}
+    }
+    return color
+  }
   // reset basemaps to fix bug after each view is build up
   ngAfterViewInit() {
     this.map.removeLayer(this.mapService.baseMaps.CartoDB);

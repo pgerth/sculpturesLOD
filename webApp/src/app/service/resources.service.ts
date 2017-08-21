@@ -124,7 +124,6 @@ export class ResourcesService {
 
   getDocsByProvince(id: number) {
   const url = 'http://localhost:9200/object,place/_search?source={"_source":[""],"query":{"bool":{"must":{"match":{"dcterms:medium.dcterms:title":"Pentelic marble"}},"filter":{"geo_shape":{"geometry":{"indexed_shape":{"index":"shape","type":"pleiades","id":"'+id+'","path":"geometry"}}}}}}}';
-  console.log(url);
   return this.http.get(url)
     .map((res: Response) => res.json().hits);
   }
@@ -133,7 +132,7 @@ export class ResourcesService {
    * Returns all provinces.
   */
   getProvinces() {
-    const url = 'http://localhost:9200/shape/pleiades/_search';
+    const url = 'http://localhost:9200/shape/pleiades/_search?source={"size":100}';
     return this.http.get(url)
       .map((res: Response) => res.json().hits);
   }

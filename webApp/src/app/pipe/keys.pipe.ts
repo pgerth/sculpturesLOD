@@ -6,7 +6,7 @@ import { Pipe, PipeTransform } from '@angular/core';
  *   jsonobject | keys
  * Example:
  *   json = { keyA:valueX, keyB:valueY, keyC:valueZ }
- *   {{ json |  exponentialStrength:10}}
+ *   {{ json |  keys}}
  *   returns: [keyA, keyB, keyC]
 */
 
