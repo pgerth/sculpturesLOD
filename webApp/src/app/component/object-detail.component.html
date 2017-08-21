@@ -14,7 +14,7 @@
         <dt><a href="http://purl.org/dc/terms/medium">dcterms:medium</a></dt>
         <dd><span>
           <ng-container *ngFor="let medium of object?._source['dcterms:medium']">
-            <a href="{{medium['@id'] | resolve}}">{{medium['dcterms:title']}}</a> <br>
+            <a href="{{medium['@id']}}">{{medium['dcterms:title']}}</a> <br>
           </ng-container>
         </span></dd>
         <dt><a href="http://purl.org/dc/terms/spatial">dcterms:spatial</a></dt>

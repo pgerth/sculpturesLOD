@@ -12,7 +12,7 @@ import { MapService } from '../service/map.service';
   styles: ['../node_modules/leaflet/dist/leaflet.css'],
 })
 export class ObjectDetailComponent {
-  // defenition of public parameters for map, ressources and facetted search parameters
+  // definition of public parameters for map, ressources and facetted search parameters
   public object: Object[];
   public quarries: Object[];
   public map: L.Map;
@@ -72,9 +72,10 @@ export class ObjectDetailComponent {
       .addTo(this.map)
       .bindPopup(
         // popUp content creation for each dataset
-        "<b>" + doc._source['dcterms:title'] + "</b><br>" +
-        doc._source['dcterms:description'] + "<br>" +
-        "<a class='url-break' href=" + doc._source['@id'] + ">" + doc._source['@id'] + "</a>"
+        "<b>" + doc._source['dcterms:title'] + " </b>" +
+        "<a href=" + doc._source['@id'] +
+        "><i class='fa fa-external-link' aria-hidden='true'></i></a>" + "<br>" +
+        doc._source['dcterms:description'] + "<br>"
       );
   }
 
