@@ -10,7 +10,7 @@ import { NamespaceService } from '../service/namespace.service';
 })
 export class QueryComponent implements AfterViewInit {
   // public definitions for ressources and map
-  public places: Object[];
+  public prov: Object[];
   public map: L.Map;
 
   constructor(
@@ -32,12 +32,15 @@ export class QueryComponent implements AfterViewInit {
 
     // major function, which calls the ressourcesService for places datasets
     this.resourcesService
-      .getPlaces()
-      .subscribe((places: any) => {
-        this.places = places;
-        for (let place of places) {
-          this.genrateMarkerForPlace(place);
-        }
+      .getProvinces()
+      .subscribe((res: any) => {
+        this.prov = res;
+        res.hits[0]['_source']['geometry'].type = "MultiPolygon";
+        console.log(res.hits[0]['_source']['geometry']);
+        L.geoJSON(res.hits[0]['_source']['geometry']).addTo(this.map)
+        //for (let place of places) {
+        //  this.genrateMarkerForPlace(place);
+        //}
       });
   }
   // private function to generate markers and bind popup informations for the results

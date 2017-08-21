@@ -47,7 +47,7 @@ export class ObjectDetailComponent implements AfterViewInit {
 
     // gets object data
     this.route.params
-      .switchMap((params: Params) => this.resourcesService.getObject(+params['id']))
+      .switchMap((params: Params) => this.resourcesService.getObjectById(+params['id']))
       .subscribe(result => {
         this.object = result;
         let lat = result._source.location.lat

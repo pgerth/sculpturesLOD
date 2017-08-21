@@ -55,7 +55,6 @@ export class ResourcesService {
       .map((res: Response) => res.json().hits.hits);
   }
 
-  // function, that returns
   /*
    * Returns one object by a given id as an object.
    * Usage:
@@ -63,7 +62,7 @@ export class ResourcesService {
    * Example:
    *   getObject(1388106)
   */
-  getObject(id: number) {
+  getObjectById(id: number) {
     const url = `http://localhost:9200/object/arachne/${id}`;
     return this.http.get(url)
       .map((res: Response) => res.json());
@@ -71,8 +70,6 @@ export class ResourcesService {
 
   /*
    * Returns all places of the data store as objects.
-   * Usage:
-   *   getPlaces()
   */
   getPlaces() {
     return this.http.get('http://localhost:9200/place/quarry/_search?pretty=true&size=100&filter_path=hits.hits._source')
@@ -113,4 +110,30 @@ export class ResourcesService {
     .map((res: Response) => res.json().hits);
   }
 
+  /*
+   * Searches for Docs inside a given Province.
+   * ElasticSearch example query:
+   * {"query":{"bool":{"must":{"match":{"dcterms:medium.dcterms:title":"Pentelic marble"}},"filter":{"geo_shape":{"geometry":{"indexed_shape":{"index":"shape","type":"pleiades","id":"981537","path":"geometry"}}}}}}}
+   * Returns the closest orbis place as object.
+   * Usage:
+   *   getOrbisId(lat, lon)
+   * Example:
+   *   getOrbisId(37.943263,23.650904)
+   *   returns: '[object]'
+  */
+
+  getDocsByProvince() {
+  const url = 'http://localhost:9200/shape/_search?source={"_source":[""],"query":{"bool":{"must":{"match":{"dcterms:medium.dcterms:title":"Pentelic marble"}},"filter":{"geo_shape":{"geometry":{"indexed_shape":{"index":"shape","type":"pleiades","id":"981537","path":"geometry"}}}}}}}'
+  return this.http.get(url)
+    .map((res: Response) => res.json().hits);
+  }
+
+  /*
+   * Returns all provinces.
+  */
+  getProvinces() {
+    const url = 'http://localhost:9200/shape/pleiades/_search';
+    return this.http.get(url)
+      .map((res: Response) => res.json().hits);
+  }
 }
