@@ -1,6 +1,7 @@
 /// <reference path="../../node_modules/@types/leaflet/index.d.ts"/>
+/// <reference path="../../node_modules/@types/leaflet.awesome-markers/index.d.ts"/>
 import 'leaflet';
-import 'leaflet-awesome-markers'
+import 'leaflet-awesome-markers';
 
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';

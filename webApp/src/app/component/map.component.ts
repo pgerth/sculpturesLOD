@@ -63,7 +63,7 @@ export class MapComponent {
       .subscribe((docs: Object[]) => {
         this.docs = docs;
         this.map.eachLayer(function(layer){
-          if (layer._url == undefined) {layer.remove();}
+          if (layer['_url'] == undefined) {layer.remove();}
         });
         for (let doc of docs['hits']['hits']) {
           this.generateMarker(doc);

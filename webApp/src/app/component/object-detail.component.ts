@@ -47,9 +47,9 @@ export class ObjectDetailComponent {
         // center map view on find location
         this.map.setView([lat, lon], 5);
         // add point marker for find location
-        this.generateMarker(this.object
+        this.generateMarker(this.object);
         // searches for closest Orbis point
-        this.resourcesService.getOrbisId(this.object._source.location.lat, this.object._source.location.lon)
+        this.resourcesService.getOrbisId(this.object['_source'].location.lat, this.object['_source'].location.lon)
           .subscribe(res => {
             this.orbisId = res.hits[0]._id;
           });
@@ -69,9 +69,9 @@ export class ObjectDetailComponent {
 
   // private function to generate markers and bind popup informations for the results
   private generateMarker (doc : any) {
-    let icon
-    // icon definition in dependency of the document type
-    if (doc._index == "object") {icon = this.mapService.objectIcon}
+    // default icon definition
+    let icon = this.mapService.objectIcon
+    // alternative icon definition for places
     if (doc._index == "place") {icon = this.mapService.placeIcon}
     this.resourcesService.getOrbisId(doc._source.location.lat, doc._source.location.lon)
       .subscribe(orbisRes => {
@@ -86,4 +86,5 @@ export class ObjectDetailComponent {
             "<a target='_blank' href='http://orbis.stanford.edu/api/route/" + this.orbisId + "/" + orbisRes.hits[0]._id + "/6/1'>Orbis Route Calculation<a>"
           );
       });
-}
+    }
+  }
