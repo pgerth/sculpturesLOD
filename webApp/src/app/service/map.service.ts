@@ -2,6 +2,16 @@ import {Injectable} from "@angular/core";
 import {Http} from "@angular/http";
 import {Map} from "leaflet";
 
+/*
+ * Provides the global variables needed for mapping,
+ * e.g. background maps, icon declarations,
+ * Usage:
+ *   this.mapService.[variable]
+ * Example:
+ *   this.mapService.baseMaps.RomanEmpire
+ *   returns: 'L.tileLayer("http://dare.ht.lu.se/t...)'
+*/
+
 @Injectable()
 export class MapService {
     public map: Map;
@@ -11,6 +21,7 @@ export class MapService {
     public placeIcon: any;
 
     constructor(private http: Http) {
+       // Global basemap declarations used as background maps in leaflet.
         this.baseMaps = {
             OpenStreetMap: L.tileLayer("http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png", {
                 attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a></a>'
@@ -22,7 +33,7 @@ export class MapService {
                 attribution: '&copy; <a href="http://cartodb.com/attributions">CartoDB</a>'
             })
         };
-
+       // Global icon declarations used for the styling of markers in leaflet.
         this.objectIcon = L.AwesomeMarkers.icon({
           icon: 'glyphicon-eye-open',
           prefix: 'glyphicon',
@@ -34,13 +45,5 @@ export class MapService {
           prefix: 'fa',
           markerColor: 'orange'
         });
-
-        this.quarryStyle = {
-          color: '#663399',
-          weight: 4,
-          fillColor: 'white',
-          fillOpacity: 0.5,
-          radius: 8
-        }
     }
 }

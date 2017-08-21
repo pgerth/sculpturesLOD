@@ -4,6 +4,9 @@ import {Observable} from 'rxjs/Observable';
 import 'rxjs/add/operator/map'; // add map function to observable
 import 'rxjs/add/operator/toPromise';
 
+/*
+ * This class contains all the functions, that contact the datastore and deliver the data as objects.
+*/
 @Injectable()
 export class ResourcesService {
 
@@ -11,7 +14,18 @@ export class ResourcesService {
     private http: Http,
   ) { }
 
-  // function, that returns all documents of all indeces of the data store, found by a full text search term
+  /*
+   * Searches for all documents, that fulfill the different search parameters.
+   * Parameters: Full Text Search Term, Index, Types of the datastore, Attributes: Material and Time
+   * ElasticSearch example query:
+   * {"_source":["location","@id","dcterms:title","dcterms:description"],"query":{"bool":{"must":[{"exists":{"field":"location"}},{"match":{"_all":"zeus"}}],"filter":{"bool":{"must":[{"term":{"dcterms:medium.dcterms:title":"marble"}},{"term":{"dcterms:temporal":"archaisch"}}]}}}},"aggs":{"index":{"terms":{"field":"_index"}},"type":{"terms":{"field":"_type"}},"medium":{"terms":{"field":"dcterms:medium.dcterms:title"}},"temporal":{"terms":{"field":"dcterms:temporal"}}}}
+   * Returns the objects and aggregations, used for facetted search.
+   * Usage:
+   *   getDocs(term, index, type, medium, temporal)
+   * Example:
+   *   getDocs("zeus", "object", "arachne", "marble", "archaisch")
+   *   returns: '[object]'
+  */
   getDocs(term: string, index: string, type: string, medium: string, temporal: string) {
     let separator = ``
     if (term == '*') {term=``} else {term=`,{"match":{"_all":"${term}"}}`}
@@ -26,7 +40,14 @@ export class ResourcesService {
       .map((res: Response) => res.json());
   }
 
-  // function, that returns all objects of the data store found by a full text search term
+  /*
+   * Performs full text search for all objects. Returns the result as objects.
+   * Usage:
+   *   getObjects(term)
+   * Example:
+   *   getObjects('white marble')
+   *   returns: '[object]'
+  */
   getObjects(term: string) {
     const url = `http://localhost:9200/object/arachne/_search?source={"query":{"bool":{"must":[{"exists":{"field":"location"}},{"match":{"_all":"${term}"}}]}}}`;
     return this.http
@@ -35,12 +56,24 @@ export class ResourcesService {
   }
 
   // function, that returns
+  /*
+   * Returns one object by a given id as an object.
+   * Usage:
+   *   getObject()
+   * Example:
+   *   getObject(1388106)
+  */
   getObject(id: number) {
     const url = `http://localhost:9200/object/arachne/${id}`;
     return this.http.get(url)
       .map((res: Response) => res.json());
   }
-  // function that returns all places of the data store
+
+  /*
+   * Returns all places of the data store as objects.
+   * Usage:
+   *   getPlaces()
+  */
   getPlaces() {
     return this.http.get('http://localhost:9200/place/quarry/_search?pretty=true&size=100&filter_path=hits.hits._source')
       .map((res: Response) => res.json().hits.hits);
