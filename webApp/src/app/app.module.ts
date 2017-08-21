@@ -14,6 +14,7 @@ import { MapComponent } from './component/map.component';
 import { ObjectComponent } from './component/object.component';
 import { ObjectDetailComponent } from './component/object-detail.component';
 import { PlaceComponent } from './component/place.component';
+import { QueryComponent } from './component/query.component';
 
 import { ResourcesService } from './service/resources.service';
 import { MapService } from './service/map.service';
@@ -35,6 +36,7 @@ import { ImageResolverPipe } from './pipe/resolver.pipe';
     MapComponent,
     PlaceComponent,
     ObjectComponent,
+    QueryComponent,
     ObjectDetailComponent,
     KeysPipe,
     NamespaceResolverPipe,

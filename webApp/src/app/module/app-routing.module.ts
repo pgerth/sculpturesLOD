@@ -5,6 +5,7 @@ import { MapComponent }   from '../component/map.component';
 import { ObjectComponent }   from '../component/object.component';
 import { ObjectDetailComponent }  from '../component/object-detail.component';
 import { PlaceComponent }   from '../component/place.component';
+import { QueryComponent }   from '../component/query.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/object', pathMatch: 'full' },
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'object',  component: ObjectComponent },
   { path: 'object/:id', component: ObjectDetailComponent },
   { path: 'place',  component: PlaceComponent },
+  { path: 'query',  component: QueryComponent },
 ];
 @NgModule({
   imports: [ RouterModule.forRoot(routes) ],
