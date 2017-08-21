@@ -45,7 +45,7 @@ export class QueryComponent implements AfterViewInit {
     this.resourcesService.getDocsByProvince(prov['_id'])
       .subscribe((res: any) => {
         console.log(res.total)
-        L.geoJSON(prov['_source']['geometry']).addTo(this.map)
+        L.geoJSON(prov['_source']['geometry'],{style:this.polygonStyle}).addTo(this.map)
           // definition of the tooltip content
           .bindTooltip(
             "<b>" + prov['_source']['dcterms:title'] + "</b><br>" +
@@ -53,6 +53,17 @@ export class QueryComponent implements AfterViewInit {
           );
       });
   }
+  // styling for polygon
+  private polygonStyle() {
+    return {
+      // fillColor: getColor(feature.properties.children),
+      weight: 2,
+      opacity: 1,
+      color: 'white',
+      dashArray: '3',
+      fillOpacity: 0.7
+    };
+   }
   // reset basemaps to fix bug after each view is build up
   ngAfterViewInit() {
     this.map.removeLayer(this.mapService.baseMaps.CartoDB);
