@@ -4,6 +4,11 @@ import { ResourcesService } from '../service/resources.service';
 import { MapService } from '../service/map.service';
 import { NamespaceService } from '../service/namespace.service';
 
+/*
+ * Component, which is used to provide an overview of all the places.
+ * Showcases an example for an tabular view of the datasets.
+*/
+
 @Component({
   selector: 'place',
   templateUrl: './place.component.html',

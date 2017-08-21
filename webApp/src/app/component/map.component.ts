@@ -5,6 +5,12 @@ import { MapService } from '../service/map.service';
 import { ResourcesService } from '../service/resources.service';
 import { DomSanitizer } from '@angular/platform-browser';
 
+/*
+ * Component, which is used to provide an map based search over all the documents.
+ * Showcases an example for an map integration of all the datasets. The result could be
+ * refined by free text search and facetted browsing. The Facets allow an fast basic
+ * statistical overview of the distribution of the dataset.
+*/
 @Component({
   selector: 'map',
   templateUrl: './map.component.html',

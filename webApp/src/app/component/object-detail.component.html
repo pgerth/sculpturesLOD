@@ -4,6 +4,8 @@
     <!-- LEFT SIDE ATTRIBUTES LIST -->
     <div class="col-sm-6">
       <dl class="dl-horizontal">
+        <!-- Iterates through a list of predefined properties:
+        displays every property, if available -->
         <ng-container *ngFor="let prop of properties">
           <ng-container *ngIf="object?._source[prop]">
             <dt><a *ngIf="prop.search('dc') == 0" href="http://purl.org/dc/terms/{{prop}}">{{prop}}</a></dt>
@@ -11,24 +13,29 @@
             <dd><span>{{object?._source[prop]}}</span></dd>
           </ng-container>
         </ng-container>
+        <!-- Individual handling for more complex attributes
+        attribute: medium -->
         <dt><a href="http://purl.org/dc/terms/medium">dcterms:medium</a></dt>
         <dd><span>
           <ng-container *ngFor="let medium of object?._source['dcterms:medium']">
             <a href="{{medium['@id']}}">{{medium['dcterms:title']}}</a> <br>
           </ng-container>
         </span></dd>
+        <!-- attribute: spatial -->
         <dt><a href="http://purl.org/dc/terms/spatial">dcterms:spatial</a></dt>
         <dd><span>
           <ng-container *ngFor="let obj of object?._source['dcterms:spatial']">
             <a href="#{{obj['dcterms:type']}}">{{obj['dcterms:type']}}</a> <br>
           </ng-container>
         </span></dd>
+        <!-- attribute: relation -->
         <dt><a href="http://purl.org/dc/relation">dcterms:relation</a></dt>
         <dd><span>
           <ng-container *ngFor="let obj of object?._source['dcterms:relation']">
             <a href="http://arachne.dainst.org/entity/{{obj['@id']}}">{{obj['@id']}}</a> <br>
           </ng-container>
         </span></dd>
+        <!-- attribute: ReferencedBy -->
         <dt><a href="http://purl.org/dc/terms/isReferencedBy">dcterms:isReferencedBy</a></dt>
         <dd><span>
           <ng-container *ngFor="let obj of object?._source['dcterms:isReferencedBy']">
@@ -36,6 +43,7 @@
           </ng-container>
         </span></dd>
       </dl>
+      <!-- Creates Subdivisions for each spatial object -->
       <ng-container *ngFor="let obj of object?._source['dcterms:spatial']">
         <h4 id="{{obj['dcterms:type']}}">
           <a href="#{{obj['dcterms:type']}}">#{{obj['dcterms:type']}}</a>
@@ -55,6 +63,7 @@
     </div>
     <!-- RIGHT SIDE -->
     <div class="col-sm-6">
+      <!-- Image creation -->
       <ng-container *ngIf="object?._source['dcterms:isReferencedBy']">
         <div class="media-left media-middle" *ngFor="let img of object?._source['dcterms:isReferencedBy']">
           <img class="media-object img-thumbnail" src="{{img['@id'] | imgResolve}}" alt="No Image">

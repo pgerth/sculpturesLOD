@@ -1,5 +1,6 @@
 <div class="sub-container">
   <h2 style="text-align: center">Object Fulltext Search</h2>
+  <!-- FULL TEXT SEARCH BOX -->
   <div id="custom-search-input">
     <div class="input-group col-md-12">
       <input #searchBox id="search-box" class="search-query form-control" placeholder="Search" (keyup)="search(searchBox.value)"/>
@@ -11,8 +12,11 @@
     </div>
   </div>
   <br>
+  <!-- SEARCH RESULT LIST -->
   <ul class="media-list">
+    <!-- Iterates through all the single results of the array of results -->
     <li class="media" *ngFor="let object of objects">
+      <!-- Displays images, if available -->
       <div class="media-left media-middle">
         <ng-container *ngIf="object['_source']['dcterms:isReferencedBy']; else elseBlock">
           <img class="media-object img-thumbnail" src="{{object['_source']['dcterms:isReferencedBy'][0]['@id'] | imgResolve}}" alt="No Image">
@@ -21,7 +25,9 @@
           <img class="media-object img-thumbnail" width="160" alt="No Image">
         </ng-template>
       </div>
+      <!-- Display of the most important attributes -->
       <div class="media-body">
+        <!-- attribute titel -->
         <h3 class="media-heading"><a [routerLink]="['/object', object['_source']['dcterms:identifier']]">{{object['_source']['dcterms:title']}}</a></h3>
         <div class="row">
           <div class="col-sm-2">@id</div>
@@ -30,6 +36,7 @@
         </div>
       </div>
         <div class="row">
+          <!-- attribute material -->
           <div class="col-sm-2"><a href="{{this.namespaceService.namespace.dcterms}}medium">dcterms:medium</a></div>
           <div class="col-sm-8">
           <ng-container *ngFor="let medium of object['_source']['dcterms:medium']">
@@ -37,6 +44,7 @@
           </ng-container>
         </div>
         </div>
+        <!-- attribute subject -->
         <div class="row">
           <div class="col-sm-2"><a href="{{this.namespaceService.namespace.dcterms}}subject">dcterms:subject</a></div>
           <div class="col-sm-8">
@@ -45,6 +53,7 @@
         </ng-container>
           </div>
         </div>
+        <!-- attribute description -->
         <div class="row">
           <div class="col-sm-2"><a href="{{this.namespaceService.namespace.dcterms}}description">dcterms:description</a></div>
           <div class="col-sm-8">

@@ -7,6 +7,13 @@ import { ObjectDetailComponent }  from '../component/object-detail.component';
 import { PlaceComponent }   from '../component/place.component';
 import { QueryComponent }   from '../component/query.component';
 
+/*
+ * Provides the global path variables for routing of the angular app.
+ * 
+ * Example:
+ *   "https:localhost:3000/map"
+ *   routes to: MapComponent
+*/
 const routes: Routes = [
   { path: '', redirectTo: '/object', pathMatch: 'full' },
   { path: 'map',  component: MapComponent },

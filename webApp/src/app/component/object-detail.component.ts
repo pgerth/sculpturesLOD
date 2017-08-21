@@ -6,6 +6,15 @@ import { KeysPipe } from '../pipe/keys.pipe';
 import { ResourcesService } from '../service/resources.service';
 import { MapService } from '../service/map.service';
 
+/*
+ * Component, which is used to give an detailed overview for every object.
+ * Showcases an single dataset view, where every property is linked to their
+ * SemanticWeb Representation. Further some basic spatial querries:
+ * - 500km radius search for possible quarries, where the same material was produced.
+ * - Nearest Neighbor Search for Orbis Nodes to provide a link to the Orbis API
+ *   for calculating the travel times between the object and each possible quarry
+*/
+
 @Component({
   selector: 'object-detail',
   templateUrl: './object-detail.component.html',
