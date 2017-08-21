@@ -1,0 +1,646 @@
+id,name,pleiades,lat,lon
+50001,Abodiacum,187242,47.91,10.91
+50533,Acroceraunia Pr.,no Pleiades ID yet,40.44,19.32
+50005,Ad Aras,265766,38.5,-0.5
+50002,Ad fl. Tigrim,874296,37.325,42.196
+50003,Ad Publicanos,167618,45.667,6.387
+50006,Adramyttium,550403,39.501,26.938
+50004,Ad Tricesimum,187259,46.158,13.216
+50007,Aeclanum,442451,41.043,14.994
+50008,Aelana,746700,29.664,34.974
+50009,Aequum Tuticum,442452,41.152,15.088
+50010,Aesernia,432652,41.594,14.231
+50011,Aesuris,256008,37.218,-7.445
+50435,Aginnum,no Pleiades ID yet,0,0
+50715,Agrigentum,no Pleiades ID yet,,
+50013,Aguntum,187265,46.827,12.823
+50622,Akamas Pr.,no Pleiades ID yet,35.11,32.28
+50014,Ake-Ptolemais,678010,32.922,35.077
+50546,Akitas Pr.,no Pleiades ID yet,36.72,21.88
+50015,Alba Fucens,413005,42.08,13.412
+50016,Albulae,285412,35.302,-1.145
+50716,Aleria,no Pleiades ID yet,,
+50017,Alexandria,727070,31.201,29.91
+50019,Alexandria Troas,550434,39.761,26.153
+50542,Alpheos (river),no Pleiades ID yet,37.61,21.45
+50020,Altinum,393374,45.579,12.373
+50442,Amaseia,no Pleiades ID yet,0,0
+50446,Amastris,no Pleiades ID yet,0,0
+50625,Amathous,no Pleiades ID yet,34.71,33.13
+50458,Amisus,no Pleiades ID yet,0,0
+50021,Ammaedara,no Pleiades ID yet,35.567,8.467
+50682,Ammon,no Pleiades ID yet,0,0
+50776,Amorgos,no Pleiades ID yet,25.9,36.83
+50718,Amphipolis,no Pleiades ID yet,,
+50777,Anaphe,no Pleiades ID yet,25.8540694,36.3498205
+50022,Ancona,413014,43.616,13.519
+50023,Ancyra,619103,39.972,32.801
+50778,Andros,no Pleiades ID yet,24.86,37.85
+50624,Anemurium,no Pleiades ID yet,36.02,32.8
+50024,Antiochia,658381,36.202,36.158
+50026,Apamea,668335,35.557,36.401
+50027,Apamea (Pisidia),638751,38.069,30.17
+50028,Aphroditopolis,736889,29.408,31.252
+50637,Apollonia,no Pleiades ID yet,32.2128,34.816
+50535,Apollonia (Epirus),no Pleiades ID yet,40.77,19.43
+50611,Apollonia Pontica,no Pleiades ID yet,42.4172,27.6965
+50545,Apollonia-Sozousa,no Pleiades ID yet,32.93,21.75
+50660,Apollonopolis Magna,no Pleiades ID yet,0,0
+50030,Apulum,206927,46.077,23.58
+50031,Aquae Sextiae,148053,43.526,5.445
+50032,Aquae Sulis,79299,51.381,-2.357
+50033,Aquae Terebellicae,no Pleiades ID yet,43.733,-1.06
+50034,Aquileia,187290,45.768,13.365
+50035,Aquincum,197130,47.564,19.05
+50012,Ara Agrippinensium,108751,50.941,6.96
+50036,Arae Philaenorum,363924,30.294,18.788
+50037,Arausio,no Pleiades ID yet,44.138,4.81
+50039,Archelais,619164,38.402,33.95
+50040,Arelate,no Pleiades ID yet,43.677,4.628
+50041,Argentorate,108754,48.583,7.744
+50042,Ariminum,393379,44.059,12.563
+50043,Arretium,413032,43.471,11.863
+50045,Arupium,197143,44.849,15.269
+50046,Ascalon,687839,31.67,34.546
+50047,Asculum,413036,42.855,13.575
+50048,Asturica,236352,42.459,-6.064
+50593,Astypaleia,no Pleiades ID yet,36.55,26.35
+50049,Aternum,413039,42.465,14.214
+50050,Athenae,579885,38.032,23.655
+50559,Athos Mons,no Pleiades ID yet,40.26,24.22
+50502,Atria,no Pleiades ID yet,45.05,12.07
+50447,Attalea,no Pleiades ID yet,0,0
+50051,Aufidena,442484,41.336,16.194
+50052,Augusta Praetoria,383579,45.737,7.314
+50053,Augusta Raurica,177494,47.533,7.722
+50054,Augusta Suessionum,108772,49.381,3.326
+50055,Augusta Taurinorum,383580,45.07,7.687
+50124,Augusta Treverorum,108894,49.754,6.646
+50056,Augusta Vindelicum,118580,48.365,10.895
+50057,Augustobona,108775,48.297,4.075
+50058,Augustobriga,256001,39.807,-5.676
+50059,Augustodunum,177460,46.949,4.299
+50444,Augustonemetum,no Pleiades ID yet,0,0
+50445,Augustoritum,no Pleiades ID yet,0,0
+50534,Aulon,no Pleiades ID yet,40.51,19.42
+50531,Automalax,no Pleiades ID yet,30.25,19.13
+50060,Auzia,295221,36.143,3.693
+50061,Avaricum,138207,47.083,2.397
+50062,Aventicum,177495,46.88,7.041
+50658,Azotus Paralios,no Pleiades ID yet,34.65,31.8
+50063,Bagacum,108788,50.297,3.792
+50064,Banasa,275599,34.602,-6.115
+50065,Barcino,246343,41.388,2.17
+50610,Bargylia,no Pleiades ID yet,37.19,27.59
+50066,Barium,442500,41.129,16.87
+50067,Batnae,658405,36.976,38.424
+50068,Beneharnum,246237,43.333,-0.435
+50069,Beneventum,432721,41.13,14.781
+50070,Berenice,no Pleiades ID yet,23.91,35.474
+50072,Beroia,658409,36.203,37.149
+50073,Berytus,678060,33.899,35.521
+50075,Bilbilis,246247,41.382,-1.603
+50743,Boiodurum,no Pleiades ID yet,,
+50077,Bonna,108818,50.733,7.096
+50078,Bononia,393421,44.495,11.349
+50079,Bononia (Moesia),206975,43.993,22.876
+50080,Bostra,678073,32.518,36.484
+50432,Boubastis,no Pleiades ID yet,0,0
+50081,Bovianum,432725,41.487,14.474
+50082,Bracara Augusta,236377,41.552,-8.423
+50083,Brigantium,187325,47.503,9.747
+50085,Brigetio,197180,47.735,18.17
+50086,Brundisium,442509,40.636,17.939
+50504,Brundulum,no Pleiades ID yet,45.19,12.31
+50087,Bulla Regia,314912,36.556,8.751
+50088,Burdigala,138248,44.837,-0.577
+50089,Burnum,197184,44.032,15.994
+50090,Burrio,79360,51.704,-2.903
+50643,Byblos,no Pleiades ID yet,34.12,35.64
+50091,Cabilonnum,177485,46.784,4.853
+50092,Caeciliana,658418,36.654,38.113
+50093,Caesaraugusta,246344,41.675,-0.889
+50095,Caesarea (Cappadocia),629034,38.722,35.328
+50094,Caesarea Maritima,no Pleiades ID yet,32.5,34.9
+50025,Caesarea (Phrygia),609307,38.304,31.19
+50096,Caesarodunum,138255,47.389,0.688
+50097,Calagurris,246279,42.304,-1.965
+50098,Calleva,79368,51.354,-1.101
+50513,Camarina,no Pleiades ID yet,36.85,14.45
+50099,Cambete,177486,47.691,7.504
+50100,Cambodunum,187335,47.727,10.327
+50101,Camulodunum,no Pleiades ID yet,51.892,0.898
+50102,Canusium,442525,41.222,16.066
+50103,Capsa,324684,34.413,8.79
+50104,Capua,432754,41.086,14.25
+50498,Caput Vada,no Pleiades ID yet,35.23,11.16
+50486,Caralis,no Pleiades ID yet,39.2149,9.10952
+50105,Carnuntum,128376,48.113,16.868
+50106,Carrhae,658427,36.866,39.029
+50107,Carthago,314921,36.847,10.313
+50108,Carthago Nova,265849,37.606,-0.991
+50109,Casinum,432764,41.493,13.831
+50325,Castra Regina,no Pleiades ID yet,49.017,12.083
+50110,Castrum Truentinum,413074,42.914,13.904
+50111,Castulo,265855,38.038,-3.624
+50112,Catabathmus Maior,716540,31.563,25.16
+50113,Caudium,432773,41.064,14.641
+50614,Caunus,no Pleiades ID yet,36.83,28.63
+50114,Celeia,197206,46.22,15.272
+50115,Cenabum,138281,47.9,1.903
+50779,Ceos,no Pleiades ID yet,24.333333,37.616667
+50515,Cephalae Pr.,no Pleiades ID yet,32.37,15.21
+50497,Cercina,no Pleiades ID yet,34.71,11.15
+50116,Cetium,118629,48.205,15.623
+50117,Chalcedon,520988,40.983,29.026
+50555,Chalcis,no Pleiades ID yet,38.46,23.59
+50577,Chersonasos,no Pleiades ID yet,35.32,25.39
+50627,Chersonesos,no Pleiades ID yet,44.6116,33.4933
+50551,Chersonesos Akra,no Pleiades ID yet,32.61,23.12
+50588,Chios,no Pleiades ID yet,38.37,26.14
+50118,Cibalae,197207,45.291,18.801
+50436,Cibyra,no Pleiades ID yet,0,0
+50632,Cinolis,no Pleiades ID yet,41.9634,34.1637
+50119,Circesium,893974,35.243,40.379
+50120,Cirta,305064,36.368,6.614
+50121,Civitas Namnetum,138298,47.215,-1.557
+50029,Claudia Aprensis,511153,40.969,27.065
+50076,Claudiopolis,844879,40.756,31.586
+50495,Clipea,no Pleiades ID yet,36.84,11.11
+50122,Clusium,413096,43.017,11.948
+50123,Clysma,727101,29.959,32.568
+50606,Cnidus,no Pleiades ID yet,36.69,27.37
+50476,Colubraria,no Pleiades ID yet,39.8982,0.685189
+50126,Comana,628959,38.332,36.323
+50127,Comum,383627,45.812,9.086
+50460,Condate,no Pleiades ID yet,0,0
+50468,Confluentes,no Pleiades ID yet,0,0
+50128,Conimbriga,236443,40.194,-8.408
+50129,Constantinopolis,520998,41.125,28.875
+50130,Coptos,786010,25.977,32.798
+50537,Corcyra,no Pleiades ID yet,39.59,19.92
+50131,Corduba,256128,37.885,-4.779
+50132,Corfinium,413105,42.124,13.842
+50549,Corinthus,no Pleiades ID yet,37.91,22.88
+50133,Coriosopitum,89152,54.978,-2.029
+50780,Corseae,no Pleiades ID yet,26.5,37.566
+50631,Corycus,no Pleiades ID yet,36.46,34.15
+50134,Cosa,413107,42.407,11.289
+50499,Cossyra,no Pleiades ID yet,36.83,11.94
+50135,Cuicul,305068,36.315,5.738
+50136,Cumae,432808,40.847,14.056
+50137,Curia,187357,46.849,9.531
+50138,Cyrene,373778,32.823,21.857
+50139,Cyrrhus,658446,36.735,36.949
+50781,Cythnos,no Pleiades ID yet,24.416,37.383
+50612,Cyzicus,no Pleiades ID yet,40.3813,27.8923
+50140,Damascus,678106,33.512,36.309
+50141,Darnis,373780,32.769,22.642
+50142,Decetia,138326,46.828,3.461
+50573,Delos,no Pleiades ID yet,37.4,25.27
+50143,Delphi,540726,38.482,22.498
+50717,Demetrias,no Pleiades ID yet,,
+50144,Dertona,383633,44.897,8.865
+50145,Dertosa,246369,40.811,0.521
+50465,Dessobriga,no Pleiades ID yet,0,0
+50146,Deultum,216788,42.445,27.367
+50147,Deva,79420,53.191,-2.895
+50148,Diana Veteranorum,334536,35.694,6.189
+50450,Dianium,no Pleiades ID yet,0,0
+50149,Dierna,207078,44.725,22.396
+50651,Dioscurias,no Pleiades ID yet,42.9933,41.0031
+50459,Divodurum,no Pleiades ID yet,0,0
+50151,Doclea,481808,42.5,18.5
+50152,Domavium,207088,44.144,19.363
+50782,Donousa,no Pleiades ID yet,25.8,37.1
+50153,Dorylaion,609367,39.775,30.517
+50154,Drobeta,207100,44.636,22.66
+50155,Dura,copy_o,34.747,40.73
+50156,Durnonovaria,79431,50.711,-2.434
+50157,Durocortorum,108945,49.254,4.033
+50158,Durostorum,216800,44.117,27.261
+50159,Dyrrhachium,481818,41.316,19.45
+50160,Eburacum,89175,53.958,-1.082
+50448,Ebusus,no Pleiades ID yet,0,0
+50161,Edessa,658457,37.176,38.776
+50162,Eleusis,579920,38.046,23.544
+50074,Eleutheropolis,687854,31.621,34.888
+50163,Emerita Augusta,256155,38.916,-6.346
+50164,Emesa,668261,34.85,36.74
+50165,Emmaus,687891,31.839,34.989
+50166,Emona,197258,46.051,14.506
+50167,Emporiae,246382,42.132,3.109
+50168,Endidae,187368,46.318,11.274
+50169,Ephesus,599612,37.94,27.341
+50528,Epidaurum,no Pleiades ID yet,42.58,18.22
+50170,Epiphaneia,658556,35.14,36.74
+50538,Euesperides,no Pleiades ID yet,32.12,20.08
+50171,Fanum Fortunae,413129,43.845,13.017
+50172,Faventia,393420,44.286,11.884
+50173,Ferentinum,432830,41.693,13.253
+50219,Flaviopolis,844991,40.812,32.165
+50084,Flavium Brigantium,236465,43.371,-8.396
+50174,Florentia,413138,43.769,11.257
+50175,Formiae,432839,41.256,13.606
+50720,Forum Appii,no Pleiades ID yet,,
+50176,Forum Iulii,157836,43.432,6.735
+50724,Forum Segusiavorum,no Pleiades ID yet,,
+50177,Fregellanum,432847,41.546,13.513
+50178,Gadara,697665,32.022,35.717
+50179,Gades,256177,36.53,-6.292
+50180,Galacum,89215,54.172,-2.59
+50485,Galata,no Pleiades ID yet,37.5271,8.92862
+50487,Gallicum Fretum,no Pleiades ID yet,41.3874,9.1594
+50510,Gaulos,no Pleiades ID yet,36.04,14.24
+50181,Gaza,687902,31.511,34.458
+50182,Genava,177528,46.203,6.139
+50183,Genua,383664,44.407,8.934
+50562,Geraistos,no Pleiades ID yet,37.98,24.55
+50184,Germa,609351,39.511,31.616
+50185,Gesoriacum,109008,50.725,1.615
+50186,Glevum,no Pleiades ID yet,51.875,-2.264
+50648,Gorgippia,no Pleiades ID yet,44.8922,37.3103
+50548,Gythion,no Pleiades ID yet,36.76,22.57
+50187,Hadrianoupolis,no Pleiades ID yet,41.684,26.567
+50188,Hadrumetum,324716,35.826,10.639
+50608,Halicarnassus,no Pleiades ID yet,37.04,27.43
+50189,Heliopolis,727117,30.132,31.285
+50190,Heliopolis (Baalbek),no Pleiades ID yet,34.015,36.203
+50569,Hephaistia,no Pleiades ID yet,39.92,25.14
+50430,Heraclea Pontica,844944,41.283,31.419
+50521,Heracleum Pr.,no Pleiades ID yet,37.93,16.06
+50191,Heraklea,481861,41.032,21.336
+50192,Herakleopolis,736920,29.086,30.938
+50193,Herdoniae,442613,41.317,15.628
+50194,Hermopolis Magna,756574,27.778,30.804
+50195,Hibis,776181,25.438,30.553
+50196,Hierakonpolis,727126,31.038,30.347
+50197,Hierasykaminos,795815,23.069,32.683
+50198,Hippo Regius,305090,36.884,7.755
+50199,Hispalis,256210,37.383,-5.996
+50200,Histria,216839,44.645,28.769
+50742,Horreum Margi,no Pleiades ID yet,,
+50530,Hydruntum,no Pleiades ID yet,40.15,18.49
+50201,Iader,197312,44.115,15.229
+50783,Icaros,no Pleiades ID yet,26.059,37.6215
+50541,Ichthys Pr.,no Pleiades ID yet,37.65,21.32
+50202,Iconium,648647,37.847,32.516
+50482,Igilgili,no Pleiades ID yet,36.8216,5.76666
+50203,Ilerda,246431,41.614,0.626
+50204,Ilium,550595,39.949,26.344
+50489,Ilva,no Pleiades ID yet,42.7434,10.2397
+50784,Imbros,no Pleiades ID yet,25.844444,40.160833
+50205,Interpromium,413182,42.244,13.934
+50206,Iol Caesarea,295279,36.607,2.197
+50636,Ioppe,no Pleiades ID yet,32.0545,34.7511
+50785,Ios,no Pleiades ID yet,25.333333,36.716667
+50207,Isca,79531,50.5,-3.5
+50550,Isthmia,no Pleiades ID yet,22.987,37.941
+50208,Italica,256231,37.444,-6.047
+50209,Iulia Concordia,393441,45.757,12.844
+50462,Iuliobona,no Pleiades ID yet,0,0
+50463,Iuliobriga,no Pleiades ID yet,0,0
+50210,Iuliomagus,138400,47.469,-0.549
+50211,Iulium Carnicum,187430,46.461,13.026
+50212,Iuvavum,187432,47.801,13.044
+50213,Jerusalem,687928,31.777,35.234
+50582,Kadiston Mons,no Pleiades ID yet,35.34,25.77
+50214,Kallipolis,501450,40.41,26.684
+50527,Kallipolis-Anxa,no Pleiades ID yet,40.06,17.99
+50623,Kalos Limen,no Pleiades ID yet,45.5209,32.7033
+50215,Kapitolias,678224,32.598,35.858
+50626,Karambis Pr.,no Pleiades ID yet,42.0136,33.3697
+50567,Kardamis,no Pleiades ID yet,31.92,25.04
+50216,Katabolos,658506,36.908,35.989
+50558,Kaudos,no Pleiades ID yet,34.86,24.06
+50217,Kellis,776189,25.549,28.908
+50786,Kerea,no Pleiades ID yet,25.75,36.75
+50556,Kimaros Pr.,no Pleiades ID yet,35.63,23.6
+50787,Kimolos,no Pleiades ID yet,24.55,36.8
+50591,Kinaros,no Pleiades ID yet,36.98,26.29
+50788,Kinaros,no Pleiades ID yet,26.289,36.98
+50218,Klaudianon,766375,26.799,33.486
+50634,Kleides Pr.,no Pleiades ID yet,35.7,34.59
+50604,Kos,no Pleiades ID yet,36.89,27.29
+50649,Kotyora,no Pleiades ID yet,41.0002,37.8752
+50741,Krane,no Pleiades ID yet,,
+50554,Kriou Metopon Pr.,no Pleiades ID yet,35.27,23.58
+50661,Krokodilopolis,no Pleiades ID yet,0,0
+50524,Lacinium Pr.,no Pleiades ID yet,39.03,17.2
+50220,Lacobriga,236501,42.339,-4.602
+50221,Lamasba,334569,35.629,5.911
+50222,Lambaesis,334570,35.492,6.256
+50466,Lamia,no Pleiades ID yet,0,0
+50223,Lampsacus,501570,40.347,26.699
+50224,Lancia,236505,42.534,-5.414
+50225,Laodicea,668290,35.641,35.794
+50431,Laodicea ad Lycum,638955,37.855,29.136
+50628,Lapethos,no Pleiades ID yet,35.27,33.86
+50226,Larinum,442629,41.807,14.919
+50227,Larissa,540905,39.633,22.424
+50674,Latopolis,no Pleiades ID yet,0,0
+50228,Lauriacum,118802,48.221,14.466
+50789,Lebinthos,no Pleiades ID yet,26.459,37.005
+50229,Legio VII,no Pleiades ID yet,42.606,-5.57
+50230,Lepcis Magna,344448,32.637,14.292
+50790,Leros,no Pleiades ID yet,23.625,37.875
+50539,Leucas,no Pleiades ID yet,38.83,20.71
+50505,Lilybaeum,no Pleiades ID yet,37.7984,12.4375
+50231,Limonum,138422,46.587,0.343
+50232,Lindum,no Pleiades ID yet,53.25,-0.559
+50469,Lissus,no Pleiades ID yet,0,0
+50233,Lixus,275666,35.199,-6.11
+50234,Loium,109120,49.523,0.724
+50523,Lokroi Epizephyrioi,no Pleiades ID yet,38.24,16.26
+50235,Londinium,79574,51.513,-0.089
+50236,Lousonna,177565,46.519,6.632
+50237,Luca,403234,43.843,10.508
+50429,Lugdunum,167717,45.759,4.819
+50238,Lugdunum Cananefatium,99003,52.161,4.49
+50239,Lugdunum Convenarum,246477,43.027,0.573
+50240,Luguvalium,89234,54.895,-2.934
+50241,Luna,403235,44.066,10.031
+50242,Lutetia,109126,48.856,2.342
+50243,Lydda,687953,31.966,34.892
+50244,Lykopolis,756593,27.184,31.187
+50245,Magnesia,599778,37.853,27.533
+50473,Maiensis Statio,no Pleiades ID yet,0,0
+50713,Malaca,no Pleiades ID yet,,
+50552,Malea Pr.,no Pleiades ID yet,36.44,23.2
+50246,Mampsoukrenai,648704,37.073,34.886
+50249,Mamucio,no Pleiades ID yet,53.481,-2.342
+50247,Marcianopolis,216878,43.225,27.585
+50248,Mariana,265965,38.547,-2.927
+50501,Maritima,no Pleiades ID yet,37.97,12.06
+50250,Massilia,148127,43.297,5.382
+50251,Mediolanum,383706,45.464,9.188
+50252,Mediolanum (Aquitania),138458,45.5,-0.5
+50512,Melita,no Pleiades ID yet,35.88,14.4
+50253,Melitene,629039,38.25,37.25
+50254,Memphis,736963,30.004,31.276
+50492,Meninge,no Pleiades ID yet,33.68,10.92
+50493,Mercurii Pr.,no Pleiades ID yet,37.0616,11.0133
+50516,Messana,no Pleiades ID yet,38.1923,15.5566
+50483,Metagonium Pr.,no Pleiades ID yet,37.0891,6.46696
+50791,Miletus,no Pleiades ID yet,27.2756764,37.5312131
+50255,Minturnae,432940,41.242,13.769
+50256,Misenum,432941,40.786,14.085
+50257,Mogontiacum,no Pleiades ID yet,50,8.271
+50677,Mons Porphyrites,no Pleiades ID yet,0,0
+50678,Mothis,no Pleiades ID yet,0,0
+50258,Mounesis,776216,24.684,30.606
+50617,Mouth of Pontus,no Pleiades ID yet,41.2123,29.1239
+50759,Mouth of Witham,no Pleiades ID yet,,
+50259,Mursa,197389,45.56,18.676
+50260,Musti,315085,36.336,9.143
+50261,Mutina,383715,44.647,10.925
+50792,Mykonos,no Pleiades ID yet,25.37,37.44
+50603,Myndos,no Pleiades ID yet,37.08,27.24
+50262,Myos Hormos,786069,26.157,34.244
+50439,Myra,no Pleiades ID yet,0,0
+50644,Myriandros,no Pleiades ID yet,36.59,36.19
+50592,Mytilene,no Pleiades ID yet,39.21,26.31
+50263,Naissus,207303,43.316,21.894
+50264,Narbo,no Pleiades ID yet,43.214,3
+50265,Narnia,413225,42.52,12.516
+50266,Narona,197400,43.081,17.628
+50267,Naucratis,727169,30.901,30.592
+50467,Naupactus,no Pleiades ID yet,0,0
+50793,Naxos,no Pleiades ID yet,25.378,37.103
+50268,Neapolis,433014,40.84,14.253
+50725,Neapolis (Thrace),no Pleiades ID yet,,
+50269,Nemausus,148142,43.835,4.36
+50270,Nemetacum,109194,50.293,2.782
+50271,Nicaea,511268,40.43,29.714
+50272,Nicomedia,511337,40.766,29.916
+50273,Nicopolis,531013,39.008,20.736
+50274,Nicopolis (Pontus),857248,40.161,38.139
+50275,Nisibis,874623,37.067,41.216
+50775,Nisyros,no Pleiades ID yet,27.172056,36.587875
+50276,Novae,216899,43.601,25.396
+50277,Noviomagus,109224,49.317,8.431
+50278,Nuceria,432985,40.743,14.674
+50690,Oasis Parva,no Pleiades ID yet,0,0
+50279,Ocriculum,413231,42.412,12.467
+50280,Odessus,216904,43.212,27.909
+50281,Oea,344456,32.898,13.175
+50282,Oescus,216907,43.698,24.482
+50451,Olbia,no Pleiades ID yet,0,0
+50621,Olbia (Borysthenes),no Pleiades ID yet,46.6919,31.9016
+50283,Olisipo,256338,38.707,-9.136
+50284,Omboi,no Pleiades ID yet,24.467,32.95
+50285,Osca,246539,42.14,-0.409
+50286,OstiaPortus,422995,41.755,12.288
+50287,Ovilava,118901,48.157,14.025
+50288,Oxyrhynchus,736983,28.673,30.626
+50289,Palantia,236590,42.475,-5.297
+50762,Palinurus Pr.,no Pleiades ID yet,,
+50756,Palma,no Pleiades ID yet,,
+50290,Palmyra,668331,34.768,38.286
+50714,Panormus,no Pleiades ID yet,,
+50646,Pantikapaion,no Pleiades ID yet,45.2385,36.4141
+50452,Paphos,no Pleiades ID yet,0,0
+50291,Paraetonium,716615,31.35,27.237
+50599,Parium,no Pleiades ID yet,40.4205,27.0691
+50292,Parma,383737,44.804,10.333
+50794,Paros,no Pleiades ID yet,25.19,37.05
+50293,Parthanum,187505,47.492,11.086
+50440,Patara,no Pleiades ID yet,0,0
+50294,Patavium,393473,45.41,11.877
+50795,Patmos,no Pleiades ID yet,26.5578532,37.3157746
+50544,Patrae,no Pleiades ID yet,38.26,21.74
+50295,Pax Iulia,256358,38.016,-7.865
+50630,Pedalion Pr.,no Pleiades ID yet,34.96,34.08
+50296,Pella,491687,40.76,22.526
+50297,Pelusium,727192,31.05,32.6
+50298,Penne Locos,177602,46.398,6.926
+50299,Perdices,334608,35.932,5.39
+50300,Pergamum,550812,39.131,27.185
+50437,Perge,no Pleiades ID yet,0,0
+50301,Perinthus,511357,40.971,27.953
+50302,Petra,697725,30.326,35.468
+50568,Petras Megas,no Pleiades ID yet,31.75,25.09
+50553,Petras Mikros,no Pleiades ID yet,32.17,23.45
+50303,Petuaria,79639,53.688,-0.591
+50438,Phaselis,no Pleiades ID yet,0,0
+50652,Phasis,no Pleiades ID yet,42.15,41.6674
+50443,Phiara,no Pleiades ID yet,0,0
+50304,Philadelpheia,697728,31.931,35.926
+50305,Philippi,501482,41.014,24.283
+50306,Philippopolis,216927,42.144,24.75
+50543,Phykous,no Pleiades ID yet,32.91,21.63
+50307,Pisae,403253,43.716,10.397
+50308,Pistoriae,403254,43.932,10.919
+50309,Placentia,383741,45.052,9.699
+50488,Planasia,no Pleiades ID yet,42.5887,10.0975
+50310,Poetovio,197446,46.42,15.87
+50311,Pola,197448,44.87,13.841
+50312,Pompeii,433032,40.749,14.485
+50313,Pompelo,246567,42.818,-1.644
+50314,Pons Aeni,187516,47.856,12.124
+50315,Pons Drusi,187518,46.497,11.358
+50761,Populonium,no Pleiades ID yet,,
+50316,Porolissum,207361,47.23,23.127
+50464,Portus Blendium,no Pleiades ID yet,0,0
+50474,Portus Magnus,no Pleiades ID yet,35.8079,-0.266018
+50456,Portus Pachyni,no Pleiades ID yet,0,0
+50318,Potaissa,207362,46.566,23.791
+50602,Potidaion,no Pleiades ID yet,35.51,27.21
+50319,Praetorium,364003,31.5,15.5
+50609,Proconnesus,no Pleiades ID yet,40.5917,27.5557
+50619,Prusias,no Pleiades ID yet,40.4325,29.1564
+50320,Ptolemais,373879,32.708,20.951
+50321,Ptolemais Hermiou,756635,26.478,31.804
+50322,Puteoli,432815,40.824,14.122
+50642,Pyramos (river),no Pleiades ID yet,36.57,35.56
+50700,Qasr Farafra,no Pleiades ID yet,0,0
+50654,Raphia,no Pleiades ID yet,34.2519,31.2886
+50323,Ravenna,393480,44.416,12.197
+50324,Reate,413283,42.403,12.861
+50326,Regium,452416,38.109,15.644
+50613,Rhodos,no Pleiades ID yet,36.44,28.23
+50327,Roma,423025,41.892,12.486
+50461,Rotomagus,no Pleiades ID yet,0,0
+50328,Rusaddir,285512,35.292,-2.938
+50329,Rusicade,305137,36.883,6.906
+50330,Rutupiae,79664,51.294,1.332
+50331,Sabratha,344282,32.806,12.485
+50332,Saguntum,266021,39.68,-0.279
+50333,Sala,275696,34.015,-6.833
+50453,Salamis,no Pleiades ID yet,0,0
+50520,Salapia,no Pleiades ID yet,41.39,16.02
+50334,Saldae,305142,36.74,5.058
+50335,Salernum,433075,40.678,14.766
+50529,Sallentinum Pr.,no Pleiades ID yet,39.8,18.36
+50470,Salmantica,no Pleiades ID yet,0,0
+50336,Salona,197488,43.54,16.483
+50618,Salsovia,no Pleiades ID yet,45.0665,29.124
+50337,Samarobriva,no Pleiades ID yet,49.892,2.299
+50758,Samonion Pr.,no Pleiades ID yet,,
+50597,Samos,no Pleiades ID yet,37.69,26.94
+50338,Samosata,658587,37.565,38.471
+50339,Santicum,187537,46.616,13.849
+50340,Sardis,550867,38.488,28.04
+50341,Sarmizegethusa,no Pleiades ID yet,45.623,23.31
+50342,Satala,874684,40.029,39.654
+50343,Savaria,197498,47.235,16.622
+50344,Scarbantia,197501,47.685,16.583
+50345,Scodra,481986,42.074,19.528
+50346,Scythopolis,678378,32.61,35.477
+50347,Sebasteia,629075,39.75,37.015
+50471,Segedunum,no Pleiades ID yet,0,0
+50348,Segusio,167919,45.138,7.048
+50454,Seleukeia Pieria,no Pleiades ID yet,0,0
+50755,Selinous,no Pleiades ID yet,,
+50507,Selinus,no Pleiades ID yet,37.5828,12.8251
+50349,Senia,197505,44.99,14.901
+50350,Serdica,207439,42.723,23.343
+50351,Servitium,197509,45.151,17.256
+50594,Sestus,no Pleiades ID yet,40.2284,26.4172
+50352,Sicca Veneria,315152,36.179,8.71
+50353,Side,639105,36.776,31.398
+50354,Siga,285521,35.24,-1.455
+50590,Sigeion,no Pleiades ID yet,40.01,26.2
+50355,Singara,874699,36.404,42.219
+50356,Singidunum,207443,44.802,20.466
+50639,Sinope,no Pleiades ID yet,42.0492,35.0419
+50357,Sinuessa,433122,41.25,14.25
+50797,Siphnos,no Pleiades ID yet,24.666667,36.983333
+50358,Sipontum,442797,41.607,15.896
+50359,Sirmium,207447,44.966,19.61
+50360,Sisapo,266043,38.645,-4.518
+50361,Siscia,197504,45.483,16.371
+50362,Sitifis,305153,36.237,5.41
+50796,Skyllaion Pr.,no Pleiades ID yet,23.518,37.438
+50363,Smyrna,550893,38.25,27.25
+50557,Sounion Pr.,no Pleiades ID yet,37.65,24.03
+50364,Soura,668376,35.864,38.914
+50365,Spinis,79692,51.412,-1.344
+50366,Spoletium,413320,42.745,12.738
+50367,Stobi,491731,41.531,21.978
+50368,Sufasar,295346,36.192,2.515
+50369,Sufetula,324816,35.239,9.121
+50370,Summuntorium,118986,48.646,10.826
+50372,Summus Pyreneus (East),246672,42.758,-0.828
+50371,Summus Pyreneus (West),246671,43.02,-1.324
+50373,Syene,786123,24.096,32.905
+50455,Syracusae,no Pleiades ID yet,0,0
+50798,Syros,no Pleiades ID yet,24.92,37.43
+50376,Tabia,619267,39.889,34.448
+50374,Tacape,no Pleiades ID yet,33.883,10.099
+50547,Tainaron Pr.,no Pleiades ID yet,36.39,22.48
+50375,Taliata,207485,44.444,22.144
+50650,Tanais,no Pleiades ID yet,47.2678,39.258
+50377,Tarentum,442810,40.469,17.24
+50378,Tarracina,433143,41.291,13.249
+50379,Tarraco,no Pleiades ID yet,41.12,1.251
+50380,Tarsus,648789,36.916,34.901
+50381,Teanum,no Pleiades ID yet,41.255,14.056
+50799,Telos,no Pleiades ID yet,27.336,36.433
+50586,Tenedos,no Pleiades ID yet,39.82,26.03
+50800,Tenos,no Pleiades ID yet,25.116,37.553
+50382,Terenouthis,727244,30.432,30.816
+50383,Tergeste,187578,45.649,13.772
+50449,Thabraca,no Pleiades ID yet,0,0
+50491,Thaenae,no Pleiades ID yet,34.67,10.7
+50384,Thagaste,315198,36.284,7.955
+50385,Thamugadi,334636,35.485,6.468
+50564,Thasos,no Pleiades ID yet,40.78,24.71
+50386,Thebae,541138,38.322,23.319
+50150,Thebai,no Pleiades ID yet,25.702,32.652
+50387,Thelepte,324828,34.979,8.595
+50388,Thelseai,678427,33.648,36.665
+50647,Themiskyra,no Pleiades ID yet,41.2152,36.9677
+50641,Theodosia,no Pleiades ID yet,45.0461,35.3788
+50801,Thera,no Pleiades ID yet,25.433333,36.416667
+50389,Thessalonica,491741,40.626,22.956
+50390,Theveste,324831,35.407,8.121
+50391,Thuburnica,315221,36.529,8.455
+50392,Tibiscum,207495,45.459,22.186
+50393,Tibur,423081,41.964,12.798
+50395,Ticinum,383798,45.186,9.157
+50509,Tiliaventum (river),no Pleiades ID yet,45.64,13.1
+50396,Tingi,275736,35.788,-5.81
+50518,Titius (river),no Pleiades ID yet,43.72,15.86
+50744,Toletum,no Pleiades ID yet,,
+50398,Tolosa,246694,43.604,1.443
+50399,Tomis,217016,44.173,28.638
+50400,Tralles,599987,37.853,27.844
+50401,Trapezus,857359,41.003,39.718
+50402,Tridentum,383804,46.067,11.119
+50719,Tripolis,no Pleiades ID yet,,
+50403,Troesmis,217025,45.164,28.189
+50598,Trogilion Pr.,no Pleiades ID yet,37.67,27.02
+50394,Tubusuctu,no Pleiades ID yet,36.669,4.828
+50404,Tyana,648801,37.894,34.56
+50620,Tyras,no Pleiades ID yet,46.2009,30.3505
+50405,Tyrus,678437,33.272,35.198
+50472,Ulpiana,no Pleiades ID yet,0,0
+50125,Ulpia Traiana Tricensimae,108896,51.669,6.446
+50406,Valentia,167718,44.93,4.89
+50407,Vappincum,167954,44.56,6.076
+50408,Veldidena,187608,47.254,11.4
+50409,Venonis,79732,52.494,-1.301
+50412,Venta,no Pleiades ID yet,51.063,-1.317
+50411,Venta Icenorum,79735,52.578,1.288
+50410,Venusia,no Pleiades ID yet,40.963,15.815
+50413,Vercellae,383815,45.321,8.426
+50414,Verona,383816,45.439,10.994
+50415,Verulamium,79739,51.746,-0.355
+50416,Vesontio,177657,47.241,6.025
+50433,Vesunna,no Pleiades ID yet,0,0
+50417,Vibo Valentia,452337,38.676,16.098
+50418,Vienna,no Pleiades ID yet,45.525,4.879
+50419,Viminacium,207549,44.716,21.167
+50420,Vindobona,128537,48.211,16.374
+50421,Viroconium,79741,52.67,-2.647
+50422,Virovesca,246748,42.55,-3.323
+50423,Virunum,197583,46.703,14.36
+50424,Vivisco,177663,46.459,6.847
+50425,Volsinii,413389,42.645,11.986
+50426,Volubilis,275740,34.084,-5.506
+50434,Vorgium,no Pleiades ID yet,0,0
+50441,Xanthos,no Pleiades ID yet,0,0
+50540,Zacynthus,no Pleiades ID yet,37.78,20.9
+50427,Zarai,334669,35.786,5.695
+50428,Zeugma,658636,37.058,37.87
