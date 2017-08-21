@@ -60,25 +60,24 @@ export class ResourcesService {
   */
   getQuarries(lat: number, lon: number, material: string) {
     const url = 'http://localhost:9200/place/_search?source={"query":{"bool":{"must":{"term":{"dcterms:medium.dcterms:title":"' + material + '"}},"filter":{"geo_distance":{"distance":"500km","location":{"lon":' + lon + ', "lat":' + lat + '}}}}}}'
-    console.log(url)
     return this.http.get(url)
       .map((res: Response) => res.json().hits);
   }
-/*
- * Searches for closest Orbis place by a given distance.
- * ElasticSearch example query:
- * {"size":1,"_source":[""],"query":{"match_all":{}},"sort":[{"_geo_distance":{"location":{"lon":23.650904,"lat":37.943263},"order":"asc","unit":"km","distance_type":"plane"}}]}
- * Returns the closest orbis place as object.
- * Usage:
- *   getOrbisId(lat, lon)
- * Example:
- *   getOrbisId(37.943263,23.650904)
- *   returns: '[object]'
-*/
-  getOrbisId(lat: number, lon: number, material: string) {
+  /*
+   * Searches for closest Orbis place by a given distance.
+   * ElasticSearch example query:
+   * {"size":1,"_source":[""],"query":{"match_all":{}},"sort":[{"_geo_distance":{"location":{"lon":23.650904,"lat":37.943263},"order":"asc","unit":"km","distance_type":"plane"}}]}
+   * Returns the closest orbis place as object.
+   * Usage:
+   *   getOrbisId(lat, lon)
+   * Example:
+   *   getOrbisId(37.943263,23.650904)
+   *   returns: '[object]'
+  */
+  getOrbisId(lat: number, lon: number) {
   const url = 'http://localhost:9200/shape/_search?source={"size":1,"_source":[""],"query":{"match_all":{}},"sort":[{"_geo_distance":{"location":{"lon":'+lon+',"lat":'+lat+'},"order":"asc","unit":"km","distance_type":"plane"}}]}'
-  console.log(url)
   return this.http.get(url)
     .map((res: Response) => res.json().hits);
-}
+  }
+
 }

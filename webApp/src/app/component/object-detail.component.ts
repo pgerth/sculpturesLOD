@@ -47,8 +47,7 @@ export class ObjectDetailComponent {
         // center map view on find location
         this.map.setView([lat, lon], 5);
         // add point marker for find location
-        this.generateMarker(this.object);
-        console.log(medium[medium.length-1]['dcterms:title'])
+        this.generateMarker(this.object
         // searches for closest Orbis point
         this.resourcesService.getOrbisId(this.object._source.location.lat, this.object._source.location.lon)
           .subscribe(res => {
@@ -75,19 +74,16 @@ export class ObjectDetailComponent {
     if (doc._index == "object") {icon = this.mapService.objectIcon}
     if (doc._index == "place") {icon = this.mapService.placeIcon}
     this.resourcesService.getOrbisId(doc._source.location.lat, doc._source.location.lon)
-      .subscribe(res => {
-        console.log(this.orbisId)
-        console.log(res.hits[0]._id)
+      .subscribe(orbisRes => {
+        let marker = L.marker([doc._source.location.lat, doc._source.location.lon], {icon: icon})
+          .addTo(this.map)
+          .bindPopup(
+            // popUp content creation for each dataset
+            "<b>" + doc._source['dcterms:title'] + " </b>" +
+            "<a href=" + doc._source['@id'] +
+            "><i class='fa fa-external-link' aria-hidden='true'></i></a>" + "<br>" +
+            doc._source['dcterms:description'] + "<br>" +
+            "<a target='_blank' href='http://orbis.stanford.edu/api/route/" + this.orbisId + "/" + orbisRes.hits[0]._id + "/6/1'>Orbis Route Calculation<a>"
+          );
       });
-    let marker = L.marker([doc._source.location.lat, doc._source.location.lon], {icon: icon})
-      .addTo(this.map)
-      .bindPopup(
-        // popUp content creation for each dataset
-        "<b>" + doc._source['dcterms:title'] + " </b>" +
-        "<a href=" + doc._source['@id'] +
-        "><i class='fa fa-external-link' aria-hidden='true'></i></a>" + "<br>" +
-        doc._source['dcterms:description'] + "<br>"
-      );
-  }
-
 }
