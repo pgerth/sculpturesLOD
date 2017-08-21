@@ -16,6 +16,7 @@ export class ObjectDetailComponent {
   public object: Object[];
   public quarries: Object[];
   public map: L.Map;
+  public orbisId: string;
   public properties: string[] = [ "dcterms:title", "dcterms:identifier", "dcterms:temporal", "dcterms:bibliographicCitation" ];
 
   constructor(
@@ -48,6 +49,11 @@ export class ObjectDetailComponent {
         // add point marker for find location
         this.generateMarker(this.object);
         console.log(medium[medium.length-1]['dcterms:title'])
+        // searches for closest Orbis point
+        this.resourcesService.getOrbisId(this.object._source.location.lat, this.object._source.location.lon)
+          .subscribe(res => {
+            this.orbisId = res.hits[0]._id;
+          });
         // searches for nearby quarries by position and the material of the find object
         this.resourcesService.getQuarries(lat, lon,medium[medium.length-1]['dcterms:title'])
           .subscribe(res => {
@@ -68,6 +74,11 @@ export class ObjectDetailComponent {
     // icon definition in dependency of the document type
     if (doc._index == "object") {icon = this.mapService.objectIcon}
     if (doc._index == "place") {icon = this.mapService.placeIcon}
+    this.resourcesService.getOrbisId(doc._source.location.lat, doc._source.location.lon)
+      .subscribe(res => {
+        console.log(this.orbisId)
+        console.log(res.hits[0]._id)
+      });
     let marker = L.marker([doc._source.location.lat, doc._source.location.lon], {icon: icon})
       .addTo(this.map)
       .bindPopup(
