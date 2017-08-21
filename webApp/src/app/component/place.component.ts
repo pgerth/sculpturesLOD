@@ -57,7 +57,7 @@ export class PlaceComponent implements AfterViewInit {
         place._source['dcterms:description'] + "<br>" +
         "<a class='url-break' href=" + place._source['@id'] + ">" + place._source['@id'] + "</a>");
   }
-
+  // reset basemaps to fix bug after each view is build up
   ngAfterViewInit() {
     this.map.removeLayer(this.mapService.baseMaps.CartoDB);
     this.map.addLayer(this.mapService.baseMaps.CartoDB);

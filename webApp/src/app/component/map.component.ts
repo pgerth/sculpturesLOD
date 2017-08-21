@@ -94,6 +94,7 @@ export class MapComponent implements AfterViewInit {
         "<a class='url-break' href=" + doc._source['@id'] + ">" + doc._source['@id'] + "</a>"
       );
   }
+  // reset basemaps to fix bug after each view is build up
   ngAfterViewInit() {
     this.map.removeLayer(this.mapService.baseMaps.RomanEmpire);
     this.map.addLayer(this.mapService.baseMaps.RomanEmpire);

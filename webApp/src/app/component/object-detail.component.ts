@@ -96,7 +96,7 @@ export class ObjectDetailComponent implements AfterViewInit {
           );
       });
     }
-
+    // reset basemaps to fix bug after each view is build up
     ngAfterViewInit() {
       this.map.removeLayer(this.mapService.baseMaps.RomanEmpire);
       this.map.addLayer(this.mapService.baseMaps.RomanEmpire);
