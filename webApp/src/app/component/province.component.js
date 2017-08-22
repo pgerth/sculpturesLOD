@@ -18,14 +18,14 @@ var ProvinceComponent = (function () {
         this.resourcesService = resourcesService;
         this.mapService = mapService;
         this.namespaceService = namespaceService;
-        this.text = '{\n  "query": {\n    "bool": {\n      "must": {\n        "match": {\n          "dcterms:medium.dcterms:title": "Pentelic marble"\n        }\n      },\n      "filter": {\n        "geo_shape": {\n          "geometry": {\n            "indexed_shape": {\n              "index": "shape",\n              "type": "pleiades",\n              "id": "981535",\n              "path": "geometry"\n            }\n          }\n        }\n      }\n    }\n  }\n}\n';
+        this.text = '{\n  "query": {\n    "bool": {\n      "must": {\n        "match": {\n          "dcterms:medium.dcterms:title": "Pentelic marble"\n        }\n      },\n      "filter": {\n        "geo_shape": {\n          "geometry": {\n            "indexed_shape": {\n              "index": "shape",\n              "type": "pleiades",\n              "id": "981522",\n              "path": "geometry"\n            }\n          }\n        }\n      }\n    }\n  }\n}\n';
         this.code = JSON.stringify(this.text);
     }
     ProvinceComponent.prototype.ngOnInit = function () {
         var _this = this;
         // initialize map & mapping parameters
         this.map = L.map('map', {
-            center: [43, 10],
+            center: [40, 15],
             zoom: 4,
             layers: [this.mapService.baseMaps.CartoDB],
         });

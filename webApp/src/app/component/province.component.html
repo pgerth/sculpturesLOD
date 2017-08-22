@@ -1,17 +1,17 @@
 <div class="container">
-  <div class="row" style="height: 45vH">
-    <div class="col-sm-6">
-      <h4>Provinces</h4>
+  <h4>Provinces</h4>
+  <div class="row">
+    <div class="col-sm-5">
       This is an showcase implementation for the topological query with <a href="https://www.elastic.co/de/products/elasticsearch">ElasticSearch</a>.
       For each of the provinces a topological query is performed using the <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-geo-shape-query.html">geo shape query</a>.
-      All objects are returned, which are located within the specific province. On the right side a example query after all white marble objects within Dalmatia (<a href="https://pleiades.stoa.org/places/981522">https://pleiades.stoa.org/places/981522</a>) is shown.
+      All objects, which are located within the specific province, are returned. On the right side a example query for all <a href="http://vocab.getty.edu/aat/300011599">Pentelic marble</a> objects within Dalmatia (<a href="https://pleiades.stoa.org/places/981522">https://pleiades.stoa.org/places/981522</a>) is shown.
     </div>
-    <div class="col-sm-6">
-      <pre>{{text}}</pre>
+    <div class="col-sm-7">
+      <pre style="height: 35vH">{{text}}</pre>
     </div>
   </div>
   <div class="row">
     <!-- MAP -->
-    <div style="height: 45vH" id="map"></div>
+    <div style="height: 50vH" id="map"></div>
   </div>
 </div>

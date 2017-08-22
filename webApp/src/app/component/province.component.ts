@@ -12,7 +12,7 @@ export class ProvinceComponent implements AfterViewInit {
   // public definitions for ressources and map
   public provinces: Object[];
   public map: L.Map;
-  public text = '{\n  "query": {\n    "bool": {\n      "must": {\n        "match": {\n          "dcterms:medium.dcterms:title": "Pentelic marble"\n        }\n      },\n      "filter": {\n        "geo_shape": {\n          "geometry": {\n            "indexed_shape": {\n              "index": "shape",\n              "type": "pleiades",\n              "id": "981535",\n              "path": "geometry"\n            }\n          }\n        }\n      }\n    }\n  }\n}\n'
+  public text = '{\n  "query": {\n    "bool": {\n      "must": {\n        "match": {\n          "dcterms:medium.dcterms:title": "Pentelic marble"\n        }\n      },\n      "filter": {\n        "geo_shape": {\n          "geometry": {\n            "indexed_shape": {\n              "index": "shape",\n              "type": "pleiades",\n              "id": "981522",\n              "path": "geometry"\n            }\n          }\n        }\n      }\n    }\n  }\n}\n'
   public code = JSON.stringify(this.text)
 
   constructor(
@@ -24,7 +24,7 @@ export class ProvinceComponent implements AfterViewInit {
   ngOnInit(): void {
     // initialize map & mapping parameters
     this.map = L.map('map', {
-      center: [43,10],
+      center: [40,15],
       zoom: 4,
       layers: [this.mapService.baseMaps.CartoDB],
     });
