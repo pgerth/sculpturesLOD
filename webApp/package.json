@@ -2,7 +2,7 @@
   "name": "angular-io-example",
   "version": "1.0.0",
   "private": true,
-  "description": "Example project from an angular.io guide.",
+  "description": "Linked Open Data Web App Project.",
   "scripts": {
     "test:once": "karma start karma.conf.js --single-run",
     "build": "tsc -p src/",
@@ -38,9 +38,11 @@
     "@angular/router": "~4.0.0",
     "@angular/tsc-wrapped": "~4.0.0",
     "@angular/upgrade": "~4.0.0",
+    "@turf/turf": "^4.6.1",
     "@types/leaflet.awesome-markers": "^2.0.22",
     "angular-in-memory-web-api": "~0.3.1",
     "core-js": "^2.4.1",
+    "leaflet": "^1.2.0",
     "rxjs": "5.0.1",
     "systemjs": "0.19.39",
     "zone.js": "^0.8.4"

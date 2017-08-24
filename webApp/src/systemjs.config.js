@@ -34,6 +34,7 @@
       'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js',
       'leaflet': 'npm:leaflet/dist/leaflet.js',
       'leaflet-awesome-markers': 'npm:leaflet.awesome-markers/dist/leaflet.awesome-markers.min.js',
+      'turf': 'node_modules/@turf/turf/turf.min.js'
     },
     // packages tells the System loader how to load when no filename and/or no extension
     packages: {
