@@ -13,7 +13,6 @@ export class ProvinceComponent implements AfterViewInit {
   public provinces: Object[];
   public map: L.Map;
   public text = '{\n  "query": {\n    "bool": {\n      "must": {\n        "match": {\n          "dcterms:medium.dcterms:title": "Pentelic marble"\n        }\n      },\n      "filter": {\n        "geo_shape": {\n          "geometry": {\n            "indexed_shape": {\n              "index": "shape",\n              "type": "pleiades",\n              "id": "981522",\n              "path": "geometry"\n            }\n          }\n        }\n      }\n    }\n  }\n}\n'
-  public code = JSON.stringify(this.text)
 
   constructor(
     private resourcesService: ResourcesService,

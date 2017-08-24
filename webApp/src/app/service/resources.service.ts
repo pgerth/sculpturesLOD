@@ -129,6 +129,37 @@ export class ResourcesService {
   }
 
   /*
+   * Searches for Docs inside a given Province.
+   * ElasticSearch example query:
+   * {"query":{"bool":{"must":{"match":{"dcterms:medium.dcterms:title":"Pentelic marble"}},"filter":{"geo_shape":{"geometry":{"indexed_shape":{"index":"shape","type":"pleiades","id":"981537","path":"geometry"}}}}}}}
+   * Returns the closest orbis place as object.
+   * Usage:
+   *   getOrbisId(lat, lon)
+   * Example:
+   *   getOrbisId(37.943263,23.650904)
+   *   returns: '[object]'
+  */
+
+  getDocsByShape(shape: any) {
+  const url = 'http://localhost:9200/object,place/_search?source={"query":{"bool":{"must":{"match_all":{}},"filter":{"geo_shape":{"geometry":{"shape":'+JSON.stringify(shape)+',"relation":"within"}}}}}}';
+  console.log(url)
+  return this.http.get(url)
+    .map((res: Response) => res.json().hits);
+  }
+
+  /*
+   * Returns the via appia as an object for demo purpose.
+  */
+  getRoad() {
+    const url = 'http://localhost:9200/shape/road/ba_roads.2237'
+    console.log(url)
+    return this.http.get(url)
+      .map((res: Response) => res.json()._source);
+  }
+
+
+
+  /*
    * Returns all provinces.
   */
   getProvinces() {

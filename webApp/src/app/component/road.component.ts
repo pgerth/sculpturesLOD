@@ -23,8 +23,8 @@ export class RoadComponent implements AfterViewInit {
   ngOnInit(): void {
     // initialize map & mapping parameters
     this.map = L.map('map', {
-      center: [40,15],
-      zoom: 4,
+      center: [41.5,12.5],
+      zoom: 8,
       layers: [this.mapService.baseMaps.CartoDB],
     });
     // adds map control: scale, layertree
@@ -32,25 +32,26 @@ export class RoadComponent implements AfterViewInit {
     L.control.scale().addTo(this.map);
 
     // major function, which calls the ressourcesService for places datasets
-    this.resourcesService.getProvinces()
+    this.resourcesService.getRoad()
       .subscribe((res: any) => {
-        this.provinces = res;
-        this.generatePolygon(res.hits[0]);
+        res.geometry.type = "MultiLineString";
+        console.log(res.geometry);
+        L.geoJSON(res.geometry).addTo(this.map);
+        //this.generateBuffer(res.hits[0]);
     });
   }
-  // private function to generate a shape and create a tooltip
-  private generatePolygon(prov : any) {
-    prov['_source']['geometry'].type = "MultiPolygon";
-    this.resourcesService.getDocsByProvince(prov['_id'])
-      .subscribe((res: any) => {
-        let buffered = turf.buffer(prov['_source']['geometry'], 500, 'miles');
-        console.log(buffered)
-        L.geoJSON(buffered).addTo(this.map)
-          // definition of the tooltip content
-          .bindTooltip(
-            "<b>" + prov['_source']['dcterms:title'] + "</b><br>" +
-            "Docs:" + res.total
-          );
+  // private function to generate a buffer around the via appia (ba_roads.2237)
+  private generateBuffer(geom : any) {
+    // create 1 km buffer around road line
+    let buffer = turf.buffer(geom, 1, 'kilometres');
+    L.geoJSON(buffer).addTo(this.map);
+    this.getDocsByBuffer(buffer['geometry']);
+  }
+
+  private getDocsByBuffer(geom : any) {
+    this.resourcesService.getDocsByShape(geom)
+      .subscribe((docs: any) =>{
+        console.log(docs);
       });
   }
 
