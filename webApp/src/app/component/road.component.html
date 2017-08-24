@@ -2,16 +2,16 @@
   <h4>Road</h4>
   <div class="row">
     <div class="col-sm-5">
-      This is an showcase implementation for the topological query with <a href="https://www.elastic.co/de/products/elasticsearch">ElasticSearch</a>.
-      For each of the provinces a topological query is performed using the <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-geo-shape-query.html">geo shape query</a>.
-      All objects, which are located within the specific province, are returned. On the right side a example query for all <a href="http://vocab.getty.edu/aat/300011599">Pentelic marble</a> objects within Dalmatia (<a href="https://pleiades.stoa.org/places/981522">https://pleiades.stoa.org/places/981522</a>) is shown.
+      This is an showcase implementation for the use of <a href="http://turfjs.org/">TurfJS</a> to overcome the limits of the ElasticSearch geo shape query.
+      In that example, we want to query for all <a href="http://vocab.getty.edu/aat/300011571">white marble</a> objects near the well known roman road <a href="https://de.wikipedia.org/wiki/Via_Appia">Via appia</a>.
+      TurfJS takes the Line Geometry of the Via Appia and calculates a buffer of 1km (see right). The derived geometry is further used to perform a query with ElasticSearch geo shape query.
     </div>
     <div class="col-sm-7">
-      <pre style="height: 35vH">{{text}}</pre>
+      <pre>{{text}}</pre>
     </div>
   </div>
   <div class="row">
     <!-- MAP -->
-    <div style="height: 50vH" id="map"></div>
+    <div style="height: 60vH" id="map"></div>
   </div>
 </div>

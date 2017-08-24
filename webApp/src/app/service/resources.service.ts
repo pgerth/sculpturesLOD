@@ -141,7 +141,7 @@ export class ResourcesService {
   */
 
   getDocsByShape(shape: any) {
-  const url = 'http://localhost:9200/object,place/_search?source={"query":{"bool":{"must":{"match_all":{}},"filter":{"geo_shape":{"geometry":{"shape":'+JSON.stringify(shape)+',"relation":"within"}}}}}}';
+  const url = 'http://localhost:9200/object,place/_search?source={"query":{"bool":{"must":{"match":{"dcterms:medium.dcterms:title": "Pentelic marble"}},"filter":{"geo_shape":{"geometry":{"shape":'+JSON.stringify(shape)+',"relation":"within"}}}}}}';
   console.log(url)
   return this.http.get(url)
     .map((res: Response) => res.json().hits);
