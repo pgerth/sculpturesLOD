@@ -6,13 +6,13 @@ import { NamespaceService } from '../service/namespace.service';
 
 @Component({
   selector: 'query',
-  templateUrl: './province.component.html',
+  templateUrl: './road.component.html',
 })
 export class RoadComponent implements AfterViewInit {
   // public definitions for ressources and map
   public provinces: Object[];
   public map: L.Map;
-  public text = '{\n  "query": {\n    "bool": {\n      "must": {\n        "match": {\n          "dcterms:medium.dcterms:title": "Pentelic marble"\n        }\n      },\n      "filter": {\n        "geo_shape": {\n          "geometry": {\n            "indexed_shape": {\n              "index": "shape",\n              "type": "pleiades",\n              "id": "981522",\n              "path": "geometry"\n            }\n          }\n        }\n      }\n    }\n  }\n}\n'
+  public text = 'let geom = {"type": "MultiLineString", "coordinates": [...]}\nlet buffer = turf.buffer(geom, 1, "kilometres");\nthis.ressourcesService.getDocsByShape(buffer.geometry)'
 
   constructor(
     private resourcesService: ResourcesService,
@@ -37,22 +37,39 @@ export class RoadComponent implements AfterViewInit {
         res.geometry.type = "MultiLineString";
         console.log(res.geometry);
         L.geoJSON(res.geometry).addTo(this.map);
+        this.generateBuffer(res.geometry)
         //this.generateBuffer(res.hits[0]);
     });
   }
   // private function to generate a buffer around the via appia (ba_roads.2237)
   private generateBuffer(geom : any) {
-    // create 1 km buffer around road line
+    // create 1 km buffer around road line & put it on the map
     let buffer = turf.buffer(geom, 1, 'kilometres');
     L.geoJSON(buffer).addTo(this.map);
-    this.getDocsByBuffer(buffer['geometry']);
+    let geometry = {"type":"Polygon","coordinates":[[[12.5,41.8],[12.5,41.6],[12.4,41.6],[12.4,41.8],[12.5,41.8]]]};
+    this.getDocsByBuffer(buffer.geometry)
   }
 
   private getDocsByBuffer(geom : any) {
     this.resourcesService.getDocsByShape(geom)
       .subscribe((docs: any) =>{
         console.log(docs);
+        for (let doc of docs.hits) {
+          this.generateMarkerForPlace(doc)
+        }
       });
+  }
+
+  private generateMarkerForPlace(place : any) {
+    // icon definition: usage of in mapService defined icon
+    let icon = this.mapService.objectIcon
+    L.marker([place._source.location.lat, place._source.location.lon], {icon: icon})
+      .addTo(this.map)
+      .bindPopup(
+        // popUp content creation for each dataset
+        "<b>" + place._source['dcterms:title'] + "</b><br>" +
+        place._source['dcterms:description'] + "<br>" +
+        "<a class='url-break' href=" + place._source['@id'] + ">" + place._source['@id'] + "</a>");
   }
 
   // reset basemaps to fix bug after each view is build up
