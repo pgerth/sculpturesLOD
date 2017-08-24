@@ -18,6 +18,7 @@ import { ObjectComponent } from './component/object.component';
 import { ObjectDetailComponent } from './component/object-detail.component';
 import { PlaceComponent } from './component/place.component';
 import { ProvinceComponent } from './component/province.component';
+import { RoadComponent } from './component/road.component';
 
 import { ResourcesService } from './service/resources.service';
 import { MapService } from './service/map.service';
@@ -40,6 +41,7 @@ import { ImageResolverPipe } from './pipe/resolver.pipe';
     PlaceComponent,
     ObjectComponent,
     ProvinceComponent,
+    RoadComponent,
     ObjectDetailComponent,
     KeysPipe,
     NamespaceResolverPipe,
