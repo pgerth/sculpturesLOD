@@ -1,0 +1,22 @@
+# distance query for geo_point geometries
+GET object/_search
+{
+  "query": {
+    "bool": {
+      "must": {
+        "match": {"dcterms:medium.@id": "300011599"}
+      }
+    }
+  },
+  "sort": [{
+    "_geo_distance": {
+      "location": {
+        "lat" : "38.080833",
+        "lon" : "23.899722"
+      },
+      "order":  "asc",
+      "unit":   "km",
+      "distance_type": "plane"
+    }
+  }]
+}

@@ -1,4 +1,4 @@
-# radius search for geo_point geometries
+# radius query for geo_point geometries
 GET /object/_search
 {
   "query":{
@@ -22,7 +22,7 @@ GET /object/_search
   }
 }
 
-# radius search for geo_point geometries
+# radius query for geo_point geometries
 GET object/_search
 {
   "query": {
