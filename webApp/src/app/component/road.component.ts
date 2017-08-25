@@ -36,9 +36,8 @@ export class RoadComponent implements AfterViewInit {
       .subscribe((res: any) => {
         res.geometry.type = "MultiLineString";
         console.log(res.geometry);
-        L.geoJSON(res.geometry).addTo(this.map);
+        L.geoJSON(res.geometry, {style: {color: 'red'}}).addTo(this.map);
         this.generateBuffer(res.geometry)
-        //this.generateBuffer(res.hits[0]);
     });
   }
   // private function to generate a buffer around the via appia (ba_roads.2237)
