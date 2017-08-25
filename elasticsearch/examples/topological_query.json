@@ -1,0 +1,25 @@
+# geo_shape topological query
+GET /object/_search
+{
+  "query": {
+    "bool": {
+      "must": {
+        "match": {
+          "dcterms:medium.@id": "300011571"
+        }
+      },
+      "filter": {
+        "geo_shape": {
+          "geometry": {
+            "indexed_shape": {
+              "index": "place",
+              "type": "pleiades",
+              "id": "981537",
+              "path": "geometry"
+            }
+          }
+        }
+      }
+    }
+  }
+}
