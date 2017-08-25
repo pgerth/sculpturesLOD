@@ -94,3 +94,6 @@ node.ingest: true
 
 http.cors.enabled: true
 http.cors.allow-origin: "*"
+
+http.max_initial_line_length: 20kb
+http.max_header_size: 20kb
