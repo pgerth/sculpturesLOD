@@ -7,13 +7,17 @@ Die Entwicklungsumgebung verwendet die gängigen Webtools, wie den Paketmanager
 npm und den Webseiten Paketmanager bower.
 Installation z.B. unter MacOS X unter Verwendung von Homebrew:
 
+```bash
 brew install bower
 brew install npm
+```
 
 Installation von Bower mit npm, sowie der Abhängigkeiten der Web App mit Hilfe von
 Bower:
+```bash
 npm install -g bower
 bower install
+```
 
 Einige eingebundene Bibliotheken, wie Leaflet, benötigen für das Kompilieren von Typescript
 die Type Definitionen:
